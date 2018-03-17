@@ -1,0 +1,782 @@
+﻿"Jahr","QuarSort","QuarLang","KreisSort","KreisLang","ProjStatus","ProjStatusSort","ProjAnzGbd","ProjKosten","ProjRauminhalt","ProjAnzWhg","Whg_1_3_Zi","Whg_4plus_Zi"
+2009,11,"Rathaus",1,"Kreis 1","Im Bau","6703",2,,17690,0,0,0
+2009,12,"Hochschulen",1,"Kreis 1","Im Bau","6703",5,32000,42700,4,2,2
+2009,14,"City",1,"Kreis 1","Bewilligt","6702",1,,135000,0,0,0
+2009,14,"City",1,"Kreis 1","Im Bau","6703",1,,17000,0,0,0
+2009,21,"Wollishofen",2,"Kreis 2","Bewilligt","6702",2,,8586,0,0,0
+2009,21,"Wollishofen",2,"Kreis 2","Fertigerstellt","6704",14,40251,91913,78,31,47
+2009,21,"Wollishofen",2,"Kreis 2","Im Bau","6703",11,36600,62022,73,30,43
+2009,23,"Leimbach",2,"Kreis 2","Bewilligt","6702",2,,66533,81,74,7
+2009,23,"Leimbach",2,"Kreis 2","Im Bau","6703",19,77400,108424,194,96,98
+2009,24,"Enge",2,"Kreis 2","Bewilligt","6702",2,,10222,13,6,7
+2009,24,"Enge",2,"Kreis 2","Im Bau","6703",4,30000,32300,14,7,7
+2009,31,"Alt-Wiedikon",3,"Kreis 3","Bewilligt","6702",12,90500,127776,119,89,30
+2009,31,"Alt-Wiedikon",3,"Kreis 3","Fertigerstellt","6704",4,15700,52099,0,0,0
+2009,31,"Alt-Wiedikon",3,"Kreis 3","Im Bau","6703",22,413200,423372,247,140,107
+2009,33,"Friesenberg",3,"Kreis 3","Bewilligt","6702",81,63490,113226,155,62,93
+2009,33,"Friesenberg",3,"Kreis 3","Fertigerstellt","6704",15,34000,59654,114,43,71
+2009,33,"Friesenberg",3,"Kreis 3","Im Bau","6703",2,,217273,0,0,0
+2009,34,"Sihlfeld",3,"Kreis 3","Bewilligt","6702",23,77420,103515,154,36,118
+2009,34,"Sihlfeld",3,"Kreis 3","Fertigerstellt","6704",4,10300,12828,27,15,12
+2009,34,"Sihlfeld",3,"Kreis 3","Im Bau","6703",8,,90150,166,92,74
+2009,41,"Werd",4,"Kreis 4","Fertigerstellt","6704",2,,13160,24,12,12
+2009,41,"Werd",4,"Kreis 4","Im Bau","6703",1,,45200,0,0,0
+2009,42,"Langstrasse",4,"Kreis 4","Bewilligt","6702",5,,229123,31,31,0
+2009,42,"Langstrasse",4,"Kreis 4","Fertigerstellt","6704",1,,23206,0,0,0
+2009,42,"Langstrasse",4,"Kreis 4","Im Bau","6703",7,254600,463280,8,0,8
+2009,44,"Hard",4,"Kreis 4","Bewilligt","6702",2,,623282,119,115,4
+2009,44,"Hard",4,"Kreis 4","Fertigerstellt","6704",2,,34583,0,0,0
+2009,44,"Hard",4,"Kreis 4","Im Bau","6703",3,,54566,68,49,19
+2009,51,"Gewerbeschule",5,"Kreis 5","Bewilligt","6702",3,,27992,39,18,21
+2009,51,"Gewerbeschule",5,"Kreis 5","Fertigerstellt","6704",1,,4147,4,1,3
+2009,51,"Gewerbeschule",5,"Kreis 5","Im Bau","6703",3,,53448,7,5,2
+2009,52,"Escher Wyss",5,"Kreis 5","Bewilligt","6702",11,,316301,258,216,42
+2009,52,"Escher Wyss",5,"Kreis 5","Fertigerstellt","6704",6,,48790,38,27,11
+2009,52,"Escher Wyss",5,"Kreis 5","Im Bau","6703",23,,1662876,687,336,351
+2009,61,"Unterstrass",6,"Kreis 6","Bewilligt","6702",1,,4180,8,5,3
+2009,61,"Unterstrass",6,"Kreis 6","Fertigerstellt","6704",1,,192,0,0,0
+2009,61,"Unterstrass",6,"Kreis 6","Im Bau","6703",19,74932,98264,138,39,99
+2009,63,"Oberstrass",6,"Kreis 6","Bewilligt","6702",7,,19696,26,17,9
+2009,63,"Oberstrass",6,"Kreis 6","Fertigerstellt","6704",4,,5665,5,1,4
+2009,63,"Oberstrass",6,"Kreis 6","Im Bau","6703",9,52837,57992,29,18,11
+2009,71,"Fluntern",7,"Kreis 7","Bewilligt","6702",6,,58865,23,9,14
+2009,71,"Fluntern",7,"Kreis 7","Fertigerstellt","6704",2,,7800,7,2,5
+2009,71,"Fluntern",7,"Kreis 7","Im Bau","6703",30,118828,113384,111,63,48
+2009,72,"Hottingen",7,"Kreis 7","Bewilligt","6702",8,14430,11382,8,2,6
+2009,72,"Hottingen",7,"Kreis 7","Fertigerstellt","6704",6,56800,63920,67,61,6
+2009,72,"Hottingen",7,"Kreis 7","Im Bau","6703",5,,18170,7,0,7
+2009,73,"Hirslanden",7,"Kreis 7","Bewilligt","6702",3,,11100,17,10,7
+2009,73,"Hirslanden",7,"Kreis 7","Fertigerstellt","6704",2,,1917,1,1,0
+2009,73,"Hirslanden",7,"Kreis 7","Im Bau","6703",12,27480,33054,39,18,21
+2009,74,"Witikon",7,"Kreis 7","Bewilligt","6702",12,35937,49788,57,25,32
+2009,74,"Witikon",7,"Kreis 7","Fertigerstellt","6704",9,20207,27175,34,6,28
+2009,74,"Witikon",7,"Kreis 7","Im Bau","6703",2,,6511,7,2,5
+2009,81,"Seefeld",8,"Kreis 8","Bewilligt","6702",4,28200,33259,57,53,4
+2009,81,"Seefeld",8,"Kreis 8","Fertigerstellt","6704",3,,16626,20,17,3
+2009,81,"Seefeld",8,"Kreis 8","Im Bau","6703",6,,30216,54,43,11
+2009,82,"Mühlebach",8,"Kreis 8","Bewilligt","6702",7,33400,32456,39,18,21
+2009,82,"Mühlebach",8,"Kreis 8","Fertigerstellt","6704",4,31600,43880,89,84,5
+2009,82,"Mühlebach",8,"Kreis 8","Im Bau","6703",11,47572,45214,51,30,21
+2009,83,"Weinegg",8,"Kreis 8","Bewilligt","6702",7,34000,63500,29,4,25
+2009,83,"Weinegg",8,"Kreis 8","Fertigerstellt","6704",3,,2745,2,0,2
+2009,83,"Weinegg",8,"Kreis 8","Im Bau","6703",3,,19865,0,0,0
+2009,91,"Albisrieden",9,"Kreis 9","Bewilligt","6702",17,93579,114443,126,64,62
+2009,91,"Albisrieden",9,"Kreis 9","Fertigerstellt","6704",19,108083,198134,228,163,65
+2009,91,"Albisrieden",9,"Kreis 9","Im Bau","6703",33,165943,236751,380,176,204
+2009,92,"Altstetten",9,"Kreis 9","Bewilligt","6702",19,88712,135796,174,72,102
+2009,92,"Altstetten",9,"Kreis 9","Fertigerstellt","6704",5,23210,30137,15,11,4
+2009,92,"Altstetten",9,"Kreis 9","Im Bau","6703",55,371022,421297,594,438,156
+2009,101,"Höngg",10,"Kreis 10","Bewilligt","6702",34,147160,214206,337,143,194
+2009,101,"Höngg",10,"Kreis 10","Fertigerstellt","6704",21,,150387,114,46,68
+2009,101,"Höngg",10,"Kreis 10","Im Bau","6703",9,129530,36183,34,15,19
+2009,102,"Wipkingen",10,"Kreis 10","Bewilligt","6702",16,80800,110787,193,129,64
+2009,102,"Wipkingen",10,"Kreis 10","Fertigerstellt","6704",1,,2800,4,3,1
+2009,102,"Wipkingen",10,"Kreis 10","Im Bau","6703",14,55952,57204,58,33,25
+2009,111,"Affoltern",11,"Kreis 11","Bewilligt","6702",26,104490,170931,296,213,83
+2009,111,"Affoltern",11,"Kreis 11","Fertigerstellt","6704",18,78800,124179,171,80,91
+2009,111,"Affoltern",11,"Kreis 11","Im Bau","6703",66,363150,514386,831,406,425
+2009,115,"Oerlikon",11,"Kreis 11","Bewilligt","6702",12,41559,60697,101,56,45
+2009,115,"Oerlikon",11,"Kreis 11","Fertigerstellt","6704",2,,23100,10,3,7
+2009,115,"Oerlikon",11,"Kreis 11","Im Bau","6703",11,93500,227314,30,16,14
+2009,119,"Seebach",11,"Kreis 11","Bewilligt","6702",36,359590,550336,368,278,90
+2009,119,"Seebach",11,"Kreis 11","Fertigerstellt","6704",15,,276837,165,78,87
+2009,119,"Seebach",11,"Kreis 11","Im Bau","6703",37,253190,372601,345,220,125
+2009,121,"Saatlen",12,"Kreis 12","Bewilligt","6702",2,,61600,0,0,0
+2009,121,"Saatlen",12,"Kreis 12","Fertigerstellt","6704",6,14000,30000,48,12,36
+2009,122,"Schwamendingen-Mitte",12,"Kreis 12","Bewilligt","6702",5,12000,31950,42,12,30
+2009,122,"Schwamendingen-Mitte",12,"Kreis 12","Fertigerstellt","6704",3,,26939,51,35,16
+2009,122,"Schwamendingen-Mitte",12,"Kreis 12","Im Bau","6703",1,,1552,0,0,0
+2009,123,"Hirzenbach",12,"Kreis 12","Bewilligt","6702",2,,60109,33,33,0
+2009,123,"Hirzenbach",12,"Kreis 12","Fertigerstellt","6704",3,,29960,62,55,7
+2010,11,"Rathaus",1,"Kreis 1","Im Bau","6703",2,,17690,0,0,0
+2010,12,"Hochschulen",1,"Kreis 1","Fertigerstellt","6704",1,,2300,4,2,2
+2010,12,"Hochschulen",1,"Kreis 1","Im Bau","6703",4,,40400,0,0,0
+2010,14,"City",1,"Kreis 1","Bewilligt","6702",1,,135000,0,0,0
+2010,14,"City",1,"Kreis 1","Fertigerstellt","6704",1,,17000,0,0,0
+2010,21,"Wollishofen",2,"Kreis 2","Bewilligt","6702",4,16061,18115,21,13,8
+2010,21,"Wollishofen",2,"Kreis 2","Fertigerstellt","6704",11,32885,56899,66,31,35
+2010,21,"Wollishofen",2,"Kreis 2","Im Bau","6703",7,36750,57962,58,32,26
+2010,23,"Leimbach",2,"Kreis 2","Bewilligt","6702",11,90000,127474,205,156,49
+2010,23,"Leimbach",2,"Kreis 2","Fertigerstellt","6704",6,100,21599,36,18,18
+2010,23,"Leimbach",2,"Kreis 2","Im Bau","6703",4,32300,21600,33,8,25
+2010,24,"Enge",2,"Kreis 2","Bewilligt","6702",18,49500,94736,161,101,60
+2010,24,"Enge",2,"Kreis 2","Im Bau","6703",5,36930,35459,15,8,7
+2010,31,"Alt-Wiedikon",3,"Kreis 3","Bewilligt","6702",2,,15800,24,21,3
+2010,31,"Alt-Wiedikon",3,"Kreis 3","Fertigerstellt","6704",12,55100,100716,124,71,53
+2010,31,"Alt-Wiedikon",3,"Kreis 3","Im Bau","6703",22,445100,444631,318,192,126
+2010,33,"Friesenberg",3,"Kreis 3","Im Bau","6703",86,491394,348999,160,62,98
+2010,34,"Sihlfeld",3,"Kreis 3","Bewilligt","6702",4,,40346,25,21,4
+2010,34,"Sihlfeld",3,"Kreis 3","Im Bau","6703",29,136357,180555,320,127,193
+2010,41,"Werd",4,"Kreis 4","Bewilligt","6702",1,,664,0,0,0
+2010,41,"Werd",4,"Kreis 4","Im Bau","6703",2,,45200,0,0,0
+2010,42,"Langstrasse",4,"Kreis 4","Bewilligt","6702",3,,145135,93,70,23
+2010,42,"Langstrasse",4,"Kreis 4","Im Bau","6703",12,417090,692403,39,31,8
+2010,44,"Hard",4,"Kreis 4","Bewilligt","6702",1,,552282,0,0,0
+2010,44,"Hard",4,"Kreis 4","Fertigerstellt","6704",3,,54566,68,49,19
+2010,44,"Hard",4,"Kreis 4","Im Bau","6703",2,,71031,119,115,4
+2010,51,"Gewerbeschule",5,"Kreis 5","Fertigerstellt","6704",41,42400,49748,0,0,0
+2010,51,"Gewerbeschule",5,"Kreis 5","Im Bau","6703",3,,15557,24,16,8
+2010,52,"Escher Wyss",5,"Kreis 5","Bewilligt","6702",1,,63176,51,39,12
+2010,52,"Escher Wyss",5,"Kreis 5","Im Bau","6703",28,,1899504,881,534,347
+2010,61,"Unterstrass",6,"Kreis 6","Bewilligt","6702",21,67320,85602,104,78,26
+2010,61,"Unterstrass",6,"Kreis 6","Fertigerstellt","6704",10,41880,37510,63,18,45
+2010,61,"Unterstrass",6,"Kreis 6","Im Bau","6703",15,47502,58284,91,33,58
+2010,63,"Oberstrass",6,"Kreis 6","Bewilligt","6702",4,80325,87590,10,6,4
+2010,63,"Oberstrass",6,"Kreis 6","Fertigerstellt","6704",6,43235,43342,11,11,0
+2010,63,"Oberstrass",6,"Kreis 6","Im Bau","6703",10,34600,34346,37,21,16
+2010,71,"Fluntern",7,"Kreis 7","Bewilligt","6702",9,68391,90463,24,11,13
+2010,71,"Fluntern",7,"Kreis 7","Fertigerstellt","6704",11,23920,28679,33,30,3
+2010,71,"Fluntern",7,"Kreis 7","Im Bau","6703",20,93308,93332,80,31,49
+2010,72,"Hottingen",7,"Kreis 7","Bewilligt","6702",10,43160,33886,19,14,5
+2010,72,"Hottingen",7,"Kreis 7","Fertigerstellt","6704",3,,7563,3,2,1
+2010,72,"Hottingen",7,"Kreis 7","Im Bau","6703",5,10400,8107,6,0,6
+2010,73,"Hirslanden",7,"Kreis 7","Bewilligt","6702",4,10211,13723,20,11,9
+2010,73,"Hirslanden",7,"Kreis 7","Fertigerstellt","6704",7,,17916,17,4,13
+2010,73,"Hirslanden",7,"Kreis 7","Im Bau","6703",5,12230,14790,22,12,10
+2010,74,"Witikon",7,"Kreis 7","Bewilligt","6702",14,34017,43170,53,21,32
+2010,74,"Witikon",7,"Kreis 7","Im Bau","6703",12,36520,37553,47,21,26
+2010,81,"Seefeld",8,"Kreis 8","Bewilligt","6702",4,,25845,42,38,4
+2010,81,"Seefeld",8,"Kreis 8","Fertigerstellt","6704",5,16490,16616,23,9,14
+2010,81,"Seefeld",8,"Kreis 8","Im Bau","6703",4,,37310,70,68,2
+2010,82,"Mühlebach",8,"Kreis 8","Bewilligt","6702",2,,20000,19,14,5
+2010,82,"Mühlebach",8,"Kreis 8","Fertigerstellt","6704",3,,5747,3,0,3
+2010,82,"Mühlebach",8,"Kreis 8","Im Bau","6703",17,106800,101237,89,43,46
+2010,83,"Weinegg",8,"Kreis 8","Bewilligt","6702",7,31400,53000,29,4,25
+2010,83,"Weinegg",8,"Kreis 8","Fertigerstellt","6704",1,,15000,0,0,0
+2010,83,"Weinegg",8,"Kreis 8","Im Bau","6703",2,,4865,0,0,0
+2010,91,"Albisrieden",9,"Kreis 9","Bewilligt","6702",15,36510,48766,81,34,47
+2010,91,"Albisrieden",9,"Kreis 9","Fertigerstellt","6704",10,21610,31255,37,20,17
+2010,91,"Albisrieden",9,"Kreis 9","Im Bau","6703",39,254163,320781,478,229,249
+2010,92,"Altstetten",9,"Kreis 9","Bewilligt","6702",22,223780,366718,521,424,97
+2010,92,"Altstetten",9,"Kreis 9","Fertigerstellt","6704",36,120192,163178,264,180,84
+2010,92,"Altstetten",9,"Kreis 9","Im Bau","6703",43,309240,305227,427,317,110
+2010,101,"Höngg",10,"Kreis 10","Bewilligt","6702",31,137100,193310,310,137,173
+2010,101,"Höngg",10,"Kreis 10","Fertigerstellt","6704",5,10700,13249,21,12,9
+2010,101,"Höngg",10,"Kreis 10","Im Bau","6703",19,158901,73371,85,40,45
+2010,102,"Wipkingen",10,"Kreis 10","Bewilligt","6702",21,148500,171441,192,119,73
+2010,102,"Wipkingen",10,"Kreis 10","Fertigerstellt","6704",10,43452,43118,39,20,19
+2010,102,"Wipkingen",10,"Kreis 10","Im Bau","6703",10,22020,27485,39,23,16
+2010,111,"Affoltern",11,"Kreis 11","Bewilligt","6702",9,27045,40836,71,53,18
+2010,111,"Affoltern",11,"Kreis 11","Fertigerstellt","6704",24,72850,117741,204,98,106
+2010,111,"Affoltern",11,"Kreis 11","Im Bau","6703",69,390340,554708,865,473,392
+2010,115,"Oerlikon",11,"Kreis 11","Bewilligt","6702",10,49570,65575,105,83,22
+2010,115,"Oerlikon",11,"Kreis 11","Fertigerstellt","6704",10,43200,129153,31,19,12
+2010,115,"Oerlikon",11,"Kreis 11","Im Bau","6703",18,110489,196847,149,85,64
+2010,119,"Seebach",11,"Kreis 11","Bewilligt","6702",22,178685,351669,135,89,46
+2010,119,"Seebach",11,"Kreis 11","Fertigerstellt","6704",32,66310,120453,158,72,86
+2010,119,"Seebach",11,"Kreis 11","Im Bau","6703",42,402240,550005,499,358,141
+2010,121,"Saatlen",12,"Kreis 12","Bewilligt","6702",1,,60000,0,0,0
+2010,121,"Saatlen",12,"Kreis 12","Fertigerstellt","6704",1,,20,0,0,0
+2010,122,"Schwamendingen-Mitte",12,"Kreis 12","Bewilligt","6702",10,,96267,148,104,44
+2010,122,"Schwamendingen-Mitte",12,"Kreis 12","Fertigerstellt","6704",1,,1552,0,0,0
+2010,123,"Hirzenbach",12,"Kreis 12","Bewilligt","6702",35,197000,290719,395,298,97
+2011,11,"Rathaus",1,"Kreis 1","Fertigerstellt","6704",2,,17690,0,0,0
+2011,12,"Hochschulen",1,"Kreis 1","Im Bau","6703",5,,45573,0,0,0
+2011,14,"City",1,"Kreis 1","Bewilligt","6702",1,,135000,0,0,0
+2011,14,"City",1,"Kreis 1","Im Bau","6703",1,,3848,0,0,0
+2011,21,"Wollishofen",2,"Kreis 2","Bewilligt","6702",24,63011,76746,109,63,46
+2011,21,"Wollishofen",2,"Kreis 2","Fertigerstellt","6704",3,,11172,25,21,4
+2011,21,"Wollishofen",2,"Kreis 2","Im Bau","6703",9,41220,63689,54,24,30
+2011,23,"Leimbach",2,"Kreis 2","Bewilligt","6702",5,44950,71888,101,99,2
+2011,23,"Leimbach",2,"Kreis 2","Fertigerstellt","6704",5,33540,22475,29,9,20
+2011,23,"Leimbach",2,"Kreis 2","Im Bau","6703",10,68200,65224,140,92,48
+2011,24,"Enge",2,"Kreis 2","Bewilligt","6702",18,162510,159353,161,120,41
+2011,24,"Enge",2,"Kreis 2","Fertigerstellt","6704",2,,23635,0,0,0
+2011,24,"Enge",2,"Kreis 2","Im Bau","6703",7,25500,23826,40,21,19
+2011,31,"Alt-Wiedikon",3,"Kreis 3","Bewilligt","6702",7,,142048,36,16,20
+2011,31,"Alt-Wiedikon",3,"Kreis 3","Fertigerstellt","6704",10,88100,108653,137,71,66
+2011,31,"Alt-Wiedikon",3,"Kreis 3","Im Bau","6703",15,370700,354265,335,288,47
+2011,33,"Friesenberg",3,"Kreis 3","Fertigerstellt","6704",1,,4400,5,0,5
+2011,33,"Friesenberg",3,"Kreis 3","Im Bau","6703",87,496044,349393,158,65,93
+2011,34,"Sihlfeld",3,"Kreis 3","Bewilligt","6702",3,,16030,28,28,0
+2011,34,"Sihlfeld",3,"Kreis 3","Fertigerstellt","6704",2,,35000,85,32,53
+2011,34,"Sihlfeld",3,"Kreis 3","Im Bau","6703",30,144321,181651,269,84,185
+2011,41,"Werd",4,"Kreis 4","Bewilligt","6702",6,,124776,129,83,46
+2011,41,"Werd",4,"Kreis 4","Fertigerstellt","6704",1,,516,0,0,0
+2011,41,"Werd",4,"Kreis 4","Im Bau","6703",2,,45200,0,0,0
+2011,42,"Langstrasse",4,"Kreis 4","Bewilligt","6702",10,259250,302414,238,166,72
+2011,42,"Langstrasse",4,"Kreis 4","Fertigerstellt","6704",2,,4900,8,4,4
+2011,42,"Langstrasse",4,"Kreis 4","Im Bau","6703",12,432190,714064,60,53,7
+2011,44,"Hard",4,"Kreis 4","Bewilligt","6702",1,,552282,0,0,0
+2011,44,"Hard",4,"Kreis 4","Fertigerstellt","6704",1,,33,0,0,0
+2011,44,"Hard",4,"Kreis 4","Im Bau","6703",1,,71000,119,115,4
+2011,51,"Gewerbeschule",5,"Kreis 5","Bewilligt","6702",1,,18884,22,16,6
+2011,51,"Gewerbeschule",5,"Kreis 5","Fertigerstellt","6704",2,,14788,27,22,5
+2011,52,"Escher Wyss",5,"Kreis 5","Bewilligt","6702",8,,130800,211,161,50
+2011,52,"Escher Wyss",5,"Kreis 5","Fertigerstellt","6704",7,,600136,51,22,29
+2011,52,"Escher Wyss",5,"Kreis 5","Im Bau","6703",37,915444,1214121,815,628,187
+2011,61,"Unterstrass",6,"Kreis 6","Bewilligt","6702",18,,75498,120,106,14
+2011,61,"Unterstrass",6,"Kreis 6","Fertigerstellt","6704",15,48902,56848,87,30,57
+2011,61,"Unterstrass",6,"Kreis 6","Im Bau","6703",14,43460,66669,100,66,34
+2011,63,"Oberstrass",6,"Kreis 6","Bewilligt","6702",2,,9730,7,4,3
+2011,63,"Oberstrass",6,"Kreis 6","Fertigerstellt","6704",4,13600,13773,13,7,6
+2011,63,"Oberstrass",6,"Kreis 6","Im Bau","6703",10,104260,102125,30,18,12
+2011,71,"Fluntern",7,"Kreis 7","Bewilligt","6702",8,30954,32173,33,14,19
+2011,71,"Fluntern",7,"Kreis 7","Fertigerstellt","6704",20,86808,89108,73,29,44
+2011,71,"Fluntern",7,"Kreis 7","Im Bau","6703",9,62900,85464,17,4,13
+2011,72,"Hottingen",7,"Kreis 7","Bewilligt","6702",5,27900,25590,16,7,9
+2011,72,"Hottingen",7,"Kreis 7","Fertigerstellt","6704",5,10400,8107,7,1,6
+2011,72,"Hottingen",7,"Kreis 7","Im Bau","6703",6,,15824,13,12,1
+2011,73,"Hirslanden",7,"Kreis 7","Bewilligt","6702",7,17200,24813,35,30,5
+2011,73,"Hirslanden",7,"Kreis 7","Fertigerstellt","6704",6,12380,14957,22,14,8
+2011,73,"Hirslanden",7,"Kreis 7","Im Bau","6703",2,,2271,1,0,1
+2011,74,"Witikon",7,"Kreis 7","Bewilligt","6702",27,66842,70991,89,44,45
+2011,74,"Witikon",7,"Kreis 7","Fertigerstellt","6704",10,33020,32288,44,21,23
+2011,74,"Witikon",7,"Kreis 7","Im Bau","6703",9,24240,22575,28,8,20
+2011,81,"Seefeld",8,"Kreis 8","Bewilligt","6702",2,,13178,8,6,2
+2011,81,"Seefeld",8,"Kreis 8","Fertigerstellt","6704",2,,24030,40,33,7
+2011,81,"Seefeld",8,"Kreis 8","Im Bau","6703",4,,27395,50,48,2
+2011,82,"Mühlebach",8,"Kreis 8","Bewilligt","6702",5,,27769,34,24,10
+2011,82,"Mühlebach",8,"Kreis 8","Fertigerstellt","6704",7,33600,29363,37,24,13
+2011,82,"Mühlebach",8,"Kreis 8","Im Bau","6703",11,71000,111188,70,22,48
+2011,83,"Weinegg",8,"Kreis 8","Bewilligt","6702",13,43800,63754,50,7,43
+2011,83,"Weinegg",8,"Kreis 8","Fertigerstellt","6704",6,,11394,0,0,0
+2011,83,"Weinegg",8,"Kreis 8","Im Bau","6703",3,,9195,10,6,4
+2011,91,"Albisrieden",9,"Kreis 9","Bewilligt","6702",9,18191,25533,38,12,26
+2011,91,"Albisrieden",9,"Kreis 9","Fertigerstellt","6704",19,86030,95553,178,72,106
+2011,91,"Albisrieden",9,"Kreis 9","Im Bau","6703",34,203553,340066,521,258,263
+2011,92,"Altstetten",9,"Kreis 9","Bewilligt","6702",24,284237,419040,427,326,101
+2011,92,"Altstetten",9,"Kreis 9","Fertigerstellt","6704",44,272485,281511,373,304,69
+2011,92,"Altstetten",9,"Kreis 9","Im Bau","6703",14,154600,173893,147,125,22
+2011,101,"Höngg",10,"Kreis 10","Bewilligt","6702",36,180500,254887,420,193,227
+2011,101,"Höngg",10,"Kreis 10","Fertigerstellt","6704",18,47451,55948,72,30,42
+2011,101,"Höngg",10,"Kreis 10","Im Bau","6703",9,140127,71581,23,17,6
+2011,102,"Wipkingen",10,"Kreis 10","Bewilligt","6702",17,135100,154407,173,117,56
+2011,102,"Wipkingen",10,"Kreis 10","Fertigerstellt","6704",6,9020,11991,20,12,8
+2011,102,"Wipkingen",10,"Kreis 10","Im Bau","6703",9,33376,33399,47,22,25
+2011,111,"Affoltern",11,"Kreis 11","Bewilligt","6702",5,40700,48114,50,10,40
+2011,111,"Affoltern",11,"Kreis 11","Fertigerstellt","6704",57,305690,384058,662,373,289
+2011,111,"Affoltern",11,"Kreis 11","Im Bau","6703",37,165595,238872,375,235,140
+2011,115,"Oerlikon",11,"Kreis 11","Bewilligt","6702",13,52925,61579,93,60,33
+2011,115,"Oerlikon",11,"Kreis 11","Fertigerstellt","6704",20,107480,167652,119,67,52
+2011,115,"Oerlikon",11,"Kreis 11","Im Bau","6703",16,76299,103436,141,91,50
+2011,119,"Seebach",11,"Kreis 11","Bewilligt","6702",19,132100,193159,362,274,88
+2011,119,"Seebach",11,"Kreis 11","Fertigerstellt","6704",17,85566,199065,193,156,37
+2011,119,"Seebach",11,"Kreis 11","Im Bau","6703",59,632756,817844,696,511,185
+2011,121,"Saatlen",12,"Kreis 12","Bewilligt","6702",24,158050,270355,393,163,230
+2011,121,"Saatlen",12,"Kreis 12","Im Bau","6703",10,97064,101078,69,31,38
+2011,122,"Schwamendingen-Mitte",12,"Kreis 12","Bewilligt","6702",10,19964,24380,59,54,5
+2011,122,"Schwamendingen-Mitte",12,"Kreis 12","Im Bau","6703",12,59000,96267,148,104,44
+2011,123,"Hirzenbach",12,"Kreis 12","Bewilligt","6702",44,183185,306610,474,360,114
+2011,123,"Hirzenbach",12,"Kreis 12","Im Bau","6703",7,78800,95120,103,77,26
+2012,11,"Rathaus",1,"Kreis 1","Bewilligt","6702",1,,9104,2,0,2
+2012,12,"Hochschulen",1,"Kreis 1","Fertigerstellt","6704",4,,32682,0,0,0
+2012,12,"Hochschulen",1,"Kreis 1","Im Bau","6703",1,,5173,0,0,0
+2012,14,"City",1,"Kreis 1","Fertigerstellt","6704",1,,3848,0,0,0
+2012,14,"City",1,"Kreis 1","Im Bau","6703",1,,135000,0,0,0
+2012,21,"Wollishofen",2,"Kreis 2","Bewilligt","6702",19,90553,107770,173,101,72
+2012,21,"Wollishofen",2,"Kreis 2","Fertigerstellt","6704",8,33120,42442,38,19,19
+2012,21,"Wollishofen",2,"Kreis 2","Im Bau","6703",10,37430,41672,62,30,32
+2012,23,"Leimbach",2,"Kreis 2","Bewilligt","6702",7,14900,20096,33,16,17
+2012,23,"Leimbach",2,"Kreis 2","Im Bau","6703",12,110150,131824,231,182,49
+2012,24,"Enge",2,"Kreis 2","Bewilligt","6702",11,428680,301651,89,60,29
+2012,24,"Enge",2,"Kreis 2","Fertigerstellt","6704",8,25780,25138,40,22,18
+2012,24,"Enge",2,"Kreis 2","Im Bau","6703",9,30050,41850,72,60,12
+2012,31,"Alt-Wiedikon",3,"Kreis 3","Bewilligt","6702",8,114100,147695,49,21,28
+2012,31,"Alt-Wiedikon",3,"Kreis 3","Fertigerstellt","6704",5,285500,235149,29,20,9
+2012,31,"Alt-Wiedikon",3,"Kreis 3","Im Bau","6703",11,95200,128796,322,282,40
+2012,33,"Friesenberg",3,"Kreis 3","Bewilligt","6702",2,,2623,1,0,1
+2012,33,"Friesenberg",3,"Kreis 3","Fertigerstellt","6704",96,62250,86453,117,49,68
+2012,33,"Friesenberg",3,"Kreis 3","Im Bau","6703",34,433794,269073,41,16,25
+2012,34,"Sihlfeld",3,"Kreis 3","Bewilligt","6702",3,,17225,16,14,2
+2012,34,"Sihlfeld",3,"Kreis 3","Fertigerstellt","6704",13,51821,81058,142,54,88
+2012,34,"Sihlfeld",3,"Kreis 3","Im Bau","6703",19,101500,128152,156,98,58
+2012,41,"Werd",4,"Kreis 4","Bewilligt","6702",5,,22686,41,29,12
+2012,41,"Werd",4,"Kreis 4","Im Bau","6703",4,103300,150485,94,60,34
+2012,42,"Langstrasse",4,"Kreis 4","Bewilligt","6702",5,21300,26843,35,26,9
+2012,42,"Langstrasse",4,"Kreis 4","Fertigerstellt","6704",6,,332645,31,31,0
+2012,42,"Langstrasse",4,"Kreis 4","Im Bau","6703",14,449400,537395,262,187,75
+2012,44,"Hard",4,"Kreis 4","Bewilligt","6702",1,,552282,0,0,0
+2012,44,"Hard",4,"Kreis 4","Fertigerstellt","6704",1,,71000,119,115,4
+2012,51,"Gewerbeschule",5,"Kreis 5","Bewilligt","6702",1,,18884,22,16,6
+2012,52,"Escher Wyss",5,"Kreis 5","Bewilligt","6702",18,,167020,178,114,64
+2012,52,"Escher Wyss",5,"Kreis 5","Fertigerstellt","6704",12,134244,252104,303,194,109
+2012,52,"Escher Wyss",5,"Kreis 5","Im Bau","6703",37,938000,1232962,878,722,156
+2012,61,"Unterstrass",6,"Kreis 6","Bewilligt","6702",7,29350,27289,41,32,9
+2012,61,"Unterstrass",6,"Kreis 6","Fertigerstellt","6704",15,34860,53457,100,66,34
+2012,61,"Unterstrass",6,"Kreis 6","Im Bau","6703",10,,59944,91,74,17
+2012,63,"Oberstrass",6,"Kreis 6","Bewilligt","6702",4,11825,12895,11,8,3
+2012,63,"Oberstrass",6,"Kreis 6","Fertigerstellt","6704",7,26660,19157,25,15,10
+2012,63,"Oberstrass",6,"Kreis 6","Im Bau","6703",3,,80398,5,3,2
+2012,71,"Fluntern",7,"Kreis 7","Bewilligt","6702",7,25491,33461,38,15,23
+2012,71,"Fluntern",7,"Kreis 7","Fertigerstellt","6704",7,25900,23658,18,6,12
+2012,71,"Fluntern",7,"Kreis 7","Im Bau","6703",8,55990,82644,16,7,9
+2012,72,"Hottingen",7,"Kreis 7","Bewilligt","6702",8,40550,39145,34,17,17
+2012,72,"Hottingen",7,"Kreis 7","Fertigerstellt","6704",3,,13704,13,12,1
+2012,72,"Hottingen",7,"Kreis 7","Im Bau","6703",3,,1590,0,0,0
+2012,73,"Hirslanden",7,"Kreis 7","Bewilligt","6702",5,15500,15579,29,21,8
+2012,73,"Hirslanden",7,"Kreis 7","Fertigerstellt","6704",2,,2844,1,0,1
+2012,73,"Hirslanden",7,"Kreis 7","Im Bau","6703",6,,22190,32,29,3
+2012,74,"Witikon",7,"Kreis 7","Bewilligt","6702",29,74750,88468,147,82,65
+2012,74,"Witikon",7,"Kreis 7","Fertigerstellt","6704",9,21040,20076,25,7,18
+2012,74,"Witikon",7,"Kreis 7","Im Bau","6703",10,36250,36802,53,30,23
+2012,81,"Seefeld",8,"Kreis 8","Bewilligt","6702",2,,55040,2,0,2
+2012,81,"Seefeld",8,"Kreis 8","Im Bau","6703",5,35500,35033,55,53,2
+2012,82,"Mühlebach",8,"Kreis 8","Bewilligt","6702",2,,20190,6,4,2
+2012,82,"Mühlebach",8,"Kreis 8","Fertigerstellt","6704",11,,114751,67,18,49
+2012,82,"Mühlebach",8,"Kreis 8","Im Bau","6703",4,25900,24213,28,19,9
+2012,83,"Weinegg",8,"Kreis 8","Bewilligt","6702",15,121423,120464,55,24,31
+2012,83,"Weinegg",8,"Kreis 8","Fertigerstellt","6704",2,,3120,0,0,0
+2012,83,"Weinegg",8,"Kreis 8","Im Bau","6703",8,19300,19454,29,10,19
+2012,91,"Albisrieden",9,"Kreis 9","Bewilligt","6702",59,432840,639534,933,505,428
+2012,91,"Albisrieden",9,"Kreis 9","Fertigerstellt","6704",28,175933,202613,315,170,145
+2012,91,"Albisrieden",9,"Kreis 9","Im Bau","6703",10,34111,39889,62,36,26
+2012,92,"Altstetten",9,"Kreis 9","Bewilligt","6702",27,315575,462077,527,441,86
+2012,92,"Altstetten",9,"Kreis 9","Fertigerstellt","6704",25,56050,66571,52,33,19
+2012,92,"Altstetten",9,"Kreis 9","Im Bau","6703",26,207325,253024,226,130,96
+2012,101,"Höngg",10,"Kreis 10","Bewilligt","6702",48,297660,416451,567,263,304
+2012,101,"Höngg",10,"Kreis 10","Fertigerstellt","6704",6,117127,56565,18,15,3
+2012,101,"Höngg",10,"Kreis 10","Im Bau","6703",11,52300,82540,62,44,18
+2012,102,"Wipkingen",10,"Kreis 10","Bewilligt","6702",17,135100,154407,173,117,56
+2012,102,"Wipkingen",10,"Kreis 10","Fertigerstellt","6704",4,13000,14364,19,11,8
+2012,102,"Wipkingen",10,"Kreis 10","Im Bau","6703",5,20376,19034,28,11,17
+2012,111,"Affoltern",11,"Kreis 11","Bewilligt","6702",11,36180,59711,91,40,51
+2012,111,"Affoltern",11,"Kreis 11","Fertigerstellt","6704",21,95400,162945,208,118,90
+2012,111,"Affoltern",11,"Kreis 11","Im Bau","6703",19,114695,146601,214,127,87
+2012,115,"Oerlikon",11,"Kreis 11","Bewilligt","6702",11,45500,58646,77,46,31
+2012,115,"Oerlikon",11,"Kreis 11","Fertigerstellt","6704",11,61999,84998,88,66,22
+2012,115,"Oerlikon",11,"Kreis 11","Im Bau","6703",20,100600,143271,168,113,55
+2012,119,"Seebach",11,"Kreis 11","Bewilligt","6702",23,195812,242212,395,289,106
+2012,119,"Seebach",11,"Kreis 11","Fertigerstellt","6704",28,234440,324099,396,329,67
+2012,119,"Seebach",11,"Kreis 11","Im Bau","6703",50,534816,691267,646,495,151
+2012,121,"Saatlen",12,"Kreis 12","Bewilligt","6702",26,168050,311433,435,185,250
+2012,121,"Saatlen",12,"Kreis 12","Im Bau","6703",8,87064,101078,35,16,19
+2012,122,"Schwamendingen-Mitte",12,"Kreis 12","Bewilligt","6702",4,11130,13841,15,5,10
+2012,122,"Schwamendingen-Mitte",12,"Kreis 12","Fertigerstellt","6704",11,,38400,58,55,3
+2012,122,"Schwamendingen-Mitte",12,"Kreis 12","Im Bau","6703",12,57900,84057,152,130,22
+2012,123,"Hirzenbach",12,"Kreis 12","Bewilligt","6702",106,228040,381810,654,480,174
+2012,123,"Hirzenbach",12,"Kreis 12","Fertigerstellt","6704",1,,14020,33,33,0
+2012,123,"Hirzenbach",12,"Kreis 12","Im Bau","6703",23,150965,238100,252,182,70
+2013,11,"Rathaus",1,"Kreis 1","Bewilligt","6702",1,,9104,2,0,2
+2013,12,"Hochschulen",1,"Kreis 1","Bewilligt","6702",1,,119733,0,0,0
+2013,12,"Hochschulen",1,"Kreis 1","Fertigerstellt","6704",1,,5173,0,0,0
+2013,14,"City",1,"Kreis 1","Im Bau","6703",2,,139307,1,0,1
+2013,21,"Wollishofen",2,"Kreis 2","Bewilligt","6702",12,26295,40164,64,39,25
+2013,21,"Wollishofen",2,"Kreis 2","Fertigerstellt","6704",5,,9962,13,5,8
+2013,21,"Wollishofen",2,"Kreis 2","Im Bau","6703",32,143673,182121,290,149,141
+2013,23,"Leimbach",2,"Kreis 2","Bewilligt","6702",5,15800,21070,37,15,22
+2013,23,"Leimbach",2,"Kreis 2","Fertigerstellt","6704",14,78150,140088,165,114,51
+2013,23,"Leimbach",2,"Kreis 2","Im Bau","6703",1,,62250,76,75,1
+2013,24,"Enge",2,"Kreis 2","Bewilligt","6702",10,145180,127365,105,67,38
+2013,24,"Enge",2,"Kreis 2","Fertigerstellt","6704",1,,1326,0,0,0
+2013,24,"Enge",2,"Kreis 2","Im Bau","6703",21,,269837,136,99,37
+2013,31,"Alt-Wiedikon",3,"Kreis 3","Bewilligt","6702",1,,4201,10,9,1
+2013,31,"Alt-Wiedikon",3,"Kreis 3","Fertigerstellt","6704",14,116000,125102,346,299,47
+2013,31,"Alt-Wiedikon",3,"Kreis 3","Im Bau","6703",7,93000,129845,27,15,12
+2013,33,"Friesenberg",3,"Kreis 3","Bewilligt","6702",11,73000,73550,168,91,77
+2013,33,"Friesenberg",3,"Kreis 3","Fertigerstellt","6704",29,20994,48364,26,1,25
+2013,33,"Friesenberg",3,"Kreis 3","Im Bau","6703",7,419300,237513,12,12,0
+2013,34,"Sihlfeld",3,"Kreis 3","Bewilligt","6702",8,,64710,151,123,28
+2013,34,"Sihlfeld",3,"Kreis 3","Fertigerstellt","6704",10,74500,88150,94,85,9
+2013,34,"Sihlfeld",3,"Kreis 3","Im Bau","6703",13,52235,58249,95,44,51
+2013,41,"Werd",4,"Kreis 4","Bewilligt","6702",5,,22686,41,29,12
+2013,41,"Werd",4,"Kreis 4","Fertigerstellt","6704",3,,29322,6,6,0
+2013,41,"Werd",4,"Kreis 4","Im Bau","6703",2,,104090,88,54,34
+2013,42,"Langstrasse",4,"Kreis 4","Bewilligt","6702",16,124500,216778,130,100,30
+2013,42,"Langstrasse",4,"Kreis 4","Fertigerstellt","6704",7,,357929,93,70,23
+2013,42,"Langstrasse",4,"Kreis 4","Im Bau","6703",9,,186210,180,126,54
+2013,44,"Hard",4,"Kreis 4","Bewilligt","6702",1,,552282,0,0,0
+2013,51,"Gewerbeschule",5,"Kreis 5","Im Bau","6703",2,,18992,22,16,6
+2013,52,"Escher Wyss",5,"Kreis 5","Bewilligt","6702",21,173100,298006,323,235,88
+2013,52,"Escher Wyss",5,"Kreis 5","Fertigerstellt","6704",26,523000,691574,518,446,72
+2013,52,"Escher Wyss",5,"Kreis 5","Im Bau","6703",20,,605790,458,354,104
+2013,61,"Unterstrass",6,"Kreis 6","Bewilligt","6702",15,74475,76353,151,98,53
+2013,61,"Unterstrass",6,"Kreis 6","Fertigerstellt","6704",10,,55876,87,70,17
+2013,61,"Unterstrass",6,"Kreis 6","Im Bau","6703",18,,176961,201,93,108
+2013,63,"Oberstrass",6,"Kreis 6","Bewilligt","6702",5,18025,18685,23,15,8
+2013,63,"Oberstrass",6,"Kreis 6","Fertigerstellt","6704",1,,3360,3,2,1
+2013,63,"Oberstrass",6,"Kreis 6","Im Bau","6703",3,,86250,13,8,5
+2013,71,"Fluntern",7,"Kreis 7","Bewilligt","6702",31,182591,176709,207,109,98
+2013,71,"Fluntern",7,"Kreis 7","Fertigerstellt","6704",3,,7496,8,1,7
+2013,71,"Fluntern",7,"Kreis 7","Im Bau","6703",11,60525,94836,30,15,15
+2013,72,"Hottingen",7,"Kreis 7","Bewilligt","6702",3,,16843,9,5,4
+2013,72,"Hottingen",7,"Kreis 7","Fertigerstellt","6704",3,,3540,0,0,0
+2013,72,"Hottingen",7,"Kreis 7","Im Bau","6703",6,21243,28045,32,16,16
+2013,73,"Hirslanden",7,"Kreis 7","Bewilligt","6702",5,,15579,29,21,8
+2013,73,"Hirslanden",7,"Kreis 7","Fertigerstellt","6704",3,,8440,11,7,4
+2013,73,"Hirslanden",7,"Kreis 7","Im Bau","6703",4,9700,13750,21,21,0
+2013,74,"Witikon",7,"Kreis 7","Bewilligt","6702",19,53850,67950,100,47,53
+2013,74,"Witikon",7,"Kreis 7","Fertigerstellt","6704",2,,8227,9,7,2
+2013,74,"Witikon",7,"Kreis 7","Im Bau","6703",26,96472,80348,124,56,68
+2013,81,"Seefeld",8,"Kreis 8","Bewilligt","6702",10,,99171,85,83,2
+2013,81,"Seefeld",8,"Kreis 8","Fertigerstellt","6704",3,,12877,29,28,1
+2013,81,"Seefeld",8,"Kreis 8","Im Bau","6703",2,,18737,26,25,1
+2013,82,"Mühlebach",8,"Kreis 8","Bewilligt","6702",2,,7206,10,5,5
+2013,82,"Mühlebach",8,"Kreis 8","Fertigerstellt","6704",3,,22533,24,17,7
+2013,82,"Mühlebach",8,"Kreis 8","Im Bau","6703",2,,18314,4,3,1
+2013,83,"Weinegg",8,"Kreis 8","Bewilligt","6702",17,63780,85540,99,59,40
+2013,83,"Weinegg",8,"Kreis 8","Fertigerstellt","6704",4,10020,9144,11,7,4
+2013,83,"Weinegg",8,"Kreis 8","Im Bau","6703",9,89300,65090,18,3,15
+2013,91,"Albisrieden",9,"Kreis 9","Bewilligt","6702",51,268529,392793,646,375,271
+2013,91,"Albisrieden",9,"Kreis 9","Fertigerstellt","6704",9,30961,32238,52,33,19
+2013,91,"Albisrieden",9,"Kreis 9","Im Bau","6703",43,482050,440722,629,359,270
+2013,92,"Altstetten",9,"Kreis 9","Bewilligt","6702",31,250343,363818,299,196,103
+2013,92,"Altstetten",9,"Kreis 9","Fertigerstellt","6704",18,132925,242153,112,98,14
+2013,92,"Altstetten",9,"Kreis 9","Im Bau","6703",33,431606,640235,716,498,218
+2013,101,"Höngg",10,"Kreis 10","Bewilligt","6702",68,354295,519054,725,307,418
+2013,101,"Höngg",10,"Kreis 10","Fertigerstellt","6704",12,44900,53216,43,28,15
+2013,101,"Höngg",10,"Kreis 10","Im Bau","6703",27,209395,241868,327,183,144
+2013,102,"Wipkingen",10,"Kreis 10","Bewilligt","6702",20,95500,128088,219,154,65
+2013,102,"Wipkingen",10,"Kreis 10","Fertigerstellt","6704",6,23976,18127,29,12,17
+2013,111,"Affoltern",11,"Kreis 11","Bewilligt","6702",17,65995,92914,137,62,75
+2013,111,"Affoltern",11,"Kreis 11","Fertigerstellt","6704",9,31675,41886,68,51,17
+2013,111,"Affoltern",11,"Kreis 11","Im Bau","6703",13,165000,171503,155,79,76
+2013,115,"Oerlikon",11,"Kreis 11","Bewilligt","6702",10,27000,37906,63,57,6
+2013,115,"Oerlikon",11,"Kreis 11","Fertigerstellt","6704",14,51600,88936,98,63,35
+2013,115,"Oerlikon",11,"Kreis 11","Im Bau","6703",17,102100,111962,141,91,50
+2013,119,"Seebach",11,"Kreis 11","Bewilligt","6702",22,118000,280994,236,181,55
+2013,119,"Seebach",11,"Kreis 11","Fertigerstellt","6704",40,268816,368701,489,370,119
+2013,119,"Seebach",11,"Kreis 11","Im Bau","6703",32,382812,546403,430,301,129
+2013,121,"Saatlen",12,"Kreis 12","Bewilligt","6702",13,,24095,68,65,3
+2013,121,"Saatlen",12,"Kreis 12","Fertigerstellt","6704",7,20064,24396,35,16,19
+2013,121,"Saatlen",12,"Kreis 12","Im Bau","6703",24,270500,369558,426,179,247
+2013,122,"Schwamendingen-Mitte",12,"Kreis 12","Bewilligt","6702",2,,11200,25,21,4
+2013,122,"Schwamendingen-Mitte",12,"Kreis 12","Fertigerstellt","6704",12,52100,73150,125,108,17
+2013,122,"Schwamendingen-Mitte",12,"Kreis 12","Im Bau","6703",4,17100,24750,42,27,15
+2013,123,"Hirzenbach",12,"Kreis 12","Bewilligt","6702",79,113721,235027,819,554,265
+2013,123,"Hirzenbach",12,"Kreis 12","Fertigerstellt","6704",4,31840,21983,8,2,6
+2013,123,"Hirzenbach",12,"Kreis 12","Im Bau","6703",48,195165,514020,657,489,168
+2014,11,"Rathaus",1,"Kreis 1","Bewilligt","6702",1,,9104,2,0,2
+2014,12,"Hochschulen",1,"Kreis 1","Bewilligt","6702",1,,119733,0,0,0
+2014,14,"City",1,"Kreis 1","Fertigerstellt","6704",1,,4307,1,0,1
+2014,14,"City",1,"Kreis 1","Im Bau","6703",1,,135000,0,0,0
+2014,21,"Wollishofen",2,"Kreis 2","Bewilligt","6702",35,195686,329488,555,363,192
+2014,21,"Wollishofen",2,"Kreis 2","Fertigerstellt","6704",10,42860,53160,75,41,34
+2014,21,"Wollishofen",2,"Kreis 2","Im Bau","6703",26,100695,140197,214,114,100
+2014,23,"Leimbach",2,"Kreis 2","Bewilligt","6702",3,,14063,26,11,15
+2014,23,"Leimbach",2,"Kreis 2","Im Bau","6703",4,46000,70250,86,82,4
+2014,24,"Enge",2,"Kreis 2","Bewilligt","6702",3,,72405,13,9,4
+2014,24,"Enge",2,"Kreis 2","Fertigerstellt","6704",12,66500,74288,69,57,12
+2014,24,"Enge",2,"Kreis 2","Im Bau","6703",17,350000,258568,163,104,59
+2014,31,"Alt-Wiedikon",3,"Kreis 3","Bewilligt","6702",12,51500,57697,96,54,42
+2014,31,"Alt-Wiedikon",3,"Kreis 3","Im Bau","6703",9,97880,136046,36,23,13
+2014,33,"Friesenberg",3,"Kreis 3","Bewilligt","6702",16,157805,67804,100,82,18
+2014,33,"Friesenberg",3,"Kreis 3","Fertigerstellt","6704",5,14300,9751,12,12,0
+2014,33,"Friesenberg",3,"Kreis 3","Im Bau","6703",13,480250,302048,172,93,79
+2014,34,"Sihlfeld",3,"Kreis 3","Bewilligt","6702",7,35000,61000,137,113,24
+2014,34,"Sihlfeld",3,"Kreis 3","Fertigerstellt","6704",10,34000,52143,70,18,52
+2014,34,"Sihlfeld",3,"Kreis 3","Im Bau","6703",4,22235,17159,38,35,3
+2014,41,"Werd",4,"Kreis 4","Bewilligt","6702",4,5170,7200,8,3,5
+2014,41,"Werd",4,"Kreis 4","Fertigerstellt","6704",1,,102090,55,20,35
+2014,41,"Werd",4,"Kreis 4","Im Bau","6703",5,,22686,41,29,12
+2014,42,"Langstrasse",4,"Kreis 4","Bewilligt","6702",6,233067,294735,177,129,48
+2014,42,"Langstrasse",4,"Kreis 4","Fertigerstellt","6704",5,,30759,65,37,28
+2014,42,"Langstrasse",4,"Kreis 4","Im Bau","6703",18,366000,367875,247,193,54
+2014,44,"Hard",4,"Kreis 4","Im Bau","6703",2,,557977,10,7,3
+2014,51,"Gewerbeschule",5,"Kreis 5","Fertigerstellt","6704",4,15700,19053,22,16,6
+2014,52,"Escher Wyss",5,"Kreis 5","Bewilligt","6702",7,110500,188700,108,69,39
+2014,52,"Escher Wyss",5,"Kreis 5","Fertigerstellt","6704",4,329000,410207,186,161,25
+2014,52,"Escher Wyss",5,"Kreis 5","Im Bau","6703",31,238100,343589,488,364,124
+2014,61,"Unterstrass",6,"Kreis 6","Bewilligt","6702",3,,15181,21,20,1
+2014,61,"Unterstrass",6,"Kreis 6","Fertigerstellt","6704",3,,10812,4,4,0
+2014,61,"Unterstrass",6,"Kreis 6","Im Bau","6703",29,192425,235338,335,175,160
+2014,63,"Oberstrass",6,"Kreis 6","Bewilligt","6702",6,,20957,24,15,9
+2014,63,"Oberstrass",6,"Kreis 6","Fertigerstellt","6704",2,,80950,6,4,2
+2014,63,"Oberstrass",6,"Kreis 6","Im Bau","6703",4,17080,11380,13,6,7
+2014,71,"Fluntern",7,"Kreis 7","Bewilligt","6702",14,161464,114786,66,48,18
+2014,71,"Fluntern",7,"Kreis 7","Fertigerstellt","6704",8,52900,55339,18,7,11
+2014,71,"Fluntern",7,"Kreis 7","Im Bau","6703",33,96375,132379,198,98,100
+2014,72,"Hottingen",7,"Kreis 7","Bewilligt","6702",1,,4640,8,7,1
+2014,72,"Hottingen",7,"Kreis 7","Fertigerstellt","6704",7,21963,28429,31,15,16
+2014,72,"Hottingen",7,"Kreis 7","Im Bau","6703",4,,17143,8,4,4
+2014,73,"Hirslanden",7,"Kreis 7","Bewilligt","6702",4,,21456,36,26,10
+2014,73,"Hirslanden",7,"Kreis 7","Fertigerstellt","6704",5,10500,14099,21,21,0
+2014,73,"Hirslanden",7,"Kreis 7","Im Bau","6703",1,,2623,4,2,2
+2014,74,"Witikon",7,"Kreis 7","Bewilligt","6702",29,87450,110245,204,133,71
+2014,74,"Witikon",7,"Kreis 7","Fertigerstellt","6704",18,55622,57874,84,37,47
+2014,74,"Witikon",7,"Kreis 7","Im Bau","6703",12,52000,42119,57,27,30
+2014,81,"Seefeld",8,"Kreis 8","Bewilligt","6702",14,82470,122351,118,108,10
+2014,81,"Seefeld",8,"Kreis 8","Fertigerstellt","6704",2,,18737,22,21,1
+2014,82,"Mühlebach",8,"Kreis 8","Bewilligt","6702",6,23450,24546,39,26,13
+2014,82,"Mühlebach",8,"Kreis 8","Fertigerstellt","6704",1,,1680,5,4,1
+2014,82,"Mühlebach",8,"Kreis 8","Im Bau","6703",2,,20190,6,4,2
+2014,83,"Weinegg",8,"Kreis 8","Bewilligt","6702",7,17550,19869,34,21,13
+2014,83,"Weinegg",8,"Kreis 8","Fertigerstellt","6704",8,30000,24974,21,6,15
+2014,83,"Weinegg",8,"Kreis 8","Im Bau","6703",12,,111300,70,43,27
+2014,91,"Albisrieden",9,"Kreis 9","Bewilligt","6702",39,160539,189974,344,230,114
+2014,91,"Albisrieden",9,"Kreis 9","Fertigerstellt","6704",8,21129,20350,27,10,17
+2014,91,"Albisrieden",9,"Kreis 9","Im Bau","6703",67,456893,708146,1100,710,390
+2014,92,"Altstetten",9,"Kreis 9","Bewilligt","6702",22,236178,404928,711,657,54
+2014,92,"Altstetten",9,"Kreis 9","Fertigerstellt","6704",18,130231,239602,84,50,34
+2014,92,"Altstetten",9,"Kreis 9","Im Bau","6703",44,561232,767757,914,687,227
+2014,101,"Höngg",10,"Kreis 10","Bewilligt","6702",41,146284,209602,338,140,198
+2014,101,"Höngg",10,"Kreis 10","Fertigerstellt","6704",10,31230,32391,46,19,27
+2014,101,"Höngg",10,"Kreis 10","Im Bau","6703",39,347808,421500,641,416,225
+2014,102,"Wipkingen",10,"Kreis 10","Bewilligt","6702",5,72600,77050,42,40,2
+2014,102,"Wipkingen",10,"Kreis 10","Im Bau","6703",33,167235,205632,229,147,82
+2014,111,"Affoltern",11,"Kreis 11","Bewilligt","6702",20,83010,99544,149,89,60
+2014,111,"Affoltern",11,"Kreis 11","Fertigerstellt","6704",14,87965,105891,150,75,75
+2014,111,"Affoltern",11,"Kreis 11","Im Bau","6703",6,95300,87837,40,19,21
+2014,115,"Oerlikon",11,"Kreis 11","Bewilligt","6702",18,139860,198110,125,97,28
+2014,115,"Oerlikon",11,"Kreis 11","Fertigerstellt","6704",7,24200,54331,93,70,23
+2014,115,"Oerlikon",11,"Kreis 11","Im Bau","6703",22,101600,113362,132,97,35
+2014,119,"Seebach",11,"Kreis 11","Bewilligt","6702",15,50220,69613,133,81,52
+2014,119,"Seebach",11,"Kreis 11","Fertigerstellt","6704",17,277512,339139,230,174,56
+2014,119,"Seebach",11,"Kreis 11","Im Bau","6703",33,213800,472247,393,271,122
+2014,121,"Saatlen",12,"Kreis 12","Bewilligt","6702",44,135985,186490,297,200,97
+2014,121,"Saatlen",12,"Kreis 12","Fertigerstellt","6704",12,174000,188118,121,48,73
+2014,121,"Saatlen",12,"Kreis 12","Im Bau","6703",13,100000,512960,748,304,444
+2014,122,"Schwamendingen-Mitte",12,"Kreis 12","Fertigerstellt","6704",6,25600,29016,57,41,16
+2014,122,"Schwamendingen-Mitte",12,"Kreis 12","Im Bau","6703",10,61907,59800,113,84,29
+2014,123,"Hirzenbach",12,"Kreis 12","Bewilligt","6702",42,54050,237500,185,145,40
+2014,123,"Hirzenbach",12,"Kreis 12","Fertigerstellt","6704",30,150165,353126,364,265,99
+2014,123,"Hirzenbach",12,"Kreis 12","Im Bau","6703",58,108721,384537,497,349,148
+2015,11,"Rathaus",1,"Kreis 1","Bewilligt","6702",1,,9104,2,0,2
+2015,12,"Hochschulen",1,"Kreis 1","Bewilligt","6702",1,,119733,0,0,0
+2015,14,"City",1,"Kreis 1","Im Bau","6703",1,,135000,0,0,0
+2015,21,"Wollishofen",2,"Kreis 2","Bewilligt","6702",58,336900,702820,699,440,259
+2015,21,"Wollishofen",2,"Kreis 2","Fertigerstellt","6704",22,87595,189162,183,96,87
+2015,21,"Wollishofen",2,"Kreis 2","Im Bau","6703",30,170983,225599,392,220,172
+2015,23,"Leimbach",2,"Kreis 2","Bewilligt","6702",2,,13070,25,11,14
+2015,23,"Leimbach",2,"Kreis 2","Fertigerstellt","6704",5,46895,72255,87,82,5
+2015,23,"Leimbach",2,"Kreis 2","Im Bau","6703",1,,1196,1,0,1
+2015,24,"Enge",2,"Kreis 2","Bewilligt","6702",8,,90305,27,24,3
+2015,24,"Enge",2,"Kreis 2","Fertigerstellt","6704",15,80000,96126,146,89,57
+2015,24,"Enge",2,"Kreis 2","Im Bau","6703",2,,162443,16,7,9
+2015,31,"Alt-Wiedikon",3,"Kreis 3","Bewilligt","6702",10,50550,52599,72,35,37
+2015,31,"Alt-Wiedikon",3,"Kreis 3","Fertigerstellt","6704",9,97880,161075,36,23,13
+2015,31,"Alt-Wiedikon",3,"Kreis 3","Im Bau","6703",3,,14636,34,26,8
+2015,33,"Friesenberg",3,"Kreis 3","Bewilligt","6702",6,40600,50000,60,51,9
+2015,33,"Friesenberg",3,"Kreis 3","Fertigerstellt","6704",3,,7049,5,2,3
+2015,33,"Friesenberg",3,"Kreis 3","Im Bau","6703",19,,390934,207,121,86
+2015,34,"Sihlfeld",3,"Kreis 3","Bewilligt","6702",16,130300,131485,273,195,78
+2015,34,"Sihlfeld",3,"Kreis 3","Fertigerstellt","6704",4,,14135,38,35,3
+2015,41,"Werd",4,"Kreis 4","Bewilligt","6702",1,,4150,7,3,4
+2015,41,"Werd",4,"Kreis 4","Im Bau","6703",6,,25736,42,29,13
+2015,42,"Langstrasse",4,"Kreis 4","Bewilligt","6702",5,,275508,164,119,45
+2015,42,"Langstrasse",4,"Kreis 4","Fertigerstellt","6704",9,168000,179082,165,143,22
+2015,42,"Langstrasse",4,"Kreis 4","Im Bau","6703",12,302600,310191,104,80,24
+2015,44,"Hard",4,"Kreis 4","Bewilligt","6702",8,42500,52800,107,94,13
+2015,44,"Hard",4,"Kreis 4","Im Bau","6703",2,,557977,10,7,3
+2015,51,"Gewerbeschule",5,"Kreis 5","Bewilligt","6702",1,,9518,22,22,0
+2015,52,"Escher Wyss",5,"Kreis 5","Bewilligt","6702",1,,38700,0,0,0
+2015,52,"Escher Wyss",5,"Kreis 5","Fertigerstellt","6704",29,215100,327330,466,339,127
+2015,52,"Escher Wyss",5,"Kreis 5","Im Bau","6703",9,145000,280065,131,91,40
+2015,61,"Unterstrass",6,"Kreis 6","Bewilligt","6702",35,148650,200141,359,233,126
+2015,61,"Unterstrass",6,"Kreis 6","Fertigerstellt","6704",21,145509,190587,236,120,116
+2015,61,"Unterstrass",6,"Kreis 6","Im Bau","6703",18,,110030,209,117,92
+2015,63,"Oberstrass",6,"Kreis 6","Bewilligt","6702",5,213750,167942,28,14,14
+2015,63,"Oberstrass",6,"Kreis 6","Fertigerstellt","6704",8,24630,21134,25,15,10
+2015,63,"Oberstrass",6,"Kreis 6","Im Bau","6703",3,,6180,6,4,2
+2015,71,"Fluntern",7,"Kreis 7","Bewilligt","6702",12,38730,47564,59,37,22
+2015,71,"Fluntern",7,"Kreis 7","Fertigerstellt","6704",22,45575,61443,68,40,28
+2015,71,"Fluntern",7,"Kreis 7","Im Bau","6703",19,150396,162557,160,93,67
+2015,72,"Hottingen",7,"Kreis 7","Bewilligt","6702",2,,5421,4,4,0
+2015,72,"Hottingen",7,"Kreis 7","Fertigerstellt","6704",4,,17143,8,3,5
+2015,72,"Hottingen",7,"Kreis 7","Im Bau","6703",1,,4640,8,7,1
+2015,73,"Hirslanden",7,"Kreis 7","Bewilligt","6702",1,,9000,11,7,4
+2015,73,"Hirslanden",7,"Kreis 7","Fertigerstellt","6704",1,,2623,4,2,2
+2015,73,"Hirslanden",7,"Kreis 7","Im Bau","6703",3,,12456,25,19,6
+2015,74,"Witikon",7,"Kreis 7","Bewilligt","6702",28,132100,104718,184,111,73
+2015,74,"Witikon",7,"Kreis 7","Fertigerstellt","6704",9,44000,32815,44,21,23
+2015,74,"Witikon",7,"Kreis 7","Im Bau","6703",10,25300,23901,36,24,12
+2015,81,"Seefeld",8,"Kreis 8","Bewilligt","6702",2,,51066,0,0,0
+2015,81,"Seefeld",8,"Kreis 8","Im Bau","6703",12,61200,66922,116,110,6
+2015,82,"Mühlebach",8,"Kreis 8","Bewilligt","6702",7,56110,80911,73,61,12
+2015,82,"Mühlebach",8,"Kreis 8","Fertigerstellt","6704",1,,16634,0,0,0
+2015,82,"Mühlebach",8,"Kreis 8","Im Bau","6703",3,,9847,10,5,5
+2015,83,"Weinegg",8,"Kreis 8","Bewilligt","6702",6,,16867,25,7,18
+2015,83,"Weinegg",8,"Kreis 8","Fertigerstellt","6704",6,,39689,39,35,4
+2015,83,"Weinegg",8,"Kreis 8","Im Bau","6703",11,,65748,55,25,30
+2015,91,"Albisrieden",9,"Kreis 9","Bewilligt","6702",24,77430,101413,188,141,47
+2015,91,"Albisrieden",9,"Kreis 9","Fertigerstellt","6704",17,63053,81326,120,80,40
+2015,91,"Albisrieden",9,"Kreis 9","Im Bau","6703",77,505929,766194,1227,790,437
+2015,92,"Altstetten",9,"Kreis 9","Bewilligt","6702",16,157478,57535,114,83,31
+2015,92,"Altstetten",9,"Kreis 9","Fertigerstellt","6704",21,157232,201354,266,131,135
+2015,92,"Altstetten",9,"Kreis 9","Im Bau","6703",47,695276,961566,1340,1195,145
+2015,101,"Höngg",10,"Kreis 10","Bewilligt","6702",37,,207096,335,149,186
+2015,101,"Höngg",10,"Kreis 10","Fertigerstellt","6704",18,146085,165330,221,122,99
+2015,101,"Höngg",10,"Kreis 10","Im Bau","6703",34,237713,292078,559,369,190
+2015,102,"Wipkingen",10,"Kreis 10","Bewilligt","6702",3,,44191,12,12,0
+2015,102,"Wipkingen",10,"Kreis 10","Fertigerstellt","6704",15,97235,145104,180,135,45
+2015,102,"Wipkingen",10,"Kreis 10","Im Bau","6703",24,111775,163745,237,157,80
+2015,111,"Affoltern",11,"Kreis 11","Bewilligt","6702",46,148070,174730,294,155,139
+2015,111,"Affoltern",11,"Kreis 11","Fertigerstellt","6704",2,,4819,12,11,1
+2015,111,"Affoltern",11,"Kreis 11","Im Bau","6703",11,121500,115856,85,48,37
+2015,115,"Oerlikon",11,"Kreis 11","Bewilligt","6702",19,136863,186630,124,117,7
+2015,115,"Oerlikon",11,"Kreis 11","Fertigerstellt","6704",19,,101987,113,77,36
+2015,115,"Oerlikon",11,"Kreis 11","Im Bau","6703",27,102550,107081,146,109,37
+2015,119,"Seebach",11,"Kreis 11","Bewilligt","6702",15,322160,462571,361,271,90
+2015,119,"Seebach",11,"Kreis 11","Fertigerstellt","6704",28,135300,232394,223,125,98
+2015,119,"Seebach",11,"Kreis 11","Im Bau","6703",18,198180,326825,272,192,80
+2015,121,"Saatlen",12,"Kreis 12","Bewilligt","6702",39,146090,178420,325,188,137
+2015,121,"Saatlen",12,"Kreis 12","Fertigerstellt","6704",13,,512959,301,131,170
+2015,121,"Saatlen",12,"Kreis 12","Im Bau","6703",16,35894,58170,64,64,0
+2015,122,"Schwamendingen-Mitte",12,"Kreis 12","Bewilligt","6702",10,51110,58221,113,83,30
+2015,122,"Schwamendingen-Mitte",12,"Kreis 12","Fertigerstellt","6704",1,,8000,19,15,4
+2015,122,"Schwamendingen-Mitte",12,"Kreis 12","Im Bau","6703",9,55807,51800,94,69,25
+2015,123,"Hirzenbach",12,"Kreis 12","Bewilligt","6702",13,69090,80384,186,174,12
+2015,123,"Hirzenbach",12,"Kreis 12","Fertigerstellt","6704",38,63721,235030,205,126,79
+2015,123,"Hirzenbach",12,"Kreis 12","Im Bau","6703",66,116550,412390,400,306,94
+2016,12,"Hochschulen",1,"Kreis 1","Im Bau","6703",1,,119733,0,0,0
+2016,14,"City",1,"Kreis 1","Fertigerstellt","6704",1,,135000,0,0,0
+2016,21,"Wollishofen",2,"Kreis 2","Bewilligt","6702",43,495282,678177,407,301,106
+2016,21,"Wollishofen",2,"Kreis 2","Fertigerstellt","6704",9,40013,56395,89,48,41
+2016,21,"Wollishofen",2,"Kreis 2","Im Bau","6703",58,360170,490354,849,516,333
+2016,23,"Leimbach",2,"Kreis 2","Bewilligt","6702",2,,20565,33,25,8
+2016,23,"Leimbach",2,"Kreis 2","Fertigerstellt","6704",1,,1196,1,0,1
+2016,23,"Leimbach",2,"Kreis 2","Im Bau","6703",1,,6262,14,8,6
+2016,24,"Enge",2,"Kreis 2","Bewilligt","6702",3,,18717,12,10,2
+2016,24,"Enge",2,"Kreis 2","Fertigerstellt","6704",2,,9914,17,7,10
+2016,24,"Enge",2,"Kreis 2","Im Bau","6703",9,,425744,19,17,2
+2016,31,"Alt-Wiedikon",3,"Kreis 3","Bewilligt","6702",4,36500,62450,312,288,24
+2016,31,"Alt-Wiedikon",3,"Kreis 3","Fertigerstellt","6704",3,,6802,0,0,0
+2016,31,"Alt-Wiedikon",3,"Kreis 3","Im Bau","6703",13,67330,67235,106,61,45
+2016,33,"Friesenberg",3,"Kreis 3","Bewilligt","6702",6,40600,50000,60,51,9
+2016,33,"Friesenberg",3,"Kreis 3","Fertigerstellt","6704",12,,297229,169,91,78
+2016,33,"Friesenberg",3,"Kreis 3","Im Bau","6703",9,115985,106021,40,30,10
+2016,34,"Sihlfeld",3,"Kreis 3","Bewilligt","6702",19,103300,118304,250,178,72
+2016,34,"Sihlfeld",3,"Kreis 3","Im Bau","6703",11,55100,74150,152,128,24
+2016,41,"Werd",4,"Kreis 4","Bewilligt","6702",9,40200,51524,86,65,21
+2016,41,"Werd",4,"Kreis 4","Fertigerstellt","6704",6,25600,25736,41,28,13
+2016,41,"Werd",4,"Kreis 4","Im Bau","6703",1,,4150,7,3,4
+2016,42,"Langstrasse",4,"Kreis 4","Bewilligt","6702",9,123000,124038,139,124,15
+2016,42,"Langstrasse",4,"Kreis 4","Fertigerstellt","6704",1,,11477,11,11,0
+2016,42,"Langstrasse",4,"Kreis 4","Im Bau","6703",16,525600,574222,257,189,68
+2016,44,"Hard",4,"Kreis 4","Bewilligt","6702",4,7200,5800,34,34,0
+2016,44,"Hard",4,"Kreis 4","Fertigerstellt","6704",1,,5695,10,7,3
+2016,44,"Hard",4,"Kreis 4","Im Bau","6703",8,,599782,73,60,13
+2016,51,"Gewerbeschule",5,"Kreis 5","Bewilligt","6702",3,,21113,39,39,0
+2016,52,"Escher Wyss",5,"Kreis 5","Bewilligt","6702",8,,51979,0,0,0
+2016,52,"Escher Wyss",5,"Kreis 5","Fertigerstellt","6704",1,,19524,23,19,4
+2016,52,"Escher Wyss",5,"Kreis 5","Im Bau","6703",9,152000,299241,108,72,36
+2016,61,"Unterstrass",6,"Kreis 6","Bewilligt","6702",56,,322823,646,406,240
+2016,61,"Unterstrass",6,"Kreis 6","Fertigerstellt","6704",10,,54722,99,54,45
+2016,61,"Unterstrass",6,"Kreis 6","Im Bau","6703",18,88500,109470,186,108,78
+2016,63,"Oberstrass",6,"Kreis 6","Bewilligt","6702",2,,20224,11,10,1
+2016,63,"Oberstrass",6,"Kreis 6","Fertigerstellt","6704",2,,2900,5,4,1
+2016,63,"Oberstrass",6,"Kreis 6","Im Bau","6703",8,230700,176228,48,26,22
+2016,71,"Fluntern",7,"Kreis 7","Bewilligt","6702",14,226800,148472,30,15,15
+2016,71,"Fluntern",7,"Kreis 7","Fertigerstellt","6704",4,,25269,31,19,12
+2016,71,"Fluntern",7,"Kreis 7","Im Bau","6703",24,144462,162751,171,100,71
+2016,72,"Hottingen",7,"Kreis 7","Bewilligt","6702",9,,94326,29,18,11
+2016,72,"Hottingen",7,"Kreis 7","Fertigerstellt","6704",2,,8621,8,7,1
+2016,72,"Hottingen",7,"Kreis 7","Im Bau","6703",1,,1440,4,4,0
+2016,73,"Hirslanden",7,"Kreis 7","Bewilligt","6702",2,,12123,16,10,6
+2016,73,"Hirslanden",7,"Kreis 7","Im Bau","6703",4,,22456,44,28,16
+2016,74,"Witikon",7,"Kreis 7","Bewilligt","6702",18,52500,59930,121,71,50
+2016,74,"Witikon",7,"Kreis 7","Fertigerstellt","6704",8,19215,23508,27,22,5
+2016,74,"Witikon",7,"Kreis 7","Im Bau","6703",16,55900,59295,95,58,37
+2016,81,"Seefeld",8,"Kreis 8","Bewilligt","6702",13,,147790,118,31,87
+2016,81,"Seefeld",8,"Kreis 8","Im Bau","6703",12,61200,66922,116,110,6
+2016,82,"Mühlebach",8,"Kreis 8","Bewilligt","6702",1,,48526,0,0,0
+2016,82,"Mühlebach",8,"Kreis 8","Fertigerstellt","6704",3,,9847,10,4,6
+2016,82,"Mühlebach",8,"Kreis 8","Im Bau","6703",7,,32385,73,61,12
+2016,83,"Weinegg",8,"Kreis 8","Bewilligt","6702",23,89650,86151,111,79,32
+2016,83,"Weinegg",8,"Kreis 8","Fertigerstellt","6704",11,,63384,57,26,31
+2016,83,"Weinegg",8,"Kreis 8","Im Bau","6703",3,,6607,10,3,7
+2016,91,"Albisrieden",9,"Kreis 9","Bewilligt","6702",14,37540,44034,80,50,30
+2016,91,"Albisrieden",9,"Kreis 9","Fertigerstellt","6704",64,422779,673380,1072,697,375
+2016,91,"Albisrieden",9,"Kreis 9","Im Bau","6703",36,154550,165135,312,212,100
+2016,92,"Altstetten",9,"Kreis 9","Bewilligt","6702",29,112612,181701,206,136,70
+2016,92,"Altstetten",9,"Kreis 9","Fertigerstellt","6704",9,209868,218247,263,259,4
+2016,92,"Altstetten",9,"Kreis 9","Im Bau","6703",62,658737,783239,1210,1025,185
+2016,101,"Höngg",10,"Kreis 10","Bewilligt","6702",11,23839,22310,29,13,16
+2016,101,"Höngg",10,"Kreis 10","Fertigerstellt","6704",27,198605,230721,364,253,111
+2016,101,"Höngg",10,"Kreis 10","Im Bau","6703",21,94580,119905,257,162,95
+2016,102,"Wipkingen",10,"Kreis 10","Bewilligt","6702",4,14000,14139,1,0,1
+2016,102,"Wipkingen",10,"Kreis 10","Fertigerstellt","6704",10,51475,47369,68,41,27
+2016,102,"Wipkingen",10,"Kreis 10","Im Bau","6703",19,120000,163052,209,132,77
+2016,111,"Affoltern",11,"Kreis 11","Bewilligt","6702",12,67800,69606,67,53,14
+2016,111,"Affoltern",11,"Kreis 11","Fertigerstellt","6704",11,118500,116170,83,50,33
+2016,111,"Affoltern",11,"Kreis 11","Im Bau","6703",42,123805,161057,251,123,128
+2016,115,"Oerlikon",11,"Kreis 11","Bewilligt","6702",23,166560,192812,193,128,65
+2016,115,"Oerlikon",11,"Kreis 11","Fertigerstellt","6704",15,36150,38518,59,47,12
+2016,115,"Oerlikon",11,"Kreis 11","Im Bau","6703",26,199658,239993,192,155,37
+2016,119,"Seebach",11,"Kreis 11","Bewilligt","6702",20,320148,479370,348,251,97
+2016,119,"Seebach",11,"Kreis 11","Fertigerstellt","6704",9,77924,176783,200,158,42
+2016,119,"Seebach",11,"Kreis 11","Im Bau","6703",16,194580,228027,108,60,48
+2016,121,"Saatlen",12,"Kreis 12","Bewilligt","6702",34,,137344,233,136,97
+2016,121,"Saatlen",12,"Kreis 12","Fertigerstellt","6704",16,35894,62538,64,64,0
+2016,121,"Saatlen",12,"Kreis 12","Im Bau","6703",15,45000,50100,92,52,40
+2016,122,"Schwamendingen-Mitte",12,"Kreis 12","Bewilligt","6702",2,,13256,39,36,3
+2016,122,"Schwamendingen-Mitte",12,"Kreis 12","Fertigerstellt","6704",6,30000,34725,58,43,15
+2016,122,"Schwamendingen-Mitte",12,"Kreis 12","Im Bau","6703",11,73904,68965,127,89,38
+2016,123,"Hirzenbach",12,"Kreis 12","Bewilligt","6702",36,106201,169271,370,252,118
+2016,123,"Hirzenbach",12,"Kreis 12","Fertigerstellt","6704",19,49050,92924,166,117,49
+2016,123,"Hirzenbach",12,"Kreis 12","Im Bau","6703",51,116090,308759,387,342,45
+2017,12,"Hochschulen",1,"Kreis 1","Im Bau","6703",1,,119733,0,0,0
+2017,21,"Wollishofen",2,"Kreis 2","Bewilligt","6702",38,422625,429625,272,179,93
+2017,21,"Wollishofen",2,"Kreis 2","Fertigerstellt","6704",27,152222,201398,321,174,147
+2017,21,"Wollishofen",2,"Kreis 2","Im Bau","6703",58,377280,731208,900,610,290
+2017,23,"Leimbach",2,"Kreis 2","Bewilligt","6702",8,53700,75410,152,120,32
+2017,23,"Leimbach",2,"Kreis 2","Fertigerstellt","6704",2,,8788,17,4,13
+2017,23,"Leimbach",2,"Kreis 2","Im Bau","6703",1,,6262,14,8,6
+2017,24,"Enge",2,"Kreis 2","Bewilligt","6702",4,11200,15450,33,28,5
+2017,24,"Enge",2,"Kreis 2","Fertigerstellt","6704",3,,164437,5,1,4
+2017,24,"Enge",2,"Kreis 2","Im Bau","6703",9,,300392,43,30,13
+2017,31,"Alt-Wiedikon",3,"Kreis 3","Bewilligt","6702",1,,4171,0,0,0
+2017,31,"Alt-Wiedikon",3,"Kreis 3","Fertigerstellt","6704",3,,13041,34,26,8
+2017,31,"Alt-Wiedikon",3,"Kreis 3","Im Bau","6703",14,89730,115049,384,323,61
+2017,33,"Friesenberg",3,"Kreis 3","Fertigerstellt","6704",8,114985,104971,38,30,8
+2017,33,"Friesenberg",3,"Kreis 3","Im Bau","6703",7,41600,51050,64,54,10
+2017,34,"Sihlfeld",3,"Kreis 3","Bewilligt","6702",8,,44725,85,65,20
+2017,34,"Sihlfeld",3,"Kreis 3","Fertigerstellt","6704",6,,53766,137,113,24
+2017,34,"Sihlfeld",3,"Kreis 3","Im Bau","6703",17,89600,94620,179,127,52
+2017,41,"Werd",4,"Kreis 4","Bewilligt","6702",15,75200,84959,112,90,22
+2017,41,"Werd",4,"Kreis 4","Fertigerstellt","6704",1,,4150,6,2,4
+2017,42,"Langstrasse",4,"Kreis 4","Fertigerstellt","6704",10,215600,165887,95,71,24
+2017,42,"Langstrasse",4,"Kreis 4","Im Bau","6703",15,,501617,303,243,60
+2017,44,"Hard",4,"Kreis 4","Bewilligt","6702",7,29360,33557,80,52,28
+2017,44,"Hard",4,"Kreis 4","Fertigerstellt","6704",7,,44577,73,60,13
+2017,44,"Hard",4,"Kreis 4","Im Bau","6703",1,,552282,0,0,0
+2017,51,"Gewerbeschule",5,"Kreis 5","Bewilligt","6702",4,66900,75318,102,74,28
+2017,51,"Gewerbeschule",5,"Kreis 5","Im Bau","6703",3,,18195,30,23,7
+2017,52,"Escher Wyss",5,"Kreis 5","Bewilligt","6702",11,252000,350490,0,0,0
+2017,52,"Escher Wyss",5,"Kreis 5","Fertigerstellt","6704",7,122000,238692,108,72,36
+2017,52,"Escher Wyss",5,"Kreis 5","Im Bau","6703",8,,121942,0,0,0
+2017,61,"Unterstrass",6,"Kreis 6","Bewilligt","6702",27,126210,179009,183,140,43
+2017,61,"Unterstrass",6,"Kreis 6","Fertigerstellt","6704",10,,57051,78,41,37
+2017,61,"Unterstrass",6,"Kreis 6","Im Bau","6703",43,249000,267468,587,333,254
+2017,63,"Oberstrass",6,"Kreis 6","Bewilligt","6702",5,28800,28318,29,26,3
+2017,63,"Oberstrass",6,"Kreis 6","Fertigerstellt","6704",3,,9358,6,1,5
+2017,63,"Oberstrass",6,"Kreis 6","Im Bau","6703",6,218900,167450,43,25,18
+2017,71,"Fluntern",7,"Kreis 7","Bewilligt","6702",11,42800,42020,45,18,27
+2017,71,"Fluntern",7,"Kreis 7","Fertigerstellt","6704",14,61962,46940,55,40,15
+2017,71,"Fluntern",7,"Kreis 7","Im Bau","6703",22,353409,266400,132,70,62
+2017,72,"Hottingen",7,"Kreis 7","Bewilligt","6702",8,118600,99631,36,20,16
+2017,72,"Hottingen",7,"Kreis 7","Fertigerstellt","6704",3,,2043,4,4,0
+2017,72,"Hottingen",7,"Kreis 7","Im Bau","6703",1,,3030,4,0,4
+2017,73,"Hirslanden",7,"Kreis 7","Bewilligt","6702",9,50267,54926,49,46,3
+2017,73,"Hirslanden",7,"Kreis 7","Fertigerstellt","6704",3,,12759,26,20,6
+2017,73,"Hirslanden",7,"Kreis 7","Im Bau","6703",2,,13123,24,12,12
+2017,74,"Witikon",7,"Kreis 7","Bewilligt","6702",15,79400,106037,195,138,57
+2017,74,"Witikon",7,"Kreis 7","Fertigerstellt","6704",5,10500,7548,9,2,7
+2017,74,"Witikon",7,"Kreis 7","Im Bau","6703",32,107000,117308,162,77,85
+2017,81,"Seefeld",8,"Kreis 8","Bewilligt","6702",20,107300,147790,120,38,82
+2017,81,"Seefeld",8,"Kreis 8","Fertigerstellt","6704",13,61850,68307,116,110,6
+2017,82,"Mühlebach",8,"Kreis 8","Fertigerstellt","6704",3,,14750,38,36,2
+2017,82,"Mühlebach",8,"Kreis 8","Im Bau","6703",5,48580,66781,36,26,10
+2017,83,"Weinegg",8,"Kreis 8","Bewilligt","6702",18,665250,502611,133,101,32
+2017,83,"Weinegg",8,"Kreis 8","Fertigerstellt","6704",4,,10914,10,3,7
+2017,83,"Weinegg",8,"Kreis 8","Im Bau","6703",11,49520,28451,20,6,14
+2017,91,"Albisrieden",9,"Kreis 9","Bewilligt","6702",8,126800,129983,255,237,18
+2017,91,"Albisrieden",9,"Kreis 9","Fertigerstellt","6704",27,107905,102848,179,108,71
+2017,91,"Albisrieden",9,"Kreis 9","Im Bau","6703",17,106600,178946,138,97,41
+2017,92,"Altstetten",9,"Kreis 9","Bewilligt","6702",54,233658,340711,493,336,157
+2017,92,"Altstetten",9,"Kreis 9","Fertigerstellt","6704",30,304039,310290,381,323,58
+2017,92,"Altstetten",9,"Kreis 9","Im Bau","6703",56,448568,594488,1048,835,213
+2017,101,"Höngg",10,"Kreis 10","Bewilligt","6702",10,26339,25864,38,23,15
+2017,101,"Höngg",10,"Kreis 10","Fertigerstellt","6704",11,42500,40746,101,66,35
+2017,101,"Höngg",10,"Kreis 10","Im Bau","6703",15,61707,60999,75,49,26
+2017,102,"Wipkingen",10,"Kreis 10","Bewilligt","6702",8,44100,52673,46,31,15
+2017,102,"Wipkingen",10,"Kreis 10","Fertigerstellt","6704",15,51400,67835,144,97,47
+2017,102,"Wipkingen",10,"Kreis 10","Im Bau","6703",5,70200,65375,1,0,1
+2017,111,"Affoltern",11,"Kreis 11","Bewilligt","6702",2,,24127,17,12,5
+2017,111,"Affoltern",11,"Kreis 11","Fertigerstellt","6704",4,19100,18642,29,22,7
+2017,111,"Affoltern",11,"Kreis 11","Im Bau","6703",53,188705,226438,324,186,138
+2017,115,"Oerlikon",11,"Kreis 11","Bewilligt","6702",13,,133495,147,137,10
+2017,115,"Oerlikon",11,"Kreis 11","Fertigerstellt","6704",22,96058,99188,169,140,29
+2017,115,"Oerlikon",11,"Kreis 11","Im Bau","6703",27,218720,271955,278,202,76
+2017,119,"Seebach",11,"Kreis 11","Bewilligt","6702",37,185190,288052,427,308,119
+2017,119,"Seebach",11,"Kreis 11","Fertigerstellt","6704",13,61698,79293,108,60,48
+2017,119,"Seebach",11,"Kreis 11","Im Bau","6703",19,445580,570432,429,333,96
+2017,121,"Saatlen",12,"Kreis 12","Bewilligt","6702",14,9450,10055,4,1,3
+2017,121,"Saatlen",12,"Kreis 12","Fertigerstellt","6704",16,48200,61401,92,54,38
+2017,121,"Saatlen",12,"Kreis 12","Im Bau","6703",22,99590,126500,228,137,91
+2017,122,"Schwamendingen-Mitte",12,"Kreis 12","Bewilligt","6702",2,,9976,30,26,4
+2017,122,"Schwamendingen-Mitte",12,"Kreis 12","Fertigerstellt","6704",4,11730,12738,27,21,6
+2017,122,"Schwamendingen-Mitte",12,"Kreis 12","Im Bau","6703",10,85434,77983,151,107,44
+2017,123,"Hirzenbach",12,"Kreis 12","Bewilligt","6702",14,,78009,123,92,31
+2017,123,"Hirzenbach",12,"Kreis 12","Fertigerstellt","6704",47,67500,261154,256,210,46
+2017,123,"Hirzenbach",12,"Kreis 12","Im Bau","6703",28,120140,155684,316,258,58

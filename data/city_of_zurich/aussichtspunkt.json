@@ -1,0 +1,50 @@
+{"name":"Aussichtspunkt","type":"FeatureCollection"
+,"features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[8.54312929845034,47.3669332157321]},"properties":{"name":"Quaibrücke"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.5435445727047,47.3701617824374]},"properties":{"name":"Grossmünster"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.53067557004656,47.356632153372]},"properties":{"name":"Rieterpark"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.59897083942133,47.3697658176582]},"properties":{"name":"Loorenkopf"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.47844007033323,47.4072108715946]},"properties":{"name":"Eggbühl (Höngg)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.48046225853882,47.4050567762459]},"properties":{"name":"Frankental (Höngg)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.48918904011109,47.4096762439071]},"properties":{"name":"Ruggerenweg (Höngg)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.49641891541143,47.4012265708959]},"properties":{"name":"Reformierte Kirche Höngg (Promenade)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.50643848333522,47.4029166905544]},"properties":{"name":"Müseliweg (Höngg)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.52738685855746,47.3966798391736]},"properties":{"name":"Reformierte Kirche Wipkingen"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.53001707631097,47.3985142112473]},"properties":{"name":"Obere Waidstrasse Weihersteig - Im Rehsprung (Wipkingen)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.57328804349482,47.3987872491308]},"properties":{"name":"Ziegelhütte (Schwamendingen)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.59015771262777,47.3968866126984]},"properties":{"name":"Erholungsanlage Mattenhof (Stettbach)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.53719313904132,47.4313640860077]},"properties":{"name":"Köschenrüti (Seebach)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.47463756768834,47.380889020106]},"properties":{"name":"Lyren-Weg (Altstetten)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.54121859070762,47.3729274648173]},"properties":{"name":"Lindenhof (Altstadt)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.54650016678256,47.3761532347156]},"properties":{"name":"Polyterrasse (Universitätsviertel)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.56817329149034,47.3667581042753]},"properties":{"name":"Sonnenberg"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.55791055371313,47.3753013401205]},"properties":{"name":"Gloriastrasse-Himmelsleiterli (Fluntern)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.57501966546533,47.372000091219]},"properties":{"name":"Dolder (Hottingen)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.58963202657034,47.3811199768193]},"properties":{"name":"Tobelhof bei Gockhausen"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.55248928157088,47.3526641648173]},"properties":{"name":"Zürihorn"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.49136728333422,47.3495048317811]},"properties":{"name":"Üetliberg"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.4821169218323,47.3712058787284]},"properties":{"name":"Hagenbuchrain (Albisrieden)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.52772220508978,47.3613493632022]},"properties":{"name":"Katharinenweg (Enge)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.54901305791692,47.3675044470016]},"properties":{"name":"Hohe Promenade (Stadelhofen)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.58927457264959,47.3648939837944]},"properties":{"name":"Looren (Adlisberg)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.48984890328638,47.3547227394578]},"properties":{"name":"Gratweg (Üetliberg)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.49808727182062,47.3566520931063]},"properties":{"name":"Friesenberg (Wiedikon)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.51749223516812,47.3559380955201]},"properties":{"name":"Albisgütliweg (Wiedikon)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.52610287583861,47.3504875100525]},"properties":{"name":"Muggenbühlstrasse (Wollishofen)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.5293804645178,47.3587359011015]},"properties":{"name":"Rieterpark (Enge)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.56598126925272,47.3553576155135]},"properties":{"name":"Burghölzli (Riesbach)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.5871347778892,47.3559912809251]},"properties":{"name":"Segetenweg (Witikon)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.4697547155912,47.4174808471743]},"properties":{"name":"Sonnenbergstrasse (Rütihof)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.48453465360835,47.4161044789258]},"properties":{"name":"Heizenholz (Höngg)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.50840455721149,47.3306411763008]},"properties":{"name":"Waldrandspazierweg (Unterleimbach)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.52186065769241,47.3349348137077]},"properties":{"name":"Äntlisberg (Wollishofen)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.53683739194758,47.3340534669919]},"properties":{"name":"Bühl (Wollishofen)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.50164394044082,47.4156188196655]},"properties":{"name":"Plätschweg-Hungerberg (Ober-Affoltern)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.53092155046347,47.421839788419]},"properties":{"name":"Schwandholz (Seebach)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.54092691788069,47.419295778515]},"properties":{"name":"Buhn (Seebach)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.50214250796125,47.4304966340878]},"properties":{"name":"Äbnet (Unter-Affoltern)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.49142775718179,47.3495567052474]},"properties":{"name":"Uetliberg"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.54944909818889,47.393245532621]},"properties":{"name":"Irchelpark"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.53691937643868,47.3495728398042]},"properties":{"name":"Saffainsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.53908380262242,47.3650434936282]},"properties":{"name":"General-Guisan-Quai"}}
+]}

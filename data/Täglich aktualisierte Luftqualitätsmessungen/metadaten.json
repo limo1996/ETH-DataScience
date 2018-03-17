@@ -1,0 +1,221 @@
+﻿{
+  "stationen": {
+    "Zch_Stampfenbachstrasse": {
+      "ID": "Zch_Stampfenbachstrasse",
+      "Name": "Zürich Stampfenbachstrasse",
+      "Kurzname": "Stampfenbachstrasse",
+      "Code": "ZSTA",
+      "Adresse": "Stampfenbachstrasse 144, 8006 Zürich",
+      "Höhe [M.ü.M.]": 445,
+      "Beschreibung": "Die Messstation steht an zentraler Lage in der Stadt Zürich. Sie repräsentiert eine städtische Lage mit mässigem Verkehr.",
+      "Koordinaten": {
+        "CH1903": {
+          "X": 683145,
+          "Y": 249020
+        },
+        "wgs84": {
+          "lat": 47.38676,
+          "lng": 8.5398
+        }
+      }
+    },
+    "Zch_Schimmelstrasse": {
+      "ID": "Zch_Schimmelstrasse",
+      "Name": "Zürich Schimmelstrasse",
+      "Kurzname": "Schimmelstrasse",
+      "Code": "ZSIM",
+      "Adresse": "Schimmelstrasse 21, 8003 Zürich",
+      "Höhe [M.ü.M.]": 413,
+      "Beschreibung": "Die Messstation steht an einer städtischen Hauptverkehrsachse in zentraler Lage in einem Wohn- und Geschäftsquartier in der Stadt Zürich. Sie repräsentiert eine städtische Lage mit sehr starkem Verkehr.",
+      "Koordinaten": {
+        "CH1903": {
+          "X": 681941,
+          "Y": 247245
+        },
+        "wgs84": {
+          "lat": 47.37095,
+          "lng": 8.52353
+        }
+      }
+    },
+    "Zch_Rosengartenstrasse": {
+      "ID": "Zch_Rosengartenstrasse",
+      "Name": "Zürich Rosengartenstrasse",
+      "Kurzname": "Rosengartenstrasse",
+      "Code": "ZROS",
+      "Adresse": "Rosengartenstrasse 24, 8037 Zürich",
+      "Höhe [M.ü.M.]": 433,
+      "Beschreibung": "Die Messstation steht an einer städtischen Hauptverkehrsachse in zentraler Lage in einem Wohn- und Geschäftsquartier in der Stadt Zürich. Sie repräsentiert eine städtische Lage mit sehr starkem Verkehr.",
+      "Koordinaten": {
+        "CH1903": {
+          "X": 682095,
+          "Y": 249939
+        },
+        "wgs84": {
+          "lat": 47.39516,
+          "lng": 8.52606
+        }
+      }
+    },
+    "Zch_Heubeeribüel": {
+      "ID": "Zch_Heubeeribüel",
+      "Name": "Zürich Heubeeribüel",
+      "Kurzname": "Heubeeribüel",
+      "Code": "ZHEU",
+      "Adresse": "Heubeeriweg 30, 8044 Zürich",
+      "Höhe [M.ü.M.]": 610,
+      "Beschreibung": "Die Messstation liegt in einem Schulareal an erhöhter Hanglage am Siedlungsrand der Stadtt Zürich angrenzend an ein offenes Feld gegen den Zürichberg-Wald. Der Standort ist repräsentativ für wenig verkehrsbeinflusste Wohn- und Erholungs-Gebiete am Rand der grossen Agglomerationen.",
+      "Koordinaten": {
+        "CH1903": {
+          "X": 685125,
+          "Y": 248460
+        },
+        "wgs84": {
+          "lat": 47.38147,
+          "lng": 8.56591
+        }
+      }
+    }
+  },
+  "parameter": {
+    "O3": {
+      "ID": "O3",
+      "Name": "Ozon",
+      "Einheit": "µg/m3",
+      "Beschreibung": "Ozon (O3) ist ein normaler Bestandteil der Atmosphäre. In höheren Schichten (Stratosphäre) schützt es das Leben auf der Erde vor der schädlichen UV-Strahlung der Sonne. In den tieferen Luftschichten gefährdet es als wichtigster Bestandteil des Sommersmogs den Menschen und seine Umwelt. Hier bildet sich Ozon unter dem Einfluss des Sonnenlichts aus Stickoxiden (NOx) und flüchtigen organischen Verbindungen (VOC). Dabei kommt den Abgasen des Motorfahrzeugverkehrs die grösste Bedeutung zu."
+    },
+    "NO2": {
+      "ID": "NO2",
+      "Name": "Stickstoffdioxid",
+      "Einheit": "µg/m3",
+      "Beschreibung": "Stickoxide (NOx) entstehen als unerwünschte Nebenprodukte bei Verbrennungsvorgängen. Dabei reagiert vor allem der Luftstickstoff (N2) mit dem Sauerstoff (O2) der Verbrennungsluft. Bei diesem Prozess entsteht Stickstoffmonoxid (NO), das erst in der Atmosphäre in das giftigere Stickstoffdioxid (NO2) umgewandelt wird."
+    },
+    "PM10": {
+      "ID": "PM10",
+      "Name": "Feinstaub PM10",
+      "Einheit": "µg/m3",
+      "Beschreibung": "Lungengängiger Feinstaub ist eine Mischung von kleinsten Teilchen mit weniger als einem Hundertstel Millimeter Durchmesser (10 µm). Sie unterscheiden sich in Grösse, Herkunft und Wirkung. Dazu zählen, nebst natürlichen mineralischen Anteilen, Abriebteilchen von Pneus und Strassenbelag, Aufwirbelungen, Russteilchen aus Holzfeuerungen auch Dieselruss sowie Partikel aus illegaler Abfallverbrennung. Eine wichtige Rolle spielt zudem die Partikelbildung aus gasförmigen Vorläuferschadstoffen, namentlich Stickoxiden, Schwefeldioxid und Ammoniak. Zudem haften an den Partikeln aus Verbrennungsprozessen Substanzen wie polyaromatische Kohlenwasserstoffe (PAK) und Dioxine, die teils krebserregend und erbgutschädigend wirken können."
+    },
+    "T": {
+      "ID": "T",
+      "Name": "Lufttemperatur",
+      "Einheit": "°C",
+      "Beschreibung": "Physikalisch betrachtet ist die Lufttemperatur ein Mass für den Wärmezustand eines Luftvolumens. Dieser wird bestimmt durch die mittlere kinetische Energie der ungeordneten Molekularbewegung in der Luft. Je grösser die mittlere Geschwindigkeit aller Moleküle in einem Luftvolumen ist, um so höher ist auch seine Lufttemperatur."
+    },
+    "p": {
+      "ID": "p",
+      "Name": "Luftdruck",
+      "Einheit": "hPa",
+      "Beschreibung": "Mit Luftdruck wird der von der Masse der Luft unter der Wirkung der Erdanziehung ausgeübte Druck bezeichnet. Er ist definiert als das Gewicht der Luftsäule pro Flächeneinheit vom Erdboden bis zur äusseren Grenze der Atmosphäre."
+    },
+    "WD": {
+      "ID": "WD",
+      "Name": "Windrichtung",
+      "Einheit": "°",
+      "Beschreibung": "Die Windrichtung ist die Richtung, aus welcher der Wind weht. Sie wird bestimmt nach dem Polarwinkel (Azimut). Zur Richtungsangabe benutzt man die 360 Grad Skala des Kreises. Alle Richtungsangaben in Grad sind rechtweisend auf geographisch Nord bezogen, d.h. Ost = 90°, Süd = 180°, West=270° und Nord=360°."
+    },
+    "WVv": {
+      "ID": "WVv",
+      "Name": "Windgeschwindigkeit",
+      "Einheit": "m/s",
+      "Beschreibung": "Unter Windgeschwindigkeit ist die horizontale Verlagerungsgeschwindigkeit der Luftteilchen zu verstehen"
+    },
+    "O3_max_h1": {
+      "ID": "O3_max_h1",
+      "Name": "Ozon, höchstes Stundenmittel",
+      "Einheit": "µg/m3",
+      "Beschreibung": "Höchster Ozon Stundenmittelwert eines Tages"
+    },
+    "KBI": {
+      "ID": "KBI",
+      "Name": "Kurzzeit-Belastungsindex",
+      "Einheit": "_nd",
+      "Beschreibung": "Der Kurzzeit-Belastungs-Index (KBI) erlaubt einen raschen Überblick über die aktuelle Luftbelastung an einem Messort. Die Aussagen sind generalisiert und entsprechen den heutigen Kenntnissen über die Wirkung der Luftschadstoffe auf den menschlichen Organismus. Die Bestimmung des KBI orientiert sich an den gültigen Grenzwerten der Luftreinhalte-Verordnung (LRV) sowie am aktuellen Wissen über die gesundheitliche Bedeutung der einzelnen Belastungsindikatoren. Die Grundlagen wurden von der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl’ Air) erarbeitet. \nDer KBI einer Messstation wird bestimmt, wenn die drei Leitschadstoffe Ozon, Stickstoffdioxid (NO2) und Feinstaub (PM10) kontinuierlich gemessen werden. Für jeden Schadstoff wird der Einzelindex anhand eines Beurteilungsrasters berechnet. Als Gesamt-Index (KBI) wird der höchste der bestimmten Einzelindices dargestellt. "
+    },
+    "KBI_O3": {
+      "ID": "KBI_O3",
+      "Name": "KBI Teilindex Ozon",
+      "Einheit": "_nd",
+      "Beschreibung": "1h-Mittelwert der letzten vollen Stunde, respektive höchstes Stundenmittel des Vortages"
+    },
+    "KBI_NO2": {
+      "ID": "KBI_NO2",
+      "Name": "KBI Teilindex Stickstoffdioxid",
+      "Einheit": "_nd",
+      "Beschreibung": "gleitender Tagesmittelwert der letzten 24h, respektive Tagesmittel des Vortages"
+    },
+    "KBI_PM10": {
+      "ID": "KBI_PM10",
+      "Name": "KBI Teilindex Feinstaub",
+      "Einheit": "_nd",
+      "Beschreibung": "gleitender Tagesmittelwert der letzten 24h, respektive Tagesmittel des Vortages"
+    }
+  },
+  "grenzwerte": {
+    "O3": {
+      "ID": "O3",
+      "Immisionsgrenzwert": "120 µg/m3",
+      "Statistische Definition": "1h-Mittelwert; darf höchstens einmal pro Jahr überschritten werden"
+    },
+    "NO2": {
+      "ID": "NO2",
+      "Immisionsgrenzwert": "30 µg/m3",
+      "Statistische Definition": "Jahresmittelwert (arithmetischer Mittelwert)"
+    },
+    "PM10": {
+      "ID": "PM10",
+      "Immisionsgrenzwert": "20 µg/m3",
+      "Statistische Definition": "Jahresmittelwert (arithmetischer Mittelwert)"
+    }
+  },
+  "kbi": {
+    "1": {
+      "KBI": 1,
+      "Belastung": "gering",
+      "Auswirkung": "Es sind kaum Gesundheitsbeeinträchtigungen zu erwarten",
+      "PM10": "≤ 37.5",
+      "NO2": "≤ 60",
+      "O3": "≤ 90"
+    },
+    "2": {
+      "KBI": 2,
+      "Belastung": "mässig",
+      "Auswirkung": "Ein Auftreten von gesundheitlichen Beeinträchtigungen ist möglich",
+      "PM10": "> 37.5  ─ ≤ 50",
+      "NO2": "> 60 ─ ≤ 80",
+      "O3": "> 90 ─ ≤ 120"
+    },
+    "3": {
+      "KBI": 3,
+      "Belastung": "deutlich",
+      "Auswirkung": "Gesundheitliche Beeinträchtigungen können auftreten",
+      "PM10": "> 50  ─ ≤ 62.5",
+      "NO2": "> 80 ─ ≤ 100",
+      "O3": "> 120 ─ ≤ 150"
+    },
+    "4": {
+      "KBI": 4,
+      "Belastung": "erheblich",
+      "Auswirkung": "Gesundheitliche Beeinträchtigungen können vermehrt auftreten",
+      "PM10": "> 62.5  ─ ≤ 75",
+      "NO2": "> 100 ─ ≤ 120",
+      "O3": "> 150 ─ ≤ 180"
+    },
+    "5": {
+      "KBI": 5,
+      "Belastung": "hoch",
+      "Auswirkung": "Gesundheitliche Beeinträchtigungen können verbreitet auftreten",
+      "PM10": "> 75  ─ ≤ 100",
+      "NO2": "> 120 ─ ≤ 160",
+      "O3": "> 180 ─ ≤ 240"
+    },
+    "6": {
+      "KBI": 6,
+      "Belastung": "sehr hoch",
+      "Auswirkung": "Gesundheitliche Beeinträchtigungen können weit verbreitet auftreten",
+      "PM10": "> 100",
+      "NO2": "> 160",
+      "O3": "> 240"
+    }
+  }
+}

@@ -49,7 +49,7 @@ GRADIENTS = {
         (147, 255, 0, 1),
         (102, 255, 0, 1)            #green
     ],
-    "GREEN_TO_EVERYTHING_RED_CENTER_EMPTY" : [
+    "GREEN_TO_EVERYTHING_RED_CENTER_EMPTY_GRADIENT" : [
         (255, 0, 0, 1),             #red
         (255, 57, 0, 1),
         (255, 113, 0, 1),

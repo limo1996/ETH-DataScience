@@ -12,4 +12,4 @@ with open('../../data/city_of_zurich/fahrverbotszone.json') as data_file:
 
 df.columns = ['coordinate array', 'type', 'name', 'present']
 # print(df)
-df.to_csv('../../data/prepared/drivin_prohibited.csv')
+df.to_csv('../../data/prepared/driving_prohibited.csv')

@@ -1,0 +1,144 @@
+﻿HAUPTEINHEIT,HE_TEXT,HE_LABEL,EINHEIT2,E2_TEXT,E2_LABEL,BEZIEHUNG2,EINHEIT3,E3_TEXT,E3_LABEL,BEZIEHUNG3,EINHEIT4,E4_TEXT,E4_LABEL,BEZIEHUNG4,EINHEIT5,E5_TEXT,E5_LABEL,BEZIEHUNG5,EINHEIT6,E6_TEXT,E6_LABEL,BEZIEHUNG6,EINHEIT7,E7_TEXT,E7_LABEL,BEZIEHUNG7,EINHEIT8,E8_TEXT,E8_LABEL,BEZIEHUNG8,EINHEIT9,E9_TEXT,E9_LABEL,BEZIEHUNG9,EINHEIT10,E10_TEXT,E10_LABEL,BEZIEHUNG10,HERKUNFT,CHANGE_BY,CHANGE_DAT,BEMERKUNGEN,SOURCE,KARTIERDATUM,KARTIERPERSON,FKORT,SHAPE.AREA,SHAPE.LEN
+1043,Schwimmblattgesellschaft,01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,213.225871085,60.3376006926993
+1020,Hochstaudenfluren mit Goldrute und Brennessel etc.,04b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,483.51400454,199.463699253061
+16302,Gehölz,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,954.810140345,167.04641057803
+1034,Röhricht,02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1183.1898410850001,191.636053093743
+13014,Hochmoormischvegetation,26,13008,Sekundäre Hochmoorvegetation,Typ2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21.07.2008,,Hoch- und Übergangsmoore nat. Bedeutung BAFU,,,,412.97688604,80.76660822767408
+1053,Pufferzone,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,3831.39199844,337.080086801521
+13019,Gebüsch Aufforstung,10,13015,Hochmoorumfeld,Typ3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21.07.2008,,Hoch- und Übergangsmoore nat. Bedeutung BAFU,,,,6005.25747004,378.13532372499805
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,1602,Verschilfungsstadium S2,S2,6,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,8313.34943145,377.771783008734
+1015,Hochmoore,07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,364.92160505500004,80.0025246841863
+1053,Pufferzone,15,1052,bultiges Grosseggenried,03a,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1506.24548046,155.153507413373
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,269.061683635,85.72873953673879
+1025,Knotenbinsenried,04c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,111.604624435,45.4172093172084
+1020,Hochstaudenfluren mit Goldrute und Brennessel etc.,04b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1469.04469872,227.753642543513
+1022,Intensivkulturland,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1820.2367089250001,220.75413522241203
+1008,Grosseggenried mit Sumpfsegge,03c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,3443.83057018,235.89638885464302
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,463.06529072,107.361882485354
+1004,Davallseggenried,05a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,5752.04349013,473.357157059616
+1025,Knotenbinsenried,04c,1037,Schachtelhalmquellflur,04e,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,756.281156285,108.64586252846101
+1043,Schwimmblattgesellschaft,01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1032.46878663,146.81730681177302
+1053,Pufferzone,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,589.75561462,122.20346053790401
+1021,Hochstaudenfluren mit Spierstaude,04a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,702.4762227250001,141.79924624187402
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1369.8006318,179.55543812786001
+1019,Hochstaudenfluren,04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1803.473219925,179.88062057813002
+1019,Hochstaudenfluren,04,,,,,,,,,,,,,,,,,,,,,1603,Verschilfungsstadium S3,S3,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,456.00509165,89.5001653595224
+1021,Hochstaudenfluren mit Spierstaude,04a,1025,Knotenbinsenried,04c,1,,,,,,,,,,,,,,,,,1601,Verschilfungsstadium S1,S1,6,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1389.023443305,182.110836888557
+13020,Niedermoor Verlandung,11,13015,Hochmoorumfeld,Typ3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21.07.2008,,Hoch- und Übergangsmoore nat. Bedeutung BAFU,,,,41874.1577857,1547.5293646580901
+1004,Davallseggenried,05a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1538.85491901,170.399787404765
+1030,Pfeifengraswiesen Kleinseggenausbildung,08a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1998.983951585,221.154952643321
+1025,Knotenbinsenried,04c,,,,,,,,,,,,,,,,,,,,,1601,Verschilfungsstadium S1,S1,6,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,2437.56465864,227.93852589298
+1053,Pufferzone,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,10089.30223717,1220.58768946805
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1396.89030808,465.027627752172
+1020,Hochstaudenfluren mit Goldrute und Brennessel etc.,04b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,11868.837054695,720.232331822496
+1038,Schilfröhricht,02a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1187.93856582,150.574180734331
+1026,Kopfbinsenried,05b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1974.70420821,175.747848942734
+3035,artenarmer Halbtrockenrasen mit Fettzeigern,MBLLAE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trockenstandorte 2003 TWW nat. Bedeutung BAFU,20050518,,,2323.1755439450003,412.63782461046003
+1026,Kopfbinsenried,05b,1025,Knotenbinsenried,04c,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,815.8074969150001,125.797293700208
+1027,Kulturland mit Riedwiesen-Arten,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,758.9122991849999,140.989408432709
+1043,Schwimmblattgesellschaft,01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,362.623775775,71.3276648650766
+1038,Schilfröhricht,02a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,85.09164375,38.242936518011
+1038,Schilfröhricht,02a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1025.4681509050001,137.101890203145
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,4936.135465875,451.215755667452
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,1602,Verschilfungsstadium S2,S2,6,1502,Verbuschungsgrad V2,V2,6,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,4870.113431195,461.017362599262
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,,,,,1502,Verbuschungsgrad V2,V2,6,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,16266.37366862,1072.42912196879
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,18254.83674211,1343.1391969180002
+1045,Wald,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,3734.259973135,356.706114931626
+1038,Schilfröhricht,02a,1007,Grosseggenried mit Sumpfried,03d,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,3282.21095941,413.77430628501907
+1027,Kulturland mit Riedwiesen-Arten,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1196.75521204,308.74474317273905
+1027,Kulturland mit Riedwiesen-Arten,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1848.93053063,535.6768807770511
+1025,Knotenbinsenried,04c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1950.619234745,168.75206115988502
+1020,Hochstaudenfluren mit Goldrute und Brennessel etc.,04b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,10802.835410515,498.91991500572203
+1027,Kulturland mit Riedwiesen-Arten,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,2185.78164099,229.65200179009202
+1027,Kulturland mit Riedwiesen-Arten,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1114.599290075,151.803431080368
+1038,Schilfröhricht,02a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,606.54145858,113.92862313324001
+1020,Hochstaudenfluren mit Goldrute und Brennessel etc.,04b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,418.21564598500004,155.37971667501802
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1306.32408132,174.17081326118202
+1027,Kulturland mit Riedwiesen-Arten,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1138.8977338450002,139.23248724292702
+1053,Pufferzone,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,3805.71001426,391.885073612398
+1003,Birken-/Föhrenbruchwälder, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,4993.39641114,327.46821440752404
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1163.5872751949998,135.956649626028
+1053,Pufferzone,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,15224.323907265,797.544995830375
+1020,Hochstaudenfluren mit Goldrute und Brennessel etc.,04b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,475.22902665,85.0752940792406
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,1601,Verschilfungsstadium S1,S1,6,1502,Verbuschungsgrad V2,V2,6,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,2682.258878615,199.68224286563503
+1030,Pfeifengraswiesen Kleinseggenausbildung,08a,1025,Knotenbinsenried,04c,1,,,,,,,,,,,,,,,,,1601,Verschilfungsstadium S1,S1,6,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1050.517678065,120.071243172303
+1006,Erlenwälder und Vorstadien (Weiden), ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,4145.18049228,471.624011759411
+1006,Erlenwälder und Vorstadien (Weiden), ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,467.78134729500005,191.906797729157
+1030,Pfeifengraswiesen Kleinseggenausbildung,08a,1025,Knotenbinsenried,04c,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,900.042390795,123.44766429004501
+16302,Gehölz,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,104.37420108,57.3576143409588
+1027,Kulturland mit Riedwiesen-Arten,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1251.1703677,330.394236866389
+1025,Knotenbinsenried,04c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,96.10271721500001,51.316318603457006
+1021,Hochstaudenfluren mit Spierstaude,04a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,2183.98249559,435.720734101841
+1038,Schilfröhricht,02a,1007,Grosseggenried mit Sumpfried,03d,1,,,,,,,,,,,,,,,,,1601,Verschilfungsstadium S1,S1,6,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,2552.62596102,622.9861973457611
+1020,Hochstaudenfluren mit Goldrute und Brennessel etc.,04b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,2802.40631133,460.47270211312104
+1027,Kulturland mit Riedwiesen-Arten,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,2147.804346455,234.86011605757702
+3035,artenarmer Halbtrockenrasen mit Fettzeigern,MBLLAE,3017,Nährstoffreicher Halbtrockenrasen,MBAE,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trockenstandorte 2003 TWW nat. Bedeutung BAFU,20030521,,,17188.29491814,729.6836191664501
+1021,Hochstaudenfluren mit Spierstaude,04a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,4754.21545095,356.555992246093
+1025,Knotenbinsenried,04c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,291.99119611,67.48466668253819
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,10331.8091437,703.3887957853501
+1038,Schilfröhricht,02a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,4346.468901655,439.26149141694304
+16302,Gehölz,G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,5963.875319235,951.1800185520631
+1021,Hochstaudenfluren mit Spierstaude,04a,,,,,,,,,,,,,,,,,,,,,1603,Verschilfungsstadium S3,S3,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1937.06145401,189.29002390959803
+1015,Hochmoore,07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,340.17891333,80.0494999874783
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1761.51659099,203.85308109545701
+1021,Hochstaudenfluren mit Spierstaude,04a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1009.09878619,156.59803396677
+1021,Hochstaudenfluren mit Spierstaude,04a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,288.175471945,90.6908397855669
+1021,Hochstaudenfluren mit Spierstaude,04a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,10084.301622995,764.938993900717
+3018,Echter Halbtrockenrasen,MB,3035,artenarmer Halbtrockenrasen mit Fettzeigern,MBLLAE,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trockenstandorte 2003 TWW nat. Bedeutung BAFU,20050518,,,2565.694917745,480.15567155405205
+1027,Kulturland mit Riedwiesen-Arten,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,7829.26675548,392.485933820071
+1004,Davallseggenried,05a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,10148.36834144,725.5876078558521
+1027,Kulturland mit Riedwiesen-Arten,11,1011,Halbtrockenrasen,09,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,3008.616038855,289.468114399113
+1004,Davallseggenried,05a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1747.4526568850001,173.333928733422
+1053,Pufferzone,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,194.57297782499998,250.10167706232002
+1043,Schwimmblattgesellschaft,01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,203.0240906,74.0516376794248
+1051,bultfreies Grosseggenried,03b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,516.0689116950001,96.57998391516129
+1043,Schwimmblattgesellschaft,01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,332.77988670499997,84.2864068623115
+1038,Schilfröhricht,02a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,2654.851628285,359.178859445898
+1053,Pufferzone,15,1002,Aufforstung, ,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,2813.419353835,260.16418307169704
+1038,Schilfröhricht,02a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,215.359470365,59.1680058805027
+1051,bultfreies Grosseggenried,03b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,2874.435472455,284.446728079467
+1006,Erlenwälder und Vorstadien (Weiden), ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,2265.86388019,207.96777747078102
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,4382.71106122,681.864422308832
+1003,Birken-/Föhrenbruchwälder, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,18044.49309827,563.751879505559
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,15377.971642125001,639.6926562395271
+1025,Knotenbinsenried,04c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,409.610183665,88.6691929779654
+1045,Wald,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1042.908419995,132.076288298268
+1006,Erlenwälder und Vorstadien (Weiden), ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1234.238496355,138.060057844828
+1025,Knotenbinsenried,04c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,671.626629875,264.36765702562906
+1021,Hochstaudenfluren mit Spierstaude,04a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,497.64421257,83.4292457174326
+1022,Intensivkulturland,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,7431.681764585001,607.915212176602
+1025,Knotenbinsenried,04c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,3342.2228224950004,321.706336627634
+1043,Schwimmblattgesellschaft,01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1118.1066803750002,198.033576690116
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,21987.698429764998,844.952586247807
+1038,Schilfröhricht,02a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,13491.565238215,659.494543028591
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,130.909474245,57.696509365596896
+1045,Wald,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,4351.405375595,264.17299696918406
+13016,Wald,07,13015,Hochmoorumfeld,Typ3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21.07.2008,,Hoch- und Übergangsmoore nat. Bedeutung BAFU,,,,17962.65666618,755.327794217899
+1053,Pufferzone,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,23580.43273102,669.300789713372
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,1492.6548917750001,173.92775079320901
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,1602,Verschilfungsstadium S2,S2,6,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,2121.28578734,216.88612604971
+1004,Davallseggenried,05a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,253.63207583,76.8385048614981
+1019,Hochstaudenfluren,04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,538.165423535,129.37113101818102
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,1602,Verschilfungsstadium S2,S2,6,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,6963.36903928,527.449969909554
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,1601,Verschilfungsstadium S1,S1,6,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,4471.540379695,541.230712531375
+1009,Grosseggenried mit behaartfrüchtiger Segge,03e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,13507.561387265,864.253115445912
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,2468.057259955,368.90545096237804
+1043,Schwimmblattgesellschaft,01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,598.4451180650001,176.34220205020102
+1006,Erlenwälder und Vorstadien (Weiden), ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,3139.39958268,403.130571027348
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,908.94322354,124.34356535525801
+1003,Birken-/Föhrenbruchwälder, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,588.0292095149999,115.37696921840801
+1007,Grosseggenried mit Sumpfried,03d,1026,Kopfbinsenried,05b,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,983.74764237,184.206415619161
+1021,Hochstaudenfluren mit Spierstaude,04a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,3045.252139595,480.982351039671
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,1601,Verschilfungsstadium S1,S1,6,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1310.466200775,158.555287339019
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,1601,Verschilfungsstadium S1,S1,6,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,188.166526255,62.4393690178167
+1043,Schwimmblattgesellschaft,01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,141.073715615,49.9315377160379
+1038,Schilfröhricht,02a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,3065.50562413,298.892229774898
+1053,Pufferzone,15,1022,Intensivkulturland,10,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,19836.00927141,2664.0932851228104
+1020,Hochstaudenfluren mit Goldrute und Brennessel etc.,04b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,519.28016106,105.486229939728
+1052,bultiges Grosseggenried,03a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,975.26154007,158.26160021079502
+1003,Birken-/Föhrenbruchwälder, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,13492.128108235001,773.142622169492
+13023,Dauerwiese Matte,14,13015,Hochmoorumfeld,Typ3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21.07.2008,,Hoch- und Übergangsmoore nat. Bedeutung BAFU,,,,8589.34169398,434.95093937045806
+1015,Hochmoore,07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,388.98498574,79.53246413268319
+1030,Pfeifengraswiesen Kleinseggenausbildung,08a,,,,,,,,,,,,,,,,,,,,,1601,Verschilfungsstadium S1,S1,6,1502,Verbuschungsgrad V2,V2,6,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,1311.236011465,194.545419170104
+1007,Grosseggenried mit Sumpfried,03d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,Feuchtgebietskartierung 1976/77,,"BGU (J. Burnand, S. Züst)",,184.472234405,58.6030562114972
+1038,Schilfröhricht,02a,1007,Grosseggenried mit Sumpfried,03d,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feuchtgebietskartierung 1991,,,,608.55418539,163.347093591734

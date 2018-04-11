@@ -1,3 +1,10 @@
+'''
+    File name: ContourDrawer.py
+    Author: Jakub Lichman
+    Date created: 4/10/2018
+    Python Version: 3.6.3
+'''
+
 import os
 from gmplot import gmplot
 from .ContourGradients import getGradient, HeatType
@@ -16,6 +23,14 @@ class Coordinate(object):
         """ Creates new instance of Coordinate from line in file """
         split = line.split(' ')
         return Coordinate(float(split[0]), float(split[1]))
+
+    def to_tuple(self):
+        """ returns array of size 2 of coordinates """
+        return (self.lat, self.lon)
+
+    def to_string(self):
+        return '{0} {1}'.format(self.lat, self.lon)
+        
 
 class Settings(object):
     """ Class that holds settings for contour map drawing """
@@ -49,8 +64,12 @@ class ContourDrawer(object):
             for line in content:
                 if not line.isspace() and line:
                     self.data.append(self.parse_line(line, separator, columns))
-
+    def get_data(self):
+        """ gets loaded data """
+        return self.data
+        
     def parse_line(self, line, separator, columns):
+        """ parses line into coordinate """
         split = line.split(separator)
         assert len(columns) == 2
         return Coordinate(float(split[columns[0]]), float(split[columns[1]]))

@@ -2,3 +2,5 @@ proposal/~$oposal Data Science.docx
 .DS_Store
 .vscode/
 data/.DS_Store
+src/contour/__pycache__
+src/__pycache__/

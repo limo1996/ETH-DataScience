@@ -1,3 +1,10 @@
+'''
+    File name: ContourGradients.py
+    Author: Jakub Lichman
+    Date created: 4/10/2018
+    Python Version: 3.6.3
+'''
+
 from enum import Enum
 
 class HeatType(Enum):

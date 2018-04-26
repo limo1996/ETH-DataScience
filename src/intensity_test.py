@@ -1,7 +1,7 @@
 from contour.ContourDrawer import ContourDrawer, Settings, Coordinate
 from contour.ContourGradients import HeatType
 
-from IntensityFinder import IntensityFinder
+from IntensityFinder import IntensityFinder, InfluenceType
 
 def main():
     drawer = ContourDrawer()
@@ -19,10 +19,10 @@ def main():
         print (dat.to_string())
     finder = IntensityFinder(drawer.get_data())
     print ("Results: {exponential, exponential2, quadratic, linear}")
-    print (finder.get_intensity(tmp_points[0], radius, finder.exponential))
-    print (finder.get_intensity(tmp_points[1], radius, finder.exponential2))
-    print (finder.get_intensity(tmp_points[2], radius, finder.quadratic))
-    print (finder.get_intensity(tmp_points[3], radius, finder.linear))
+    print (finder.get_intensity(tmp_points[0], radius, finder.exponential, InfluenceType.ALL_POINTS))
+    print (finder.get_intensity(tmp_points[1], radius, finder.exponential2, InfluenceType.ALL_POINTS))
+    print (finder.get_intensity(tmp_points[2], radius, finder.quadratic, InfluenceType.ALL_POINTS))
+    print (finder.get_intensity(tmp_points[3], radius, finder.linear, InfluenceType.ALL_POINTS))
 
 if __name__ == '__main__':
     main()

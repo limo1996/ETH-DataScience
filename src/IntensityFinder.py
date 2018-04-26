@@ -9,6 +9,14 @@ from math import sin, cos, sqrt, atan2, radians, exp
 from contour.ContourDrawer import Coordinate
 from scipy.spatial import KDTree
 
+from enum import Enum
+import numpy as np
+
+class InfluenceType(Enum):
+    """ Represents the influence type for intensity. Influence can come either 
+        from all points within a range or from the closest one. """
+    ALL_POINTS = np.inf,
+    CLOSEST_POINT = 1
 
 class IntensityFinder(object):
     """
@@ -20,7 +28,7 @@ class IntensityFinder(object):
         pts = [i.to_tuple() for i in data]
         self.tree = KDTree(pts)
 
-    def get_intensity(self, coordinate: Coordinate, radius: int, func):
+    def get_intensity(self, coordinate: Coordinate, radius: int, func, influenceType: InfluenceType):
         """ 
         Returns intensity on the given point.
         
@@ -31,16 +39,35 @@ class IntensityFinder(object):
                     and returns intensity for given point. This object contains several
                     functions that can be passed: {exponential, exponential2, linear, quadratic}
         """
-
+        converted_radius = self.convert_radius(radius)
         coord = coordinate.to_tuple()
-        nearest_point = self.tree.data[self.tree.query(coord)[1]]
-        distance = self.compute_distance(coord, nearest_point)
-        if distance > radius:
-            return 0
-        f_max = func(radius, 0)
-        f_min = func(radius, radius)
-        return self.normalize(f_min, f_max, func(radius, distance))
+        nearest_points = self.get_nearest_points(coord, converted_radius, influenceType)
+        distances = self.compute_distances(coord, nearest_points)
+        if isinstance(distances, list):
+            print ('distances: ', distances)
+            print ('max: {0} min: {1}'.format(func(radius, 0), func(radius, radius)))
+            return [func(radius, i) for i in distances]
+        else:
+            if distances > radius:
+                return 0
+            f_max = func(radius, 0)
+            f_min = func(radius, radius)
+            return self.normalize(f_min, f_max, func(radius, distances))
 
+    def get_nearest_points(self, coord, radius: int, influenceType: InfluenceType):
+        """ returns nearest point(s) to coord according to influenceType and radius """
+        if influenceType == InfluenceType.CLOSEST_POINT:
+            return self.tree.data[self.tree.query(coord)[1]]
+        else:
+            dsize = len(self.tree.data)
+            print(np.transpose(self.tree.query(coord, k=10000, distance_upper_bound=radius)[1]))
+            return [self.tree.data[p] for p in filter(lambda x: x < dsize and x >= 0, self.tree.query(coord, k=10000, distance_upper_bound=radius)[1])]
+
+    def convert_radius(self, radius):
+        """ Radius is provided in meters but coordiantes are (lat, lon) so we need to translate distance in meters to distance between 
+            two coordinates ad float. cca 1 meter is 0.00001 euclidean distance between coordinates """
+        return radius * 0.00001
+        
     def exponential(self, radius, x):
         """ Exponentially decreasing function: f(x) = ax^1/(x+a) where a = radius """
         return radius * 2**(1/(x + radius))
@@ -63,6 +90,13 @@ class IntensityFinder(object):
         """ normalizes provided data """
         return (x - f_min)/(f_max - f_min)
 
+    def compute_distances(self, coord1, coordinates):
+        """ computes distances between coord1 and all coordinates """
+        if isinstance(coordinates, list):
+            return [self.compute_distance(coord1, coord) for coord in coordinates]
+        else:
+            return self.compute_distance(coord1, coordinates)
+
     def compute_distance(self, coord1, coord2):
         """ computes distance in meters between two coordinates given in form of an array """
         assert len(coord1) == 2 and len(coord2) == 2
@@ -81,5 +115,5 @@ class IntensityFinder(object):
 
         a = sin(dlat / 2)**2 + cos(lat1) * cos(lat2) * sin(dlon / 2)**2
         c = 2 * atan2(sqrt(a), sqrt(1 - a))
-        print ('distance between {0} and {1} is {2}'.format(coord1, coord2, R * c * 1000))
+        #print ('distance between {0} and {1} is {2}'.format(coord1, coord2, R * c * 1000))
         return R * c * 1000

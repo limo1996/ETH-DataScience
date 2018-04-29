@@ -41,7 +41,8 @@ def compute_heatmap(intensity_finder_obj, long_left, long_right, lat_top, lat_bo
             else :
                 res = int(255 * (intensity_finder_obj.get_intensity(Coordinate(lat_top-j*lat_step, long_left+i*long_step), radius, intensity_finder_obj.exponential, influence_type)))
             
-            pix[i,j] = (res, 0 , 0)
+            #pix[i,j] = (255, 255-res , 255-res)
+            pix[i,j] = (pix[i,j][0], int(pix[i,j][1]-pix[i,j][1]*res/255), int(pix[i,j][2]-pix[i,j][2]*res/255))
 
     # Save the heatmap at correspondin path
     heatMap.save(result_path)
@@ -94,7 +95,9 @@ def combine_maps(other_to_overlayy, result_path):
 
     result.save(result_path)
 
-#get_map(SOURCE, RESULT, RADIUS, IntensityFinder.exponential2, INFLUENCE_TYPE)
-#combine_maps(TO_OVERLAY, OVERLAY_RESULT)
+def compute():
+    get_map(SOURCE, RESULT, RADIUS, IntensityFinder.exponential2, INFLUENCE_TYPE)
+    combine_maps(TO_OVERLAY, OVERLAY_RESULT)
 
+compute()
 

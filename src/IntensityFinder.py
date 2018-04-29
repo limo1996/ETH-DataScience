@@ -44,8 +44,8 @@ class IntensityFinder(object):
         nearest_points = self.get_nearest_points(coord, converted_radius, influenceType)
         distances = self.compute_distances(coord, nearest_points)
         if isinstance(distances, list):
-            print ('distances: ', distances)
-            print ('max: {0} min: {1}'.format(func(radius, 0), func(radius, radius)))
+            #print ('distances: ', distances)
+            #print ('max: {0} min: {1}'.format(func(radius, 0), func(radius, radius)))
             return [func(radius, i) for i in distances]
         else:
             if distances > radius:
@@ -60,7 +60,7 @@ class IntensityFinder(object):
             return self.tree.data[self.tree.query(coord)[1]]
         else:
             dsize = len(self.tree.data)
-            print(np.transpose(self.tree.query(coord, k=10000, distance_upper_bound=radius)[1]))
+            #print(np.transpose(self.tree.query(coord, k=10000, distance_upper_bound=radius)[1]))
             return [self.tree.data[p] for p in filter(lambda x: x < dsize and x >= 0, self.tree.query(coord, k=10000, distance_upper_bound=radius)[1])]
 
     def convert_radius(self, radius):

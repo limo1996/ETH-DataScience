@@ -1,0 +1,209 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% mathematical packages and shortcut definitions for mathematical an scientific
+% reports as well as articles
+% created and copyright by Florian Koch - flkoch@student.ethz.ch
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% packages that are usefull when setting equations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[intlimits,sumlimits]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{commath}
+\usepackage{bbm}
+\usepackage[Smaller]{cancel}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{xstring}
+
+\newcommand*{\circled}[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% theorem environments
+%\newtheorem{name}[counter]{displayname}[numberwithin]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{conjecture}{Conjecture}[section]
+\newtheorem{criterion}{Criterion}[section]
+\newtheorem{algorithm}{Algorithm}[section]
+\newtheorem{approximation}{Approximation}[section]
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{notation}{Notation}[section]
+\newtheorem{condition}{Condition}[section]
+\newtheorem{problem}{Problem}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{exercise}{Exercise}[section]
+\newtheorem{solution}{Solution}[section]
+
+\theoremstyle{remark}
+\newtheorem{acknowledgement}{Acknowledgement}[section]
+\newtheorem{axiom}{Axiom}[section]
+\newtheorem{case}{Case}[section]
+\newtheorem{claim}{Claim}[section]
+\newtheorem{conclusion}{Conclusion}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{summary}{Summary}[section]
+\newtheorem*{aim}{Aim}
+
+\numberwithin{equation}{chapter} % number equations within sections, or change in needed
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% shortcuts sorted in different groups
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% standard identifiers for later redefinition
+\newcommand{\cedille}[1]{\c{#1}}
+
+
+% Sets of Numbers
+\newcommand{\field}[1]{\mathbb{#1}}
+\def\H{\field{H}} % Quaternions
+\def\C{\field{C}} % Complex Numbers
+\def\Cmz{\ensuremath\field{C}\setminus\{0\}}% Complex Numbers without zero
+\def\R{\field{R}} % Real Numbers
+\def\Rmz{\ensuremath\field{R}^{-}_{0}}
+\def\Rpz{\ensuremath\field{R}^{+}_{0}}
+\def\Rm{\ensuremath\field{R}^{-}}
+\def\Rp{\ensuremath\field{R}^{+}}
+\def\Q{\field{Q}} % Rational Numbers
+\def\Qmz{\ensuremath\field{Q}^{-}_{0}}
+\def\Qpz{\ensuremath\field{Q}^{+}_{0}}
+\def\Qm{\ensuremath\field{Q}^{-}}
+\def\Qp{\ensuremath\field{Q}^{+}}
+\def\Z{\field{Z}} % Whole Numbers
+\def\Zpz{\ensuremath\field{Z}^{+}_{0}}
+\def\Zmz{\ensuremath\field{Z}^{-}_{0}}
+\def\Zm{\ensuremath\field{Z}^{-}}
+\def\Zp{\ensuremath\field{Z}^{+}}
+\def\N{\field{N}} % Natural Numbers
+\def\Nz{\ensuremath\field{N}_{0}}
+
+% further sets often used
+\def\D{\field{D}} % Unit disc
+
+
+
+% constants to be set differently
+\def\e{\ensuremath{\mathrm{e}}} % Euler's number
+\renewcommand{\i}{\ensuremath{i\mkern1mu}} % redefine imaginary unitlength
+\renewcommand{\j}{\ensuremath{\mathsf{\bf j}}} % redefine 2nd imaginary unit
+\renewcommand{\k}{\ensuremath{\mathsf{\bf k}}} % redefine 3rd imaginary unit
+
+
+
+% common functions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Real and imaginary parts
+\renewcommand{\Re}[2][0]{\ensuremath{\operatorname{Re}\!{\del[#1]{#2}}}} % redefine Real part function
+\renewcommand{\Im}[2][0]{\ensuremath{\operatorname{Im}\!{\del[#1]{#2}}}} % redefine Imaginary part function
+
+
+% Numerical
+\newcommand{\order}[2][n]{\ensuremath{\mathcal{O}\left(#1^{#2}\right)}} % Order of convergence / remainders
+
+% Matrix functions
+\DeclareMathOperator{\curl}{curl} % Rotation of a vectorfield
+\DeclareMathOperator{\divo}{div} % Divergence of a vectorfield
+\DeclareMathOperator{\grad}{grad} % Gradient of a scalar field
+\DeclareMathOperator{\sinc}{sinc} % Sinc function sinc(x)=sin(x)/x
+
+\newcommand{\Curl}[2][-1]{\ensuremath{\curl\!{\del[#1]{#2}}}}
+\newcommand{\Div}[2][-1]{\ensuremath{\divo\!{\del[#1]{#2}}}}
+
+\newcommand{\Grad}[2][-1]{\ensuremath{\grad\!{\del[#1]{#2}}}}
+
+\newcommand{\Deg}[2][-1]{\ensuremath{\deg\!{\del[#1]{#2}}}} % define degree function as for polynomials
+
+\newcommand{\Det}[2][-1]{\ensuremath{\det\!{\del[#1]{#2}}}}
+\DeclareMathOperator{\tr}{Tr}
+\newcommand{\Tr}[2][-1]{\ensuremath{\tr\!{\del[#1]{#2}}}}
+\newcommand{\Exp}[2][-1]{\ensuremath{\exp\!{\del[#1]{#2}}}}
+\newcommand{\Sin}[2][-1]{\ensuremath{\sin\!{\del[#1]{#2}}}}
+\newcommand{\Cos}[2][-1]{\ensuremath{\cos\!{\del[#1]{#2}}}}
+\newcommand{\Sinc}[2][-1]{\ensuremath{\sinc\!{\del[#1]{#2}}}}
+
+\newcommand{\Arcsin}[2][-1]{\ensuremath{\arcsin\!{\del[#1]{#2}}}}
+\newcommand{\Arccos}[2][-1]{\ensuremath{\cos\!{\del[#1]{#2}}}}
+\newcommand{\Sinh}[2][-1]{\ensuremath{\sinh\!{\del[#1]{#2}}}}
+\newcommand{\Cosh}[2][-1]{\ensuremath{\cosh\!{\del[#1]{#2}}}}
+\newcommand{\Tan}[2][-1]{\ensuremath{\tan\!{\del[#1]{#2}}}}
+\newcommand{\Cot}[2][-1]{\ensuremath{\cot\!{\del[#1]{#2}}}}
+\newcommand{\Arctan}[2][-1]{\ensuremath{\arctan\!{\del[#1]{#2}}}}
+\newcommand{\Tanh}[2][-1]{\ensuremath{\tanh\!{\del[#1]{#2}}}}
+\newcommand{\Coth}[2][-1]{\ensuremath{\coth\!{\del[#1]{#2}}}}
+\newcommand{\Log}[2][-1]{\ensuremath{\log\!{\del[#1]{#2}}}}
+\newcommand{\Lg}[2][-1]{\ensuremath{\lg\!{\del[#1]{#2}}}}
+
+\newcommand{\Ln}[2][-1]{\ensuremath{\ln\!{\del[#1]{#2}}}}
+
+
+
+\newcommand{\Sum}[4][-1]{\ensuremath{\sum_{#2}^{#3}{\del[#1]{#2}}}}
+
+% Balls with \B[radius= \epsilon]{center}
+\newcommand{\B}[2][\epsilon]{\ensuremath{\operatorname{B}_{#1}(#2)}} % ball
+\newcommand{\Bb}[2][\epsilon]{\ensuremath{\partial\!\operatorname{B}_{#1}(#2)}} % boundary of ball
+\newcommand{\Bc}[2][\epsilon]{\ensuremath{\overline{\operatorname{B}}_{#1}(#2)}} % closure of ball
+\newcommand{\Bt}[3][z_0]{\ensuremath{\operatorname{B}_{#2}^{#3}(#1)}} % annulus
+\newcommand{\Btc}[3][z_0]{\ensuremath{\overline{\operatorname{B}}_{#2}^{#3}(#1)}} % closure of the annulus
+
+% derivatives often used
+\newcommand{\p}[2][t]{\ensuremath{\pd{#2}{#1}}} % partial \p[varibale= t]{expression}
+\newcommand{\px}[1]{\p[x]{#1}} % partial with respect to x
+\newcommand{\py}[1]{\p[y]{#1}} % partial with respect to y
+\newcommand{\pz}[1]{\p[z]{#1}} % partial with respect to z
+\newcommand{\pt}[1]{\p[t]{#1}} % partial with respect to t
+\newcommand{\pid}[2][t]{\ensuremath{\partial_{#1}#2}} % partial inline \pid[variable=t]{expression}
+\newcommand{\pix}[1]{\pid[x]{#1}} % partial inline with respect to x
+\newcommand{\piy}[1]{\pid[y]{#1}} % partial inline with respect to y
+\newcommand{\piz}[1]{\pid[z]{#1}} % partial inline with respect to z
+\newcommand{\pit}[1]{\pid[t]{#1}} % partial inline with respect to t
+\newcommand{\dd}[2][]{\ensuremath{\od{#1}{#2}}} % total derivative \dd{expression}{variabel}
+\newcommand{\ddp}[3][]{\ensuremath{\od[#3]{#1}{#2}}} % total higher derivative \ddp{expression}{varibale}{order}
+\newcommand{\dt}{\ensuremath{\dif{t}}} % dt
+\newcommand{\dx}{\ensuremath{\dif{x}}} % dx
+\newcommand{\dy}{\ensuremath{\dif{y}}} % dy
+\newcommand{\dz}{\ensuremath{\dif{z}}} % dz
+\newcommand{\ddd}{\mathop{}\!\mathrm{d}}
+% more shortcuts
+\newcommand{\scp}[2]{\ensuremath{\left\langle#1,#2\right\rangle}} % SCalarProduct \scp{first}{second}
+\newcommand{\sscp}[2]{\ensuremath{\ #1\cdot#2\ }} % Simple SCalarProduct \sscp{first}{second}
+\newcommand{\um}[1]{\ensuremath{\displaystyle\mathbbm{1}_{\!\scalebox{0.5}{\ensuremath{#1}}}}} % UnityMatrix \um{dimension}
+\newcommand{\inv}[1][f]{\ensuremath{\frac{1}{#1}}} % INVerse or reciprocal of its argument
+\newcommand{\conj}[1]{\ensuremath{\overline{#1}}} % complex CONJugate of its argument
+\newcommand{\vect}[1]{\ensuremath{\mathbf{#1}}} % redefinition of vector being printed bold
+
+\newcommand{\degree}{\ensuremath{^{\circ}}}
+\newcommand{\comparison}[2][=]{\mathrel{\overset{\makebox[0pt]{\mbox{\normalfont\tiny\sffamily #2}}}{#1}}}
+\newcommand{\equal}[1]{\comparison{#1}}
+\renewcommand{\c}{\ensuremath{\mathrm{const.}}}
+
+
+% Arrow shortcuts
+\newcommand{\ra}{\ensuremath{\rightarrow}}
+\newcommand{\Ra}{\ensuremath{\Rightarrow}}
+\newcommand{\lora}{\ensuremath{\longrightarrow}}
+\newcommand{\Lora}{\ensuremath{\Longrightarrow}}
+\newcommand{\lra}{\ensuremath{\leftrightarrow}}
+\newcommand{\Lra}{\ensuremath{\Leftrightarrow}}
+\newcommand{\Llra}{\ensuremath{\Longleftrightarrow}}
+
+
+
+
+% Symbols
+\DeclareMathSymbol{\mlq}{\mathord}{operators}{``}
+\DeclareMathSymbol{\mrq}{\mathord}{operators}{`'}
+
+% Custom
+%\newcommand{\labview}{LabView\ensuremath{^{\mathrm{TM}}}}

@@ -1,0 +1,57 @@
+\documentclass[a4paper,twoside,12pt,british,titlepage]{report}
+\usepackage[british]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec, cite, lmodern, graphicx}
+\usepackage[top=2cm,bottom=2cm,inner=3cm,outer=2cm]{geometry}
+\usepackage{fancyhdr, color}
+\input{subfiles/options.tex}
+\usepackage{hyperref}
+\usepackage[english, capitalise]{cleveref}
+\crefname{subequations}{Eqs.}{Eqs.}
+\input{subfiles/info.tex}
+\author{Jakub Lichmann, Philippe Schlattner, Florian Koch}
+\date{\today}
+\begin{document}
+%% Title Page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{alph}
+\input{subfiles/title}
+\clrpage
+% \includepdf{resources/declaration-originality.pdf}\clrpage
+\clrpage\pagenumbering{roman}
+\tableofcontents %Table of contents
+\clrpage
+\pagestyle{main} %Now display headings: headings / fancy / ...
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\pagenumbering{arabic}
+
+\input{chapters/introduction}\clrpage
+\input{chapters/methods}\clrpage
+\input{chapters/analysis}\clrpage
+\input{chapters/discussion}\clrpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% APPENDICES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clrpage
+\appendix
+\pagenumbering{Roman}
+\addtocontents{toc}{\protect\vspace*{\baselineskip}}
+\addtocontents{lof}{\protect\vspace*{\baselineskip}}
+\addtocontents{lot}{\protect\vspace*{\baselineskip}}
+\pagenumbering{roman}
+\thispagestyle{main}
+\markboth{ACKNOWLEDGEMENTS}{ACKNOWLEDGEMENTS}
+\chapter*{Acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+
+
+\clrpage
+\phantomsection
+\appendix\hypertarget{appendix}{}
+\addcontentsline{toc}{chapter}{Bibliography} %'Bibliography' into toc
+\bibliographystyle{plain}
+% \nocite{*} %All Items of the bibliography will be cited, remove this line if that is not wanted.
+\bibliography{subfiles/library} %You need a file 'literature.bib' for this.
+\end{document}

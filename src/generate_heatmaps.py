@@ -6,9 +6,9 @@ from IntensityFinder import IntensityFinder
 
 FOLDER = '../data/prepared/'
 OUT_FOLDER = '../report/contour/'
-FILES = ['illumination.csv', 'sighting_point.csv']
-SEPARATORS = [',', ',']
-COLUMNS = [[2,1], [2,1]]
+FILES = ['illumination.csv', 'sighting_point.csv', 'pedestrian_zone.csv']
+SEPARATORS = [',', ',', ',']
+COLUMNS = [[2,1], [2,1], [2,1]]
 RADIUS = 1000
 
 def main():

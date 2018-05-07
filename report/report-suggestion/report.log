@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 MAY 2018 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 MAY 2018 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,35 +299,33 @@ File: ../images/greenery/Zentrum_path.png Graphic file (type png)
 
 <use ../images/greenery/Zentrum_path.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_path.png used on input line
- 73.
+ 77.
 (pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: Citation `smartCities' on page 1 undefined on input line 84.
-
-
-LaTeX Warning: Citation `googleView' on page 1 undefined on input line 85.
-
-<../images/greenery/Zentrum_greenery.png, id=3, 1710.39pt x 1756.5625pt>
-File: ../images/greenery/Zentrum_greenery.png Graphic file (type png)
-
-<use ../images/greenery/Zentrum_greenery.png>
-Package pdftex.def Info: ../images/greenery/Zentrum_greenery.png used on input 
-line 92.
-(pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
- (./report.bbl)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
- <../images/greenery/Zentrum_path.png>] [2 <../images/greenery/Zentrum_greenery
-.png>]
-(./report.aux)
+ <../images/greenery/Zentrum_path.png>]
+
+LaTeX Warning: Citation `smartCities' on page 2 undefined on input line 97.
+
+
+LaTeX Warning: Citation `googleView' on page 2 undefined on input line 98.
+
+<../images/greenery/Zentrum_greenery.png, id=12, 1710.39pt x 1756.5625pt>
+File: ../images/greenery/Zentrum_greenery.png Graphic file (type png)
+
+<use ../images/greenery/Zentrum_greenery.png>
+Package pdftex.def Info: ../images/greenery/Zentrum_greenery.png used on input 
+line 105.
+(pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
+
+Underfull \vbox (badness 1092) has occurred while \output is active []
+
+
+(./report.bbl) [2 <../images/greenery/Zentrum_greenery.png>] [3
+
+] (./report.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -339,15 +337,15 @@ Here is how much of TeX's memory you used:
  6799 multiletter control sequences out of 15000+600000
  16391 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,35p,564b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,35p,564b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 12918358 bytes).
+Output written on report.pdf (3 pages, 12921090 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

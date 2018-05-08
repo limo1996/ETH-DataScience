@@ -72,7 +72,7 @@ takes into account economic and political environment, infrastructure, public tr
 \section{Background}\label{sec:background}
 TODO: Write about smart cities etc.
 
- \begin{figure}
+ \begin{figure}[htb]
 	\centering
 	\includegraphics[width=\columnwidth]{../images/greenery/Zentrum_path.png}
 	\caption{Locations of question points along the path}
@@ -82,10 +82,22 @@ TODO: Write about smart cities etc.
 \section{Related Work}
 TODO: Cite few similar papers
 
-\section{Data}
+\section{Data}\label{sec:data}
 To begin with, we evaluated data downloaded from the open data initiative of the city of Zurich \cite{ZurichOD}. Furthermore, we used maps from the Geographic Information System of the canton of Zurich GISZH \cite{GISZH} to get an idea of potentially interesting areas.
 These two sources were used, since we believed that data published by institutions of the government is in general more reliable than that published by individuals. In addition, the data is considered to be of better quality and cover more of the area. This initial trust has been partially disappointed by finding quite a few data sets with only few points.
-As we wanted to predict the best living areas within Zurich, we also need data that covers more or less the comlete area of Zurich in order to avoid bias towards certain regions, which are better covered by the data sources. Therefore, we ommited data sets with subjectively too few entries, which we initially wanted to use due to their potential
+
+As we wanted to predict the best living areas within Zurich, we also need data that covers more or less the complete area of Zurich in order to avoid bias towards certain regions, which are better covered by the data sources. Therefore, we ommited data sets with subjectively too few entries, which we initially wanted to use due to their potential. These omitted data sets include the one on air quality, flat prices and traffic counts.
+
+The data we finally used and analysed is composed of data for public street illumination, pedestrian zones, sighing points, zones where driving is prohibited as well as restaurants. These are all sets where the available data is spread across a large part of Zurich and that we figured might be indicative for how much we as students would appreciate living there. This is a highly subjective measure that took us some time to agree amongst ourselves.
+
+The analysis of the data is described in Sec. \ref{sec:predictions}. In addition we inferred the amount of greenery from satellite images as outlined in Sec. \ref{sec:greenery} to evaluate how urban the areas are. Finally we tried to evaluate the predictions by having people walk some of the areas and gather their impression by utilising Smart Agora. The details of the last bit are outlined in Sec. \ref{sec:exp}.
+
+\section{Measure of Attractiveness}\label{sec:attractiveness}
+As we are all students at ETH Zurich, we wanted to map the attractiveness to live in a certain area from the point of view students have. Therefore, access to public transport is important, however walking for up to 15 minutes does not bother us that much. Hence, we did not include stops of public transportation in our analysis, since they are well anough distributed that we found a stop is in wlaking distance to each and every location within Zurich.
+
+On the other hand we did not have access to detailed data on diverse measures. Accordingly we defined spheres of influence for all types of points we used for the analysis, that should represent how far we believe that item will influence how we perceive the area.
+
+This also means that accessibility for example is not that relevant, compared to bars and restaurants. Another factor that is very important to us was the proximity to places we visit frequently. However, this is even more subjective and even in our small group of people we could not identify several points of interest, that are common to all of us except for study related locations.
 
 \section{Greenery Detection}\label{sec:greenery}
 TODO: I will write few sentences about greenery detection and maybe some data mining out of it...
@@ -100,7 +112,7 @@ pictures taken from GSV. With this method they were able to explore greenery ins
 more accurate since it can detect trees shadowed by taller buildings or shelters. However, its precision highly depends on availability of street view and
 algorithms, which are in our view still not accurate enough. That is the reason why we have decided to use the first method.
 
-  \begin{figure}
+\begin{figure}[htb]
  	\centering
  	\includegraphics[width=\columnwidth]{../images/greenery/Zentrum_greenery.png}
  	\caption{Greenery detection in the area of our path.}
@@ -109,12 +121,13 @@ algorithms, which are in our view still not accurate enough. That is the reason 
 
 \indent We have developed python script which does greenery detection similarly to the first approach mentioned above. It detects green pixels and marks them with RGB value (0, 255, 0). Snapshot of selected location was taken from Google maps satellite view which satisfies our quality requirements.  %Such a method is capable of detecting
 
-\section{Urban quality prediction}
+\section{Urban quality prediction}\label{sec:predictions}
 TODO: This should be "core" chapter of our paper. Philippe here you can describe whole procedure of data visualization + correlation matrix etc.
 
 \section{Predictions evaluation}\label{sec:exp}
-TODO: Florian you can write this chapter.. Content should be like we have created questions, locations, why we have pick these locations + photos
-of walking and measured results (table or graph). I can help you with this chapter.
+For evaluating the predictions we derived in the previous section, we chose to let people rate that areas based on their visual impression after walking through the respective part of the city. For this we initially wanted to use Smart Agora, as it allows to pose the questions at various locations.
+
+After setting up some test paths and questions for people to walk, we decided to abandon this approach as the usability for both experimenter and participant is at this stage not acceptable. Some of the improvements we deem neccessary are outlined in Sec. \ref{sec:discussion}.
 
 \section{Discussion}\label{sec:discussion}
 TODO: Discuss possible drawback and ways how to improve them + results and whether we are satisfied with our predictions.

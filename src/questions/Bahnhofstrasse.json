@@ -2761,7 +2761,7 @@
           },
           {
             "id": 6,
-            "Name": "It's very confined and porrly illuminated.",
+            "Name": "It's very confined and poorly illuminated.",
             "Credits": ""
           },
           {
@@ -5330,7 +5330,7 @@
       },
       {
         "id": 4,
-        "Question": "What can zou see from here?",
+        "Question": "What can you see from here?",
         "Type": "checkbox",
         "Longitude": "8.536325",
         "Latitude": "47.374230",
@@ -5377,7 +5377,7 @@
           },
           {
             "id": 3,
-            "Name": "Store for buzing food.",
+            "Name": "Store for buying food.",
             "Credits": ""
           },
           {
@@ -5397,7 +5397,7 @@
           },
           {
             "id": 7,
-            "Name": "A nice flar, that I could live in.",
+            "Name": "A nice flat, that I could live in.",
             "Credits": ""
           }
         ],
@@ -7961,7 +7961,7 @@
       },
       {
         "id": 5,
-        "Question": "Is it likely, zou could currently afford a flat in this area?",
+        "Question": "Is it likely, you could currently afford a flat in this area?",
         "Type": "radio",
         "Longitude": "8.538909",
         "Latitude": "47.376554",

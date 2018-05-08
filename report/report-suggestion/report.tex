@@ -61,13 +61,13 @@ We should do as the last one.
 \end{abstract}
 
 \section{Introduction}\label{sec:intro}
-Huge predicted increase in number of world urban area residents from 54 to 66 percent in 2050 brings many challenges which every successful city has to overcome. Cities of the future has to ensure contiguous improvements of their services despite growing population. Since it is infeasible for a city to excellent in all services, authorities have to reach compliance about the subset of prioritized ones. For instance, this year's Mercer's Quality of Living index 
-%[https://mobilityexchange.mercer.com/Insights/quality-of-living-rankings] 
-takes into account economic and political environment, infrastructure, public transport, health, recreation and housing, to decide which cities are most desirable. 
+Huge predicted increase in number of world urban area residents from 54 to 66 percent in 2050 brings many challenges which every successful city has to overcome. Cities of the future has to ensure contiguous improvements of their services despite growing population. Since it is infeasible for a city to excellent in all services, authorities have to reach compliance about the subset of prioritized ones. For instance, this year's Mercer's Quality of Living index
+%[https://mobilityexchange.mercer.com/Insights/quality-of-living-rankings]
+takes into account economic and political environment, infrastructure, public transport, health, recreation and housing, to decide which cities are most desirable.
 %[https://www.telegraph.co.uk/travel/galleries/The-worlds-most-liveable-cities/]
 
 %There are many factors that influence one's impression of the city. Most notable are availability of public transport, pollution, streets illumination, greenery, pedestrian zones, cycling routes etc. However quality of these factors usually varies within a city. Different districts provide different pros and
-%cons and thus deciding on which part of the city is best for an individual is not trivial. 
+%cons and thus deciding on which part of the city is best for an individual is not trivial.
 
 \section{Background}\label{sec:background}
 TODO: Write about smart cities etc.
@@ -83,23 +83,23 @@ TODO: Write about smart cities etc.
 TODO: Cite few similar papers
 
 \section{Data}
-TODO: I am not convinced with the title but I guess that we need a chapter about data and what does they contain.
-This chapter can be merged with Greenery detection if needed.
-Florian can you write this chapter?
+To begin with, we evaluated data downloaded from the open data initiative of the city of Zurich \cite{ZurichOD}. Furthermore, we used maps from the Geographic Information System of the canton of Zurich GISZH \cite{GISZH} to get an idea of potentially interesting areas.
+These two sources were used, since we believed that data published by institutions of the government is in general more reliable than that published by individuals. In addition, the data is considered to be of better quality and cover more of the area. This initial trust has been partially disappointed by finding quite a few data sets with only few points.
+As we wanted to predict the best living areas within Zurich, we also need data that covers more or less the com
 
 \section{Greenery Detection}\label{sec:greenery}
 TODO: I will write few sentences about greenery detection and maybe some data mining out of it...
 
-\indent Greenery has always played crucial part in the construction of cities. The need for green spaces has been present since ancient times. 
+\indent Greenery has always played crucial part in the construction of cities. The need for green spaces has been present since ancient times.
 City parks are traditional place of recreation and relax for all kinds of people in their spare time. Current trends in architecture brought new ways of
-connection between buildings and greenery such as roofs with green surfaces or terraces with tree pots. These trends are consequence of natural human inclination towards nature. Therefore we have decided to take greenery as a significant indicator of urban quality. 
+connection between buildings and greenery such as roofs with green surfaces or terraces with tree pots. These trends are consequence of natural human inclination towards nature. Therefore we have decided to take greenery as a significant indicator of urban quality.
 
 \indent In order to predict user preferences partially based on greenery, we needed to acquire data about it. There are two basic ways how to detect trees, parks or grass areas on a map. First approach relies on a snapshot of a satellite view \cite{smartCities}. It is simple to implement and yield accurate results. Detection of green areas is via pixels with RGB values that lie within specified intervals. The only crucial requirement in order to obtain precise detection is to find high quality satellite view of the selected area.
 Second approach is to detect greenery from Google Street View (GSV) \cite{googleView}. Xiaojiang Li et. al. detected greenery by examining street
 pictures taken from GSV. With this method they were able to explore greenery inside the cities in great detail. Idea behind second method is in general
 more accurate since it can detect trees shadowed by taller buildings or shelters. However, its precision highly depends on availability of street view and
 algorithms, which are in our view still not accurate enough. That is the reason why we have decided to use the first method.
- 
+
   \begin{figure}
  	\centering
  	\includegraphics[width=\columnwidth]{../images/greenery/Zentrum_greenery.png}
@@ -107,13 +107,13 @@ algorithms, which are in our view still not accurate enough. That is the reason 
  	\label{fig:path_greenery}
  \end{figure}
 
-\indent We have developed python script which does greenery detection similarly to the first approach mentioned above. It detects green pixels and marks them with RGB value (0, 255, 0). Snapshot of selected location was taken from Google maps satellite view which satisfies our quality requirements.  %Such a method is capable of detecting 
- 
+\indent We have developed python script which does greenery detection similarly to the first approach mentioned above. It detects green pixels and marks them with RGB value (0, 255, 0). Snapshot of selected location was taken from Google maps satellite view which satisfies our quality requirements.  %Such a method is capable of detecting
+
 \section{Urban quality prediction}
 TODO: This should be "core" chapter of our paper. Philippe here you can describe whole procedure of data visualization + correlation matrix etc.
 
 \section{Predictions evaluation}\label{sec:exp}
-TODO: Florian you can write this chapter.. Content should be like we have created questions, locations, why we have pick these locations + photos 
+TODO: Florian you can write this chapter.. Content should be like we have created questions, locations, why we have pick these locations + photos
 of walking and measured results (table or graph). I can help you with this chapter.
 
 \section{Discussion}\label{sec:discussion}
@@ -124,7 +124,7 @@ We should do as the last part together with abstract.
 
 
 \bibliographystyle{IEEEbib}
-\bibliography{bibl_conf}
+\bibliography{bibl_conf}pick these locations + photos of walking and measured re-
 
 \newpage
 \section{Appendix}

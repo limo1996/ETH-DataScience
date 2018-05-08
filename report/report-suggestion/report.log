@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  8 MAY 2018 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  8 MAY 2018 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/flkoch/Documents/prog/ETH-DataScience/report/report-suggestion/report
+**/home/flkoch/Documents/prog/ETH-DataScience/report/report-suggestion/report.t
+ex
 
 (/home/flkoch/Documents/prog/ETH-DataScience/report/report-suggestion/report.te
 x
@@ -194,8 +195,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box30
 \@float@everytoks=\toks25
 \@floatcapt=\box31
-)
-No file report.aux.
+) (./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -211,6 +211,7 @@ LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 53.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -304,24 +305,11 @@ Package pdftex.def Info: ../images/greenery/Zentrum_path.png  used on input lin
 e 77. on input line 77.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
  77.
-
-
-LaTeX Warning: Citation `ZurichOD' on page 1 undefined on input line 86.
-
-
-LaTeX Warning: Citation `GISZH' on page 1 undefined on input line 86.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
  <../images/greenery/Zentrum_path.png>]
-
-LaTeX Warning: Citation `smartCities' on page 2 undefined on input line 97.
-
-
-LaTeX Warning: Citation `googleView' on page 2 undefined on input line 98.
-
 <../images/greenery/Zentrum_greenery.png, id=12, 1710.39pt x 1756.5625pt>
 File: ../images/greenery/Zentrum_greenery.png Graphic file (type png)
 <use ../images/greenery/Zentrum_greenery.png>
@@ -329,30 +317,53 @@ Package pdftex.def Info: ../images/greenery/Zentrum_greenery.png  used on input
  line 105. on input line 105.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
  105.
-No file report.bbl.
-[2 <../images/greenery/Zentrum_greenery.png>] [3
 
-] (./report.aux)
+(./report.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+[]\OT1/ptm/m/n/10 ``Zurich open data,'' on-line: https://data.stadt-
+ []
 
-LaTeX Warning: There were undefined references.
+
+Underfull \hbox (badness 1960) in paragraph at lines 8--11
+[]\OT1/ptm/m/n/10 ``Geographic in-for-ma-tion sys-tem of the can-ton of
+ []
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Underfull \hbox (badness 8038) in paragraph at lines 8--11
+\OT1/ptm/m/n/10 Zurich,'' on-line: http://maps.zh.ch/,  Ac-cessed:
+ []
 
- ) 
+
+Underfull \hbox (badness 4242) in paragraph at lines 13--16
+[]\OT1/ptm/m/n/10 D. Griego, V. Buff, E. Hayoz, I. Moise, and
+ []
+
+./report.bbl:22: Misplaced alignment tab character &.
+l.22 \newblock {\em Urban Forestry &
+                                     Urban Greening}, vol. 7, no. 3, pp. 201...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[2 <../images/greenery/Zentrum_greenery.png>]) [3
+
+] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3299 strings out of 492990
- 45615 string characters out of 6135006
- 109441 words of memory out of 5000000
- 6771 multiletter control sequences out of 15000+600000
- 16391 words of font info for 42 fonts, out of 8000000 for 9000
+ 3305 strings out of 492990
+ 45681 string characters out of 6135006
+ 110517 words of memory out of 5000000
+ 6772 multiletter control sequences out of 15000+600000
+ 18075 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,37p,629b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on report.pdf (3 pages, 12915759 bytes).
+ 41i,7n,37p,631b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (3 pages, 12918037 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream

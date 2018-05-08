@@ -7,3 +7,5 @@ src/__pycache__/
 report/Report.*
 !report/*.tex
 !report/*.pdf
+
+src/coordinates.csv

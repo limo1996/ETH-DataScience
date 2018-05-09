@@ -56,11 +56,12 @@ class GreeneryDetector:
     def detectWithCV(self):
         """ Detects both forests and grass areas and returns binary matrix indicating their positions. """
         path = self.path
+        print(self.pixels[0])
         # lower and upper bounds on greenery detection
-        lower_green = np.array([37, 38, 70])
-        upper_green = np.array([85, 255, 200])
-        lower_forest = np.array([101, 38, 70])
-        upper_forest = np.array([110, 255, 200])
+        lower_green = np.array([50, 38, 70])
+        upper_green = np.array([80, 255, 200])
+        lower_forest = np.array([0, 0, 30])
+        upper_forest = np.array([120, 255, 50])
 
         # mask files for forest and green areas detection
         green = 'green_areas.png'

@@ -7,3 +7,9 @@ src/__pycache__/
 report/Report.*
 !report/*.tex
 !report/*.pdf
+
+src/coordinates.csv
+report/contour/illumination.html
+report/contour/sighting_point.html
+report/contour/pedestrian_zone.html
+

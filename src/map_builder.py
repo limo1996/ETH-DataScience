@@ -5,14 +5,15 @@ import IntensityFinder
 from IntensityFinder import IntensityFinder, InfluenceType
 from contour.ContourDrawer import ContourDrawer, Settings, Coordinate
 
-SOURCE = '../data/prepared/illumination.csv'
+SOURCE = '../data/prepared/sighting_point.csv'
 ZURICH_MAP_LOC = "staticmap.jpeg"
-RESULT = '../report/images/illumination.png'
-HEATMAP = '../report/images/illumination_heatmap.png'
-OVERLAY_RESULT = '../report/images/all.png'
+RESULT = '../report/images/sighting_point.png'
+HEATMAP = '../report/images/sighting_point.png'
 RADIUS = 70
+INFLUENCE_TYPE = InfluenceType.ALL_POINTS
 #FUNCTION = IntensityFinder.exponential2
-INFLUENCE_TYPE = InfluenceType.CLOSEST_POINT
+
+OVERLAY_RESULT = '../report/images/all.png'
 TO_OVERLAY = ['../report/images/illumination_heatmap.png', '../report/images/pedestrian_zone_heatmap.png', '../report/images/sighting_point_heatmap.png']
 
 def compute_heatmap(intensity_finder_obj, long_left, long_right, lat_top, lat_bot, image, result_path,  radius, function, influence_type, heatmap_path):
@@ -43,7 +44,7 @@ def compute_heatmap(intensity_finder_obj, long_left, long_right, lat_top, lat_bo
         for j in range(height):
             if InfluenceType.ALL_POINTS == INFLUENCE_TYPE:
                 temp = intensity_finder_obj.get_intensity(Coordinate(lat_top-j*lat_step, long_left+i*long_step), radius, intensity_finder_obj.exponential, influence_type)
-                res = int(255 * sum(temp) / len(temp))
+                res = int(255 * sum(temp) / (len(temp) if (len(temp) > 0) else 1))
             else :
                 res = int(255 * (intensity_finder_obj.get_intensity(Coordinate(lat_top-j*lat_step, long_left+i*long_step), radius, intensity_finder_obj.exponential, influence_type)))
             
@@ -119,8 +120,8 @@ def combine_maps(other_to_overlayy, result_path):
     result.save(result_path)
 
 def compute():
-    #get_map(SOURCE, RESULT, RADIUS, IntensityFinder.exponential2, INFLUENCE_TYPE, HEATMAP)
-    combine_maps(TO_OVERLAY, OVERLAY_RESULT)
+    get_map(SOURCE, RESULT, RADIUS, IntensityFinder.exponential2, INFLUENCE_TYPE, HEATMAP)
+    #combine_maps(TO_OVERLAY, OVERLAY_RESULT)
 
 compute()
 

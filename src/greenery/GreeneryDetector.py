@@ -95,6 +95,29 @@ class GreeneryDetector:
         print('{0}/{1} => {2}% of greenery'.format(counter, len(self.pixels), float(counter / len(self.pixels) * 100)))
         return binary_m
 
+    def detectWithCVSmoothing(self, smooth_factor):
+        """ Performs detectWithCV together with smoothing of returned matrix. """
+        binary_m = self.detectWithCV()
+        for i in range(0, smooth_factor):
+            self.smooth(binary_m)
+        return binary_m
+
+    def smooth(self, matrix):
+        """ Smoothes matrix by one level more. """
+        width, height = matrix.shape
+        for i in range(0, width):
+            for j in range(0, height):
+                maxx = 0
+                if matrix[i,j] == 0:
+                    for ii in range(-1, 2):
+                        for jj in range(-1, 2):
+                            p_i = i + ii
+                            p_j = j + jj
+                            if 0 <= p_i and p_i < width and 0 <= p_j and p_j < height:
+                                if (ii != 0 or jj != 0) and matrix[p_i,p_j] > 0:
+                                    maxx = max(maxx, matrix[p_i,p_j])
+                        matrix[i,j] = float(maxx / 2)
+
     def detectCV(self, path, lower_green, upper_green, out_path):
         """ Detects greenery based on intervals provided as params """
         img = cv.imread(path)

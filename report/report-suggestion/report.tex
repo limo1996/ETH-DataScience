@@ -14,7 +14,6 @@
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 
-%\usepackage{caption}
 \usepackage{subcaption}
 
 
@@ -34,7 +33,7 @@
 % Single address.
 % ---------------
 \name{Jakub Lichman, Philippe Schlattner, Florian Koch}
-\address{Department of Computer Science\\ ETH Zurich\\Zurich, Switzerland}
+\address{Department of Computer Science\\ ETH Zurich\\Zurich, Switzerland\\\\ Email: \{lichmanj, pschlatt, flkoch\}@student.ethz.ch}
 
 % For example:
 % ------------
@@ -67,29 +66,44 @@ We should do as the last one.
 \end{abstract}
 
 \section{Introduction}\label{sec:intro}
-Huge predicted increase in number of world urban area residents from 54 to 66 percent in 2050 brings many challenges 
+Huge predicted increase in the number of world urban area residents from 54 to 66 percent in 2050 brings many challenges 
 which every successful city has to overcome. Cities of the future has to ensure contiguous improvements of their 
 services despite growing population. Since it is infeasible for a city to excellent in all services, 
 authorities have to reach compliance about the subset of prioritized ones. For instance, this year's Mercer's Quality of Living index 
 %[https://mobilityexchange.mercer.com/Insights/quality-of-living-rankings] 
-takes into account economic and political environment, infrastructure, public transport, health, recreation and housing, 
-to decide which cities are most desirable. Based on these factors, the list of most livable cities was constructed. 
+takes into account economic and political environment, infrastructure, public transport, health, recreation and housing 
+to decide which cities are the most desirable. Based on these factors, the list of most livable cities was constructed. 
 However these types of rankings usually generalize the whole city and take average of the all districts which can 
 over or underrate them. In our paper we tried to distinguish urban qualities within a city, concretely in the city of Zürich. 
-Its public data availability enabled us to make interesting predictions about urban qualities of individual city districts 
+Its public data availability enabled us to make interesting predictions about urban qualities of the individual city districts 
 which we lately verified by examining selected places in person. 
 %[https://www.telegraph.co.uk/travel/galleries/The-worlds-most-liveable-cities/]
 
-\indent Our experiment tries to exploit data that are publicly available for the city of Zurüich as well as data that we tried to obtain by ourselves. 
+\indent Our experiment tries to exploit data that are publicly available for the city of Zürich as well as data that we tried to obtain by ourselves. 
 The goal was to create a map of the city with multiple layers where each layer will represent one factor of urban quality. By summing all factors and 
-visualizing them we can obtain an interactive map which visualizes livability of each part of the city. Later we evaluated selected areas with smart
+visualizing them we can obtain an interactive map which visualizes livability of each part of the city. Later we evaluated selected areas with the smart
 Agora platform which enabled us to collect data for validation by walking of these areas.
+
+\indent The main contribution of this paper is to automate reasoning about urban qualities. Nowdays it is done by
+real estate agents which charge big amounts of money for such services. In the future their jobs can be 
+completely automated and so computers will monitore urban qualities and suggest accommodation prices as well as
+provide sets of possible actions to improve quality of life in poorly rated locations.
+
+\mypar{Related work} This paper is mainly based on the previous work of Evangelos Pournaras et al. \ref{smartCities} 
+where internet of things approach is used to obtain citizen's perception of the selected areas of the city of Zürich.
+Paolo Neirotti et al. \ref{smartCities2} in their paper provide comprehensive understanding of the notion of smart city 
+through the elaboration of natural resources and energy, transport and mobility, buildings, living, government, economy
+and people. 
+
+\indent This paper is organized as follows: Section II explains what a smart city is, its history, tools that are used 
+in smart cities and its practical applications in the praxis. Section III describes the data that were used for our 
+experiment and their sources. Section IV defines the criteria by which we will rate the locations inside the Zürich. 
+Section V explains greenery detection process in our approach and section VI describes method of creating quality index 
+map of the city. Section VII evaluates preditions through Smart Agora platform. Finally, Section VIII concludes this 
+paper and outlines future work.
 
 \section{Background}\label{sec:background}
 TODO: Write about smart cities etc.
-
-\section{Related Work}
-TODO: Cite few similar papers
 
 \section{Data}\label{sec:data}
 To begin with, we evaluated data downloaded from the open data initiative of the city of Zurich \cite{ZurichOD}. 
@@ -251,9 +265,6 @@ For evaluating the predictions we derived in the previous section, we chose to l
 \end{figure}
 
 After setting up some test paths and questions for people to walk, we decided to abandon this approach as the usability for both experimenter and participant is at this stage not acceptable. Some of the improvements we deem neccessary are outlined in Sec. \ref{sec:discussion}.
-
-\section{Discussion}\label{sec:discussion}
-TODO: Discuss possible drawback and ways how to improve them + results and whether we are satisfied with our predictions.
 
 \section{Conclusion}\label{sec:conclusion}
 We should do as the last part together with abstract.

@@ -1,19 +1,19 @@
 # Fdb version 3
-["bibtex report"] 1525972559 "report.aux" "report.bbl" "report" 1525972562
+["bibtex report"] 1525992174 "report.aux" "report.bbl" "report" 1525992177
   "./IEEEbib.bst" 1525814535 18193 722479b9378d89fa52b98da9c80233a2 ""
-  "report.aux" 1525972562 2177 5f7c97620592a578979e3cb69a4ef281 ""
+  "report.aux" 1525992177 1992 22d5b5ea4c4e31b5dc15b66949e7722b ""
   "report.bbl.bib" 0 -1 0 ""
   (generated)
-  "report.bbl"
   "report.blg"
-["pdflatex"] 1525972559 "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report-suggestion/report.tex" "report.pdf" "report" 1525972562
+  "report.bbl"
+["pdflatex"] 1525992174 "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report-suggestion/report.tex" "report.pdf" "report" 1525992177
   "../images/greenery/Zentrum_greenery.png" 1525635652 5676531 a9c3e9cee0029736f900fdeef6f39587 ""
   "../images/greenery/Zentrum_path.png" 1525636996 5792480 9f22093775ecd5651903c2220ec6c3bc ""
   "../images/greenery/Zurich.png" 1525884480 1118565 a7ac8250b61c70bdeb826a3b3f2d34bb ""
   "../images/greenery/Zurich_greenery.png" 1525889533 1104145 d6cff6e0334f4ffd519f009e401afe48 ""
   "../images/greenery/forests.png" 1525889533 27552 08307cde950fe46c57a86f01fc2f5ce8 ""
   "../images/greenery/green_areas.png" 1525889533 39697 ef22ff9c3051e9230c21eb9455c5c2ed ""
-  "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report-suggestion/report.tex" 1525972558 14664 8f7c66a5c9639d42e57cf5bc92488cb6 ""
+  "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report-suggestion/report.tex" 1525992174 16033 3c8a366a5d8a0eb0633be54b12270bcd ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -99,6 +99,7 @@
   "/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty" 1480098836 12095 5337833c991d80788a43d3ce26bd1c46 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty" 1480098836 7075 2fe3d848bba95f139de11ded085e74aa ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty" 1480098836 22417 1d9df1eb66848aa31b18a593099cf45c ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd" 1480098837 576 95c2c0baea9c719a4be29a3d4122498b ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1480098837 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty" 1523134385 13312 20cb94dd6e4c9ea3a77ebbd18724e5c4 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty" 1523050425 7145 01b7b53bf69f5c0f63803657eb51217f ""
@@ -108,9 +109,9 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "report.aux" 1525972562 2177 5f7c97620592a578979e3cb69a4ef281 ""
+  "report.aux" 1525992177 1992 22d5b5ea4c4e31b5dc15b66949e7722b ""
   "report.bbl" 0 -1 0 "bibtex report"
-  "report.tex" 1525972558 14664 8f7c66a5c9639d42e57cf5bc92488cb6 ""
+  "report.tex" 1525992174 16033 3c8a366a5d8a0eb0633be54b12270bcd ""
   "spconf.sty" 1512508356 8342 9170db695604ae6d3ae86655c87446fa ""
   (generated)
   "report.aux"

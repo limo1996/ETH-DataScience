@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  10 MAY 2018 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  11 MAY 2018 00:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,19 +266,19 @@ Package caption Info: float package is loaded.
 ) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 58.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -355,25 +355,38 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
-LaTeX Font Info:    Try loading font information for U+msa on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 62.
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 61.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 
 
-LaTeX Warning: Citation `ZurichOD' on page 1 undefined on input line 95.
+LaTeX Warning: Reference `smartCities' on page 1 undefined on input line 92.
 
 
-LaTeX Warning: Citation `GISZH' on page 1 undefined on input line 96.
+LaTeX Warning: Reference `smartCities2' on page 1 undefined on input line 94.
+
+
+LaTeX Warning: Citation `ZurichOD' on page 1 undefined on input line 109.
+
+
+LaTeX Warning: Citation `GISZH' on page 1 undefined on input line 110.
 
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -381,64 +394,71 @@ LaTeX Warning: Citation `GISZH' on page 1 undefined on input line 96.
 
 ]
 
-LaTeX Warning: Citation `smartCities' on page 2 undefined on input line 132.
+LaTeX Warning: Citation `smartCities' on page 2 undefined on input line 146.
 
 
-LaTeX Warning: Citation `googleView' on page 2 undefined on input line 136.
+LaTeX Warning: Citation `googleView' on page 2 undefined on input line 150.
 
 
-Overfull \hbox (3.11716pt too wide) in paragraph at lines 141--150
+Overfull \hbox (3.11716pt too wide) in paragraph at lines 155--164
 \OT1/ptm/m/n/10 ery de-tec-tion sim-i-larly to the first ap-proach men-tioned a
 bove.
  []
 
-<../images/greenery/forests.png, id=9, 642.4pt x 642.4pt>
+<../images/greenery/forests.png, id=10, 642.4pt x 642.4pt>
 File: ../images/greenery/forests.png Graphic file (type png)
 <use ../images/greenery/forests.png>
-Package pdftex.def Info: ../images/greenery/forests.png  used on input line 155
+Package pdftex.def Info: ../images/greenery/forests.png  used on input line 169
 .
 (pdftex.def)             Requested size: 104.06618pt x 104.06038pt.
-<../images/greenery/green_areas.png, id=10, 642.4pt x 642.4pt>
+<../images/greenery/green_areas.png, id=11, 642.4pt x 642.4pt>
 File: ../images/greenery/green_areas.png Graphic file (type png)
 <use ../images/greenery/green_areas.png>
 Package pdftex.def Info: ../images/greenery/green_areas.png  used on input line
- 160.
+ 174.
 (pdftex.def)             Requested size: 104.06618pt x 104.06038pt.
-<../images/greenery/Zurich.png, id=11, 642.4pt x 642.4pt>
+<../images/greenery/Zurich.png, id=12, 642.4pt x 642.4pt>
 File: ../images/greenery/Zurich.png Graphic file (type png)
 <use ../images/greenery/Zurich.png>
-Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 166.
+Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 180.
 
 (pdftex.def)             Requested size: 104.06618pt x 104.06038pt.
-<../images/greenery/Zurich_greenery.png, id=13, 642.4pt x 642.4pt>
+<../images/greenery/Zurich_greenery.png, id=14, 642.4pt x 642.4pt>
 File: ../images/greenery/Zurich_greenery.png Graphic file (type png)
 <use ../images/greenery/Zurich_greenery.png>
 Package pdftex.def Info: ../images/greenery/Zurich_greenery.png  used on input 
-line 171.
+line 185.
 (pdftex.def)             Requested size: 104.06618pt x 104.06038pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
-[2 <../images/greenery/forests.png (PNG copy)> <../images/greenery/green_areas.
-png (PNG copy)> <../images/greenery/Zurich.png> <../images/greenery/Zurich_gree
-nery.png>]
-<../images/greenery/Zentrum_greenery.png, id=24, 1710.39pt x 1756.5625pt>
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<../images/greenery/Zentrum_greenery.png, id=22, 1710.39pt x 1756.5625pt>
 File: ../images/greenery/Zentrum_greenery.png Graphic file (type png)
 <use ../images/greenery/Zentrum_greenery.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_greenery.png  used on input
- line 241.
+ line 255.
 (pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
-<../images/greenery/Zentrum_path.png, id=25, 855.195pt x 878.28125pt>
+<../images/greenery/Zentrum_path.png, id=23, 855.195pt x 878.28125pt>
 File: ../images/greenery/Zentrum_path.png Graphic file (type png)
 <use ../images/greenery/Zentrum_path.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_path.png  used on input lin
-e 248.
+e 262.
 (pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
 
+
+LaTeX Warning: Reference `sec:discussion' on page 3 undefined on input line 267
+.
+
+[3 <../images/greenery/forests.png (PNG copy)> <../images/greenery/green_areas.
+png (PNG copy)> <../images/greenery/Zurich.png> <../images/greenery/Zurich_gree
+nery.png> <../images/greenery/Zentrum_greenery.png>]
 No file report.bbl.
-[3 <../images/greenery/Zentrum_greenery.png>] [4
+[4
 
  <../images/greenery/Zentrum_path.png>] (./report.aux)
 
@@ -446,10 +466,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5242 strings out of 492649
- 79230 string characters out of 6129622
- 154380 words of memory out of 5000000
- 9004 multiletter control sequences out of 15000+600000
+ 5262 strings out of 492649
+ 79580 string characters out of 6129622
+ 152425 words of memory out of 5000000
+ 9021 multiletter control sequences out of 15000+600000
  26738 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,20n,94p,399b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -462,7 +482,7 @@ ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf
 -dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (4 pages, 14475088 bytes).
+Output written on report.pdf (4 pages, 14476885 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream

@@ -170,6 +170,8 @@ INPUT ../images/greenery/Zurich_greenery.png
 INPUT ../images/greenery/Zurich_greenery.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
@@ -177,8 +179,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT ../images/greenery/Zentrum_greenery.png
 INPUT ../images/greenery/Zentrum_greenery.png
 INPUT ../images/greenery/Zentrum_greenery.png

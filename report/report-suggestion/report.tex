@@ -124,26 +124,29 @@ small group of people we could not identify several points of interest, that are
 
 \section{Greenery Detection}\label{sec:greenery}
 \indent Greenery has always played crucial part in the construction of cities. The need for green spaces has been present since ancient times.
-City parks are traditional place of recreation and relax for all kinds of people in their spare time. Current trends in architecture brought new ways of
+City parks are traditional place of recreation and relax for all kinds of people in their spare time. Current trends in the architecture brought new ways of
 connecting buildings and greenery such as roofs with green surfaces or terraces with tree pots. These trends are consequence of natural 
 human inclination towards nature. Therefore we have decided to take greenery as a significant indicator of urban quality.
 
-\indent In order to predict user preferences partially based on greenery, we needed to acquire data about it. There are two basic ways how to detect trees, 
+\indent In order to predict user preferences partially based on a greenery, we needed to acquire data about it. There are two basic ways of detecting trees, 
 parks or grass areas on a map. First approach relies on a snapshot of a satellite view \cite{smartCities}. It is simple to implement and yields accurate results. 
-Detection of green areas is via pixels with RGB values that lie within specified intervals. The only crucial requirement in order to obtain precise detection 
-is to find high quality satellite view of the selected area. 
-Second approach is to detect greenery from Google Street View (GSV) \cite{googleView}. Xiaojiang Li et. al. detected greenery by examining street
-pictures taken from GSV. With this method they were able to explore greenery inside the cities in great detail. Idea behind second method is in general
+Detection of green areas is via pixels with RGB values that lie within a specified intervals. The only crucial requirement in order to obtain precise detection 
+is to find high quality satellite view of the selected area which in our case was taken from the Google maps satellite view.
+
+\indent Second approach is to detect greenery from the Google Street View (GSV) \cite{googleView}. Xiaojiang Li et. al. detected greenery by examining street
+pictures taken from GSV. With this method they were able to explore greenery inside the cities in a great detail. Idea behind the second method is in general
 more accurate since it can detect trees shadowed by taller buildings or shelters. However, its precision highly depends on availability of street view and
 algorithms, which are in our view still not accurate enough. That is the reason why we have decided to use the first method.
 
-\indent We developed the python script which does greenery detection similarly to the first approach mentioned above. 
+\indent We have developed the python script which does greenery detection similarly to the first approach mentioned above. 
 Firstly, we did the transformation of RBGA pixel format into HSV one where detection of color spectrum is more accurate.
-However during searching for the right green space we encountered few issues. Detection of grasslands together 
+However during searching for the accurate green space range we encountered few issues. Detection of grasslands together 
 with forests was infeasible within a single interval. While grasslands are pixels of a bright green, forests are 
 the ones with a very dark one together with a dark grey in the locations where one tree shadows the other. 
 Therefore we had to distinguish between them and thus do two separate detections. Combination of them then 
-produced desired result. Detection of forests, grasslands and their combination can be seen in the Figure~\ref{fig:ZurichGreenery}
+produced desired result. Detection of forests, grasslands and their combination can be seen in the Figure~\ref{fig:ZurichGreenery}.
+Detected locations are marked with the RGB value (0, 200, 0) which is solid green. Furthermore our method computes intensity matrix 
+which indicates influence of the detected greenery on every place within the city of Zürich.
 
 \begin{figure}
     \centering
@@ -173,9 +176,7 @@ produced desired result. Detection of forests, grasslands and their combination 
     \label{fig:ZurichGreenery}
 \end{figure}
 
-Detected locations are marked with the RGB value (0, 200, 0) which is solid green. Furthermore our method computes intensity matrix which indicates influence
-of the detected greenery on every place within the city of Zürich. Our approch firstly produces binary matrix $B$ of the image $P$ with greenery
-locations $G$ such that 
+\indent Our approch firstly produces binary matrix $B$ of the image $P$ with greenery locations $G$ such that 
 \newline
 \begin{align*}
 B_{i,j} = \begin{cases} 1 & \text{if } P_{i,j} \in G\\
@@ -183,8 +184,12 @@ B_{i,j} = \begin{cases} 1 & \text{if } P_{i,j} \in G\\
 \end{cases}
 \end{align*}
 \newline
-In the second phase we perform "smoothing" which in every iteration visits every entry in the matrix and checks all neighbouring pixels, 
-finds maximum of them and assigns its half to the current pixel. More formally:
+In the second phase we perform so called "smoothing" of the greenery edges. After the first phase where we have obtained matrix $B$,
+we now have to compute influence of the greenery on the pixels without it i.e. the ones with the value 0. The reason why it is needed is 
+because inhabitans do not live in the forests or on the meadows but rather takes profit from living close to them. Therefore we have 
+to "influence" pixels that are in the close neighbourhood with the greenery ones. Our algorithm is iterative and so in every iteration 
+visits every entry in the matrix and checks all neighbouring pixels, finds maximum of them and assigns its half to the current one. 
+The method can be more formally defined as in Algorithm~\ref{smooth}.
 
 \begin{algorithm}
     \caption{Smoothing}\label{smooth}
@@ -200,8 +205,9 @@ finds maximum of them and assigns its half to the current pixel. More formally:
     \end{algorithmic}
     \end{algorithm}
     
-We can see the effect of Smoothing~\ref{smooth} on Matrix~\ref{eq:MatA} after 2 iterations
-in Matrix~\ref{eq:MatB}. Remaining $0$ entries would be replaces $0.125$ after third iteration.
+The effect of the smoothing Algorithm~\ref{smooth} after 2 iterations on the Matrix~\ref{eq:MatA} 
+can be seen in the Matrix~\ref{eq:MatB}. Remaining $0$ entries would be replaced by $0.125$ after 
+the third iteration.
 
 \begin{equation}
 \begin{pmatrix}
@@ -223,7 +229,6 @@ in Matrix~\ref{eq:MatB}. Remaining $0$ entries would be replaces $0.125$ after t
 \end{pmatrix}
 \label{eq:MatB}
 \end{equation}
-Snapshot of selected location was taken from Google maps satellite view.
 
 \section{Urban quality prediction}\label{sec:predictions}
 TODO: This should be "core" chapter of our paper. Philippe here you can describe whole procedure of data visualization + correlation matrix etc.

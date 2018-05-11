@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  11 MAY 2018 10:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  11 MAY 2018 10:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -260,19 +260,19 @@ Package caption Info: float package is loaded.
 ) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 66.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -348,26 +348,26 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
-LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+LaTeX Font Info:    Try loading font information for U+msa on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+LaTeX Font Info:    Try loading font information for U+msb on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 61.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -376,7 +376,7 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
 
-LaTeX Warning: Citation `smartCities2' on page 1 undefined on input line 94.
+LaTeX Warning: Citation `smartCities2' on page 1 undefined on input line 102.
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
@@ -388,7 +388,7 @@ Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Overfull \hbox (3.11716pt too wide) in paragraph at lines 155--164
+Overfull \hbox (3.11716pt too wide) in paragraph at lines 163--172
 \OT1/ptm/m/n/10 ery de-tec-tion sim-i-larly to the first ap-proach men-tioned a
 bove.
  []
@@ -396,24 +396,24 @@ bove.
 <../images/greenery/forests.png, id=10, 642.4pt x 642.4pt>
 File: ../images/greenery/forests.png Graphic file (type png)
 <use ../images/greenery/forests.png>
-Package pdftex.def Info: ../images/greenery/forests.png  used on input line 169
-. on input line 169.
+Package pdftex.def Info: ../images/greenery/forests.png  used on input line 177
+. on input line 177.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 169.
+e 177.
 <../images/greenery/green_areas.png, id=11, 642.4pt x 642.4pt>
 File: ../images/greenery/green_areas.png Graphic file (type png)
 <use ../images/greenery/green_areas.png>
 Package pdftex.def Info: ../images/greenery/green_areas.png  used on input line
- 174. on input line 174.
+ 182. on input line 182.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 174.
+e 182.
 <../images/greenery/Zurich.png, id=12, 642.4pt x 642.4pt>
 File: ../images/greenery/Zurich.png Graphic file (type png)
 <use ../images/greenery/Zurich.png>
-Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 180.
- on input line 180.
+Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 188.
+ on input line 188.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 180.
+e 188.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -422,15 +422,15 @@ Missing character: There is no ¼ in font ptmr7t!
 File: ../images/greenery/Zurich_greenery.png Graphic file (type png)
 <use ../images/greenery/Zurich_greenery.png>
 Package pdftex.def Info: ../images/greenery/Zurich_greenery.png  used on input 
-line 185. on input line 185.
+line 193. on input line 193.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 185.
+e 193.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 
  []
 
@@ -441,21 +441,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ../images/greenery/Zentrum_greenery.png Graphic file (type png)
 <use ../images/greenery/Zentrum_greenery.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_greenery.png  used on input
- line 255. on input line 255.
+ line 263. on input line 263.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
- 255.
+ 263.
 <../images/greenery/Zentrum_path.png, id=23, 855.195pt x 878.28125pt>
 File: ../images/greenery/Zentrum_path.png Graphic file (type png)
 <use ../images/greenery/Zentrum_path.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_path.png  used on input lin
-e 262. on input line 262.
+e 270. on input line 270.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
- 262.
+ 270.
  [3 <../images/greenery/forests.png (PNG copy)> <../images/greenery/green_areas
 .png (PNG copy)> <../images/greenery/Zurich.png> <../images/greenery/Zurich_gre
 enery.png> <../images/greenery/Zentrum_greenery.png>]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 271.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 279.
  (./report.bbl
 Underfull \hbox (badness 4242) in paragraph at lines 4--7
 []\OT1/ptm/m/n/10 D. Griego, V. Buff, E. Hayoz, I. Moise, and
@@ -496,7 +496,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  5057 strings out of 492990
  75384 string characters out of 6135006
- 143220 words of memory out of 5000000
+ 143314 words of memory out of 5000000
  8489 multiletter control sequences out of 15000+600000
  26738 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -509,7 +509,7 @@ type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (5 pages, 14480571 bytes).
+Output written on report.pdf (5 pages, 14480602 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

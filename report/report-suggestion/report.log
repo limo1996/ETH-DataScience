@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  11 MAY 2018 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  11 MAY 2018 10:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -372,14 +372,11 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-
-
-LaTeX Warning: Reference `smartCities' on page 1 undefined on input line 92.
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-LaTeX Warning: Reference `smartCities2' on page 1 undefined on input line 94.
+
+LaTeX Warning: Citation `smartCities2' on page 1 undefined on input line 94.
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
@@ -460,152 +457,27 @@ enery.png> <../images/greenery/Zentrum_greenery.png>]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 271.
  (./report.bbl
-
-./report.bbl:4: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \bibitem{ZurichOD}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Underfull \hbox (badness 4242) in paragraph at lines 4--7
+[]\OT1/ptm/m/n/10 D. Griego, V. Buff, E. Hayoz, I. Moise, and
+ []
 
 
-./report.bbl:4: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \bibitem{ZurichOD}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+[]\OT1/ptm/m/n/10 ``Zurich open data,'' on-line: https://data.stadt-
+ []
 
 
-./report.bbl:4: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \bibitem{ZurichOD}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Underfull \hbox (badness 1960) in paragraph at lines 13--16
+[]\OT1/ptm/m/n/10 ``Geographic in-for-ma-tion sys-tem of the can-ton of
+ []
 
 
-./report.bbl:8: LaTeX Error: Something's wrong--perhaps a missing \item.
+Underfull \hbox (badness 8038) in paragraph at lines 13--16
+\OT1/ptm/m/n/10 Zurich,'' on-line: http://maps.zh.ch/,  Ac-cessed:
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \bibitem{GISZH}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.bbl:8: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \bibitem{GISZH}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.bbl:8: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \bibitem{GISZH}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.bbl:15: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \bibitem{smartCities}
-                          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.bbl:15: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \bibitem{smartCities}
-                          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.bbl:15: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \bibitem{smartCities}
-                          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.bbl:20: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \bibitem{googleView}
-                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.bbl:20: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \bibitem{googleView}
-                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.bbl:20: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \bibitem{googleView}
-                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./report.bbl:30: Misplaced alignment tab character &.
-l.30 \newblock {\em Urban Forestry &
+./report.bbl:22: Misplaced alignment tab character &.
+l.22 \newblock {\em Urban Forestry &
                                      Urban Greening}, vol. 7, no. 3, pp. 201...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -614,71 +486,21 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-
-./report.bbl:33: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \end{thebibliography}
-                          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--33
-\OT1/ptm/m/n/10 <<<<<<< HEAD``Zurich open data,'' on-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--33
-\OT1/ptm/m/n/10 line: https://data.stadt-zuerich.ch/,  Ac-cessed:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--33
-\OT1/ptm/m/n/10 08.05.2018. []``Geographic in-for-ma-tion sys-tem of
- []
-
-
-Underfull \hbox (badness 3746) in paragraph at lines 3--33
-\OT1/ptm/m/n/10 the can-ton of Zurich,'' on-line: http://maps.zh.ch/,
- []
-
-
-Underfull \hbox (badness 7963) in paragraph at lines 3--33
-\OT1/ptm/m/n/10 Ac-cessed: 08.05.2018. ======= >>>>>>> mas-
- []
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 3--33
-\OT1/ptm/m/n/10 ter []D. Griego, V. Buff, E. Hayoz, I. Moise, and
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 3--33
-\OT1/ptm/m/n/10 Weix-ing Zhang Xi-ao-jiang Li, Chuan-rong Zhanga,
- []
-
 ) [4 <../images/greenery/Zentrum_path.png>] [5
 
 ] (./report.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 5058 strings out of 492990
- 75397 string characters out of 6135006
+ 5057 strings out of 492990
+ 75384 string characters out of 6135006
  143220 words of memory out of 5000000
- 8490 multiletter control sequences out of 15000+600000
+ 8489 multiletter control sequences out of 15000+600000
  26738 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,20n,94p,606b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,20n,94p,608b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -687,7 +509,7 @@ type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (5 pages, 14481059 bytes).
+Output written on report.pdf (5 pages, 14480571 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

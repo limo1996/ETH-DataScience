@@ -5,9 +5,31 @@ D.~Griego, V.~Buff, E.~Hayoz, I.~Moise, and E.~Pournaras,
 \newblock ``Sensing and mining urban qualities in smart cities,''
 \newblock pp. 1004--1011, March 2017.
 
+\bibitem{smartCities2}
+Paolo Neirotti, Alberto De~Marco, Anna~Corinna Cagliano, Giulio Mangano, and
+  Francesco Scorrano,
+\newblock ``Current trends in {S}mart {C}ity initiatives: {S}ome stylised
+  facts,''
+\newblock vol. 38, pp. 25–36, 06 2014.
+
+\bibitem{pollution}
+Premanjali~Rai Kunwar~P.Singh, Shikha~Gupta,
+\newblock ``Identifying pollution sources and predicting urban air quality
+  using ensemble learning methods,''
+\newblock {\em Atmospheric Environment}, vol. 80, no. 12, pp. 426--437, 2013.
+
+\bibitem{ZurichOD}
+``Zurich open data,'' online:~https://data.stadt-zuerich.ch/,
+\newblock Accessed: 08.05.2018.
+
+\bibitem{GISZH}
+``Geographic information system of the canton of {Zurich},''
+  online:~http://maps.zh.ch/,
+\newblock Accessed: 08.05.2018.
+
 \bibitem{googleView}
-Weidong Li Robert Ricard Qingyan Meng Weixing~Zhang Xiaojiang~Li,
-  Chuanrong~Zhanga,
+Xiaojiang Li, Chuanrong Zhanga, Weidong Li, Robert Ricard, Qingyan Meng, and
+  Weixing Zhang,
 \newblock ``Assessing street-level urban greenery using google street view and
   a modified green view index,''
 \newblock {\em Urban Forestry & Urban Greening}, vol. 7, no. 3, pp. 201--215,

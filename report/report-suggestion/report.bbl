@@ -5,6 +5,18 @@ D.~Griego, V.~Buff, E.~Hayoz, I.~Moise, and E.~Pournaras,
 \newblock ``Sensing and mining urban qualities in smart cities,''
 \newblock pp. 1004--1011, March 2017.
 
+\bibitem{smartCities2}
+Anna Corinna Cagliano Giulio Mangano Francesco~Scorrano Paolo~Neirotti, Alberto
+  De~Marco,
+\newblock ``Current trends in smart city initiatives: Some stylised facts,''
+\newblock {\em Cities}, vol. 38, no. 12, pp. 25--36, 2013.
+
+\bibitem{pollution}
+Premanjali~Rai Kunwar~P.Singh, Shikha~Gupta,
+\newblock ``Identifying pollution sources and predicting urban air quality
+  using ensemble learning methods,''
+\newblock {\em Atmospheric Environment}, vol. 80, no. 12, pp. 426--437, 2013.
+
 \bibitem{ZurichOD}
 ``Zurich open data,'' online:~https://data.stadt-zuerich.ch/,
 \newblock Accessed: 08.05.2018.

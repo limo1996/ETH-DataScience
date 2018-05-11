@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  11 MAY 2018 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  11 MAY 2018 10:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -374,21 +374,19 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-
-
-LaTeX Warning: Citation `smartCities2' on page 1 undefined on input line 102.
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Overfull \hbox (3.11716pt too wide) in paragraph at lines 163--172
+Overfull \hbox (3.11716pt too wide) in paragraph at lines 165--174
 \OT1/ptm/m/n/10 ery de-tec-tion sim-i-larly to the first ap-proach men-tioned a
 bove.
  []
@@ -396,24 +394,24 @@ bove.
 <../images/greenery/forests.png, id=10, 642.4pt x 642.4pt>
 File: ../images/greenery/forests.png Graphic file (type png)
 <use ../images/greenery/forests.png>
-Package pdftex.def Info: ../images/greenery/forests.png  used on input line 177
-. on input line 177.
+Package pdftex.def Info: ../images/greenery/forests.png  used on input line 179
+. on input line 179.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 177.
+e 179.
 <../images/greenery/green_areas.png, id=11, 642.4pt x 642.4pt>
 File: ../images/greenery/green_areas.png Graphic file (type png)
 <use ../images/greenery/green_areas.png>
 Package pdftex.def Info: ../images/greenery/green_areas.png  used on input line
- 182. on input line 182.
+ 184. on input line 184.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 182.
+e 184.
 <../images/greenery/Zurich.png, id=12, 642.4pt x 642.4pt>
 File: ../images/greenery/Zurich.png Graphic file (type png)
 <use ../images/greenery/Zurich.png>
-Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 188.
- on input line 188.
+Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 190.
+ on input line 190.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 188.
+e 190.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -422,62 +420,69 @@ Missing character: There is no ¼ in font ptmr7t!
 File: ../images/greenery/Zurich_greenery.png Graphic file (type png)
 <use ../images/greenery/Zurich_greenery.png>
 Package pdftex.def Info: ../images/greenery/Zurich_greenery.png  used on input 
-line 193. on input line 193.
+line 195. on input line 195.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 193.
+e 195.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<../images/greenery/Zentrum_greenery.png, id=22, 1710.39pt x 1756.5625pt>
+Underfull \vbox (badness 5667) has occurred while \output is active []
+
+ [2]
+<../images/greenery/Zentrum_greenery.png, id=19, 1710.39pt x 1756.5625pt>
 File: ../images/greenery/Zentrum_greenery.png Graphic file (type png)
 <use ../images/greenery/Zentrum_greenery.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_greenery.png  used on input
- line 263. on input line 263.
+ line 265. on input line 265.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
- 263.
-<../images/greenery/Zentrum_path.png, id=23, 855.195pt x 878.28125pt>
+ 265.
+<../images/greenery/Zentrum_path.png, id=20, 855.195pt x 878.28125pt>
 File: ../images/greenery/Zentrum_path.png Graphic file (type png)
 <use ../images/greenery/Zentrum_path.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_path.png  used on input lin
-e 270. on input line 270.
+e 272. on input line 272.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
- 270.
- [3 <../images/greenery/forests.png (PNG copy)> <../images/greenery/green_areas
-.png (PNG copy)> <../images/greenery/Zurich.png> <../images/greenery/Zurich_gre
-enery.png> <../images/greenery/Zentrum_greenery.png>]
+ 272.
+
+[3 <../images/greenery/forests.png (PNG copy)> <../images/greenery/green_areas.
+png (PNG copy)> <../images/greenery/Zurich.png> <../images/greenery/Zurich_gree
+nery.png> <../images/greenery/Zentrum_greenery.png>]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 279.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 281.
  (./report.bbl
 Underfull \hbox (badness 4242) in paragraph at lines 4--7
 []\OT1/ptm/m/n/10 D. Griego, V. Buff, E. Hayoz, I. Moise, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
-[]\OT1/ptm/m/n/10 ``Zurich open data,'' on-line: https://data.stadt-
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+[]\OT1/ptm/m/n/10 Anna Corinna Cagliano Giulio Mangano
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 13--16
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+[]\OT1/ptm/m/n/10 ``Zurich open data,'' on-line: https://data.stadt-
+ []
+
+[4 <../images/greenery/Zentrum_path.png>]
+Underfull \hbox (badness 1960) in paragraph at lines 25--28
 []\OT1/ptm/m/n/10 ``Geographic in-for-ma-tion sys-tem of the can-ton of
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 13--16
+Underfull \hbox (badness 8038) in paragraph at lines 25--28
 \OT1/ptm/m/n/10 Zurich,'' on-line: http://maps.zh.ch/,  Ac-cessed:
  []
 
-./report.bbl:22: Misplaced alignment tab character &.
-l.22 \newblock {\em Urban Forestry &
+./report.bbl:34: Misplaced alignment tab character &.
+l.34 \newblock {\em Urban Forestry &
                                      Urban Greening}, vol. 7, no. 3, pp. 201...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -486,30 +491,27 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) [4 <../images/greenery/Zentrum_path.png>] [5
+) [5
 
-] (./report.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (./report.aux) ) 
 Here is how much of TeX's memory you used:
  5057 strings out of 492990
- 75384 string characters out of 6135006
- 143314 words of memory out of 5000000
+ 75379 string characters out of 6135006
+ 146312 words of memory out of 5000000
  8489 multiletter control sequences out of 15000+600000
  26738 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,20n,94p,608b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (5 pages, 14480602 bytes).
+ 59i,20n,94p,608b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on report.pdf (5 pages, 14481524 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

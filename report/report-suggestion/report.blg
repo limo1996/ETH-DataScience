@@ -5,47 +5,54 @@ The style file: IEEEbib.bst
 Database file #1: bibl_conf.bib.bib
 Warning--string name "june" is undefined
 --line 179 of file bibl_conf.bib.bib
-Warning--I didn't find a database entry for "smartCities2"
+Warning--string name "august" is undefined
+--line 221 of file bibl_conf.bib.bib
+Warning--string name "december" is undefined
+--line 251 of file bibl_conf.bib.bib
 Warning--empty journal in smartCities
-You've used 4 entries,
+Too many commas in name 1 of "Paolo Neirotti, Alberto De Marco, Anna Corinna Cagliano, Giulio Mangano, Francesco Scorrano" for entry smartCities2
+while executing---line 1012 of file IEEEbib.bst
+Too many commas in name 1 of "Paolo Neirotti, Alberto De Marco, Anna Corinna Cagliano, Giulio Mangano, Francesco Scorrano" for entry smartCities2
+while executing---line 1012 of file IEEEbib.bst
+You've used 6 entries,
             1838 wiz_defined-function locations,
-            484 strings with 4269 characters,
-and the built_in function-call counts, 930 in all, are:
-= -- 83
-> -- 39
+            497 strings with 4619 characters,
+and the built_in function-call counts, 1328 in all, are:
+= -- 121
+> -- 47
 < -- 1
-+ -- 15
-- -- 11
-* -- 68
-:= -- 133
-add.period$ -- 4
-call.type$ -- 4
-change.case$ -- 4
++ -- 19
+- -- 13
+* -- 104
+:= -- 197
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 37
-empty$ -- 92
-format.name$ -- 11
-if$ -- 216
+cite$ -- 7
+duplicate$ -- 53
+empty$ -- 136
+format.name$ -- 13
+if$ -- 306
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 2
-newline$ -- 21
-num.names$ -- 2
-pop$ -- 21
+int.to.str$ -- 6
+missing$ -- 4
+newline$ -- 31
+num.names$ -- 4
+pop$ -- 23
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 27
+skip$ -- 29
 stack$ -- 0
-substring$ -- 61
-swap$ -- 14
+substring$ -- 97
+swap$ -- 16
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 6
-width$ -- 5
-write$ -- 41
-(There were 3 warnings)
+while$ -- 10
+width$ -- 7
+write$ -- 63
+(There were 2 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  10 MAY 2018 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  11 MAY 2018 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -195,39 +195,100 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box30
 \@float@everytoks=\toks25
 \@floatcapt=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks26
+\c@algorithm=\count104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count105
+\c@ALG@rem=\count106
+\c@ALG@nested=\count107
+\ALG@tlm=\skip48
+\ALG@thistlm=\skip49
+\c@ALG@Lnr=\count108
+\c@ALG@blocknr=\count109
+\c@ALG@storecount=\count110
+\c@ALG@tmpcounter=\count111
+\ALG@tmplength=\skip50
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen131
+\captionmargin@=\dimen132
+\captionwidth=\dimen133
+\caption@tempdima=\dimen134
+\caption@indent=\dimen135
+\caption@parindent=\dimen136
+\caption@hangindent=\dimen137
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 10pt \setbox \@
+tempboxa \hbox {#1. #2} \ifdim \wd \@tempboxa >\hsize #1. #2\par \else \hbox to
+\hsize {\hfil \box \@tempboxa \hfil } \fi .
+\c@ContinuedFloat=\count112
+Package caption Info: float package is loaded.
+)
+\c@subfigure=\count113
+\c@subtable=\count114
 ) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 53.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 58.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen131
+\scratchcounter=\count115
+\scratchdimen=\dimen138
 \scratchbox=\box32
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen132
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks27
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen139
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -284,71 +345,267 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
-LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 56.
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
-<../images/greenery/Zentrum_path.png, id=1, 855.195pt x 878.28125pt>
-File: ../images/greenery/Zentrum_path.png Graphic file (type png)
-<use ../images/greenery/Zentrum_path.png>
-Package pdftex.def Info: ../images/greenery/Zentrum_path.png  used on input lin
-e 77. on input line 77.
-Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
- 77.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-
- <../images/greenery/Zentrum_path.png>]
-<../images/greenery/Zentrum_greenery.png, id=12, 1710.39pt x 1756.5625pt>
-File: ../images/greenery/Zentrum_greenery.png Graphic file (type png)
-<use ../images/greenery/Zentrum_greenery.png>
-Package pdftex.def Info: ../images/greenery/Zentrum_greenery.png  used on input
- line 117. on input line 117.
-Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
- 117.
-
-[2 <../images/greenery/Zentrum_greenery.png>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 136.
-
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+
+LaTeX Warning: Reference `smartCities' on page 1 undefined on input line 92.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+LaTeX Warning: Reference `smartCities2' on page 1 undefined on input line 94.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Overfull \hbox (3.11716pt too wide) in paragraph at lines 155--164
+\OT1/ptm/m/n/10 ery de-tec-tion sim-i-larly to the first ap-proach men-tioned a
+bove.
+ []
+
+<../images/greenery/forests.png, id=10, 642.4pt x 642.4pt>
+File: ../images/greenery/forests.png Graphic file (type png)
+<use ../images/greenery/forests.png>
+Package pdftex.def Info: ../images/greenery/forests.png  used on input line 169
+. on input line 169.
+Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
+e 169.
+<../images/greenery/green_areas.png, id=11, 642.4pt x 642.4pt>
+File: ../images/greenery/green_areas.png Graphic file (type png)
+<use ../images/greenery/green_areas.png>
+Package pdftex.def Info: ../images/greenery/green_areas.png  used on input line
+ 174. on input line 174.
+Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
+e 174.
+<../images/greenery/Zurich.png, id=12, 642.4pt x 642.4pt>
+File: ../images/greenery/Zurich.png Graphic file (type png)
+<use ../images/greenery/Zurich.png>
+Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 180.
+ on input line 180.
+Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
+e 180.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+<../images/greenery/Zurich_greenery.png, id=14, 642.4pt x 642.4pt>
+File: ../images/greenery/Zurich_greenery.png Graphic file (type png)
+<use ../images/greenery/Zurich_greenery.png>
+Package pdftex.def Info: ../images/greenery/Zurich_greenery.png  used on input 
+line 185. on input line 185.
+Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
+e 185.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
+
+ []
+
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<../images/greenery/Zentrum_greenery.png, id=22, 1710.39pt x 1756.5625pt>
+File: ../images/greenery/Zentrum_greenery.png Graphic file (type png)
+<use ../images/greenery/Zentrum_greenery.png>
+Package pdftex.def Info: ../images/greenery/Zentrum_greenery.png  used on input
+ line 255. on input line 255.
+Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
+ 255.
+<../images/greenery/Zentrum_path.png, id=23, 855.195pt x 878.28125pt>
+File: ../images/greenery/Zentrum_path.png Graphic file (type png)
+<use ../images/greenery/Zentrum_path.png>
+Package pdftex.def Info: ../images/greenery/Zentrum_path.png  used on input lin
+e 262. on input line 262.
+Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
+ 262.
+ [3 <../images/greenery/forests.png (PNG copy)> <../images/greenery/green_areas
+.png (PNG copy)> <../images/greenery/Zurich.png> <../images/greenery/Zurich_gre
+enery.png> <../images/greenery/Zentrum_greenery.png>]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 136.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 271.
  (./report.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-[]\OT1/ptm/m/n/10 ``Zurich open data,'' on-line: https://data.stadt-
- []
+
+./report.bbl:4: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \bibitem{ZurichOD}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 8--11
-[]\OT1/ptm/m/n/10 ``Geographic in-for-ma-tion sys-tem of the can-ton of
- []
+./report.bbl:4: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \bibitem{ZurichOD}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 8--11
-\OT1/ptm/m/n/10 Zurich,'' on-line: http://maps.zh.ch/,  Ac-cessed:
- []
+./report.bbl:4: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \bibitem{ZurichOD}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 13--16
-[]\OT1/ptm/m/n/10 D. Griego, V. Buff, E. Hayoz, I. Moise, and
- []
+./report.bbl:8: LaTeX Error: Something's wrong--perhaps a missing \item.
 
-./report.bbl:22: Misplaced alignment tab character &.
-l.22 \newblock {\em Urban Forestry &
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \bibitem{GISZH}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./report.bbl:8: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \bibitem{GISZH}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./report.bbl:8: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \bibitem{GISZH}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./report.bbl:15: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \bibitem{smartCities}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./report.bbl:15: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \bibitem{smartCities}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./report.bbl:15: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \bibitem{smartCities}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./report.bbl:20: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \bibitem{googleView}
+                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./report.bbl:20: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \bibitem{googleView}
+                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./report.bbl:20: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \bibitem{googleView}
+                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./report.bbl:30: Misplaced alignment tab character &.
+l.30 \newblock {\em Urban Forestry &
                                      Urban Greening}, vol. 7, no. 3, pp. 201...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -357,24 +614,83 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) [3] (./report.aux) ) 
+
+./report.bbl:33: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \end{thebibliography}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--33
+\OT1/ptm/m/n/10 <<<<<<< HEAD``Zurich open data,'' on-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--33
+\OT1/ptm/m/n/10 line: https://data.stadt-zuerich.ch/,  Ac-cessed:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--33
+\OT1/ptm/m/n/10 08.05.2018. []``Geographic in-for-ma-tion sys-tem of
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 3--33
+\OT1/ptm/m/n/10 the can-ton of Zurich,'' on-line: http://maps.zh.ch/,
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 3--33
+\OT1/ptm/m/n/10 Ac-cessed: 08.05.2018. ======= >>>>>>> mas-
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 3--33
+\OT1/ptm/m/n/10 ter []D. Griego, V. Buff, E. Hayoz, I. Moise, and
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 3--33
+\OT1/ptm/m/n/10 Weix-ing Zhang Xi-ao-jiang Li, Chuan-rong Zhanga,
+ []
+
+) [4 <../images/greenery/Zentrum_path.png>] [5
+
+] (./report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3325 strings out of 492990
- 46020 string characters out of 6135006
- 112542 words of memory out of 5000000
- 6789 multiletter control sequences out of 15000+600000
- 18075 words of font info for 44 fonts, out of 8000000 for 9000
+ 5058 strings out of 492990
+ 75397 string characters out of 6135006
+ 143220 words of memory out of 5000000
+ 8490 multiletter control sequences out of 15000+600000
+ 26738 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,37p,631b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
-c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 12929144 bytes).
+ 59i,20n,94p,606b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
+es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (5 pages, 14481059 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

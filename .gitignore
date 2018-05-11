@@ -16,3 +16,7 @@ report/contour/pedestrian_zone.html
 src/greenery/Zurich_greenery.png
 src/greenery/forests.png
 src/greenery/green_areas.png
+
+report/report-suggestion/report.fdb_latexmk
+report/report-suggestion/report.log
+report/report-suggestion/report.aux

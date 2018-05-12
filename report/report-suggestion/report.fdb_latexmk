@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1526113175 "report.aux" "report.bbl" "report" 1526113441
+["bibtex report"] 1526113175 "report.aux" "report.bbl" "report" 1526113881
   "./IEEEbib.bst" 1525791915 18193 722479b9378d89fa52b98da9c80233a2 ""
   "bibl_conf.bib" 1526109299 24257 0943d7006c9ab646b90bf32de2b0fd2d ""
-  "report.aux" 1526113441 3155 60356ab5e37c680259fbf36817dd3cb8 ""
+  "report.aux" 1526113876 3155 60356ab5e37c680259fbf36817dd3cb8 ""
   "report.bcf" 0 -1 0 ""
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1526113439 "/home/flkoch/Documents/prog/ETH-DataScience/report/report-suggestion/report.tex" "report.pdf" "report" 1526113441
+["pdflatex"] 1526113874 "/home/flkoch/Documents/prog/ETH-DataScience/report/report-suggestion/report.tex" "report.pdf" "report" 1526113881
   "../images/SmartAgora/img_6.jpg" 1526104368 2983695 94725775be8de3c4397ce41ae5970533 ""
   "../images/greenery/Zentrum_greenery.png" 1525786280 5676531 a9c3e9cee0029736f900fdeef6f39587 ""
   "../images/greenery/Zentrum_path.png" 1525786280 5792480 9f22093775ecd5651903c2220ec6c3bc ""
@@ -16,7 +16,7 @@
   "../images/greenery/forests.png" 1526024008 27552 08307cde950fe46c57a86f01fc2f5ce8 ""
   "../images/greenery/green_areas.png" 1526024008 39697 ef22ff9c3051e9230c21eb9455c5c2ed ""
   "/etc/texmf/web2c/texmf.cnf" 1525441537 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/flkoch/Documents/prog/ETH-DataScience/report/report-suggestion/report.tex" 1526113439 24255 eaf27b5532f44752e091ac6ddd4b8ade ""
+  "/home/flkoch/Documents/prog/ETH-DataScience/report/report-suggestion/report.tex" 1526113873 24254 f4d9f480da68aef4c97f023374d18a42 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -112,14 +112,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1525441564 2377213 8bc19c9e6d8db8e1c35694d1be199981 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1525441583 4130845 9070b9db077ab47b248dfeb39f809f18 ""
-  "report.aux" 1526113441 3155 60356ab5e37c680259fbf36817dd3cb8 ""
+  "report.aux" 1526113876 3155 60356ab5e37c680259fbf36817dd3cb8 ""
   "report.bbl" 1526113175 2911 e82dd09da013dbc492478d0a4e5c45fb "bibtex report"
-  "report.tex" 1526113439 24255 eaf27b5532f44752e091ac6ddd4b8ade ""
+  "report.tex" 1526113873 24254 f4d9f480da68aef4c97f023374d18a42 ""
   "spconf.sty" 1525786280 8342 9170db695604ae6d3ae86655c87446fa ""
   (generated)
-  "report.pdf"
-  "report.tex"
-  "report.log"
+  "report.bbl"
   "report.aux"
   "spconf.sty"
-  "report.bbl"
+  "report.log"
+  "report.pdf"
+  "report.tex"

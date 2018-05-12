@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  12 MAY 2018 09:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  12 MAY 2018 10:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -465,13 +465,20 @@ Package pdftex.def Info: ../images/greenery/Zentrum_path.png  used on input lin
 e 278. on input line 278.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
  278.
+<../images/SmartAgora/img_6.jpg, id=29, 3276.24pt x 2457.18pt>
+File: ../images/SmartAgora/img_6.jpg Graphic file (type jpg)
+<use ../images/SmartAgora/img_6.jpg>
+Package pdftex.def Info: ../images/SmartAgora/img_6.jpg  used on input line 292
+. on input line 292.
+Package pdftex.def Info: Requested size: 237.5805pt x 178.1691pt on input line 
+292.
 
-(./report.bbl
+[4 <../images/greenery/Zentrum_greenery.png>] (./report.bbl
 Underfull \hbox (badness 1769) in paragraph at lines 12--16
 \OT1/ptm/m/n/10 ``Cur-rent trends in Smart City ini-tia-tives: Some
  []
 
-[4 <../images/greenery/Zentrum_greenery.png>]
+
 Underfull \hbox (badness 4995) in paragraph at lines 47--51
 []\OT1/ptm/m/n/10 ``China's ever-expanding sur-vail-lance state,'' on-
  []
@@ -501,7 +508,7 @@ Underfull \hbox (badness 1917) in paragraph at lines 59--62
 \OT1/ptm/m/n/10 cert,'' on-line: http://www.bbc.com/news/world-asia-
  []
 
-
+[5 <../images/greenery/Zentrum_path.png> <../images/SmartAgora/img_6.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 64--66
 []\OT1/ptm/m/n/10 ``Zurich open data,'' on-line: https://data.stadt-
  []
@@ -513,31 +520,29 @@ Underfull \hbox (badness 5203) in paragraph at lines 68--71
 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 303.
- [5 <../images/greenery/Zentrum_path.png>] [6
-
-] (./report.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 312.
+ [6] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 5065 strings out of 492990
- 75475 string characters out of 6135006
- 145348 words of memory out of 5000000
- 8497 multiletter control sequences out of 15000+600000
- 26738 words of font info for 63 fonts, out of 8000000 for 9000
+ 5076 strings out of 492990
+ 75692 string characters out of 6135006
+ 146356 words of memory out of 5000000
+ 8503 multiletter control sequences out of 15000+600000
+ 29401 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,20n,94p,710b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
->
-Output written on report.pdf (6 pages, 14488558 bytes).
+ 59i,20n,94p,779b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on report.pdf (6 pages, 17474317 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

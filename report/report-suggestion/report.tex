@@ -286,7 +286,16 @@ Instead we generated a map with markers in various positions and asked people to
 
 \section{Discussion}\label{sec:discussion}
 TODO: Discuss possible drawback and ways how to improve them + results and whether we are satisfied with our predictions.
-
+\subsection{Smart Agora}
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\columnwidth, rotate=270]{../images/SmartAgora/img_6.jpg}
+    \caption{Smart Agora app with location indicated by the blue dot with arrow and the sphere for answering questions shown in red.}
+    \label{fig:smart_agora_1}
+\end{figure}
+For us to use Smart Agora effectively, we would appreciate the following additions to the platform. Firtsly, it would be neccessary to save parts of a task in case there is a problem with the internet connection and resume at a later point, maybe even correcting typos. For this a preview of the saved taskes is crucial, preferably in a more user firendly form than json. Also the ability to delete erratic questions after the task was saved might be usefull, combined with the graciously implemented ability to upload json files directly. Unfortunately the format of the data was changed in between, which required us to find the non documented changes and adopt our json files.\\
+\indent But using the app was even more troublesom. The generated checkbox questions with seven answers would freeze the app on trying to save the selected answers. That is given that the positioning worked correctly\footnote{cf. Fig. \ref{fig:smart_agora_1} for an erratic localisation} and the pop-up to answer the question actually appeared once one arrived at the designated location. Moreover, we would expect to be able to answer the questions in a random order, if they were set-up in "Simple" and not in "Sequence" mode. However, a warning appeared after three questions that some had been skipped and visiting those locations did not allow to answer these questions.\\
+\indent Occasional crashes of the entire app might be expected in development. However, if non of the entered data is stored locally on the phone, this resets every input, including the researcher ID and potentially answered questions. This complete data loss, which occurs on every quit of the app, renders any tasks with more than a couple of questions extremely dangerous. Even with our short tasks of five questions each, we were not able to complete any of them at the first attempt. This user experience will hinder wide spread participation, which would be required for collecting larger data sets.
 \section{Conclusion}
 We should do as the last part together with abstract.
 

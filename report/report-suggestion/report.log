@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  12 MAY 2018 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  12 MAY 2018 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,13 +369,19 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 
-Overfull \hbox (14.4069pt too wide) in paragraph at lines 116--123
+Overfull \hbox (0.96695pt too wide) in paragraph at lines 89--93
+[]\OT1/ptm/m/n/10 Our ex-per-i-ment tries to ex-ploit data that is pub-licly av
+ail-
+ []
+
+
+Overfull \hbox (14.4069pt too wide) in paragraph at lines 115--122
 \OT1/ptm/m/n/10 com-puter con-nected hard-ware, such as traf-fic cam-eras, tele
 com-
  []
 
 
-Overfull \hbox (1.4472pt too wide) in paragraph at lines 116--123
+Overfull \hbox (1.4472pt too wide) in paragraph at lines 115--122
 \OT1/ptm/m/n/10 mu-ni-ca-tion net-works and build-ing man-age-ment sys-tems. On
 
  []
@@ -388,142 +394,148 @@ Overfull \hbox (1.4472pt too wide) in paragraph at lines 116--123
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-Overfull \hbox (3.11716pt too wide) in paragraph at lines 171--180
-\OT1/ptm/m/n/10 ery de-tec-tion sim-i-larly to the first ap-proach men-tioned a
-bove.
+Overfull \hbox (2.12715pt too wide) in paragraph at lines 156--165
+\OT1/ptm/m/n/10 space range we en-coun-tered a few is-sues. De-tec-tion of gras
+s-
  []
 
 <../images/greenery/forests.png, id=13, 642.4pt x 642.4pt>
 File: ../images/greenery/forests.png Graphic file (type png)
 <use ../images/greenery/forests.png>
-Package pdftex.def Info: ../images/greenery/forests.png  used on input line 185
-. on input line 185.
+Package pdftex.def Info: ../images/greenery/forests.png  used on input line 170
+. on input line 170.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 185.
+e 170.
 <../images/greenery/green_areas.png, id=14, 642.4pt x 642.4pt>
 File: ../images/greenery/green_areas.png Graphic file (type png)
 <use ../images/greenery/green_areas.png>
 Package pdftex.def Info: ../images/greenery/green_areas.png  used on input line
- 190. on input line 190.
+ 175. on input line 175.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 190.
+e 175.
 <../images/greenery/Zurich.png, id=15, 642.4pt x 642.4pt>
 File: ../images/greenery/Zurich.png Graphic file (type png)
 <use ../images/greenery/Zurich.png>
-Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 196.
- on input line 196.
+Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 181.
+ on input line 181.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 196.
+e 181.
 <../images/greenery/Zurich_greenery.png, id=17, 642.4pt x 642.4pt>
 File: ../images/greenery/Zurich_greenery.png Graphic file (type png)
 <use ../images/greenery/Zurich_greenery.png>
 Package pdftex.def Info: ../images/greenery/Zurich_greenery.png  used on input 
-line 201. on input line 201.
+line 186. on input line 186.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 201.
+e 186.
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
  []
 
-
-Underfull \vbox (badness 6332) has occurred while \output is active []
-
- [3 <../images/greenery/forests.png (PNG copy)> <../images/greenery/green_areas
-.png (PNG copy)> <../images/greenery/Zurich.png> <../images/greenery/Zurich_gre
-enery.png>]
-<../images/greenery/Zentrum_greenery.png, id=27, 1710.39pt x 1756.5625pt>
+[3 <../images/greenery/forests.png (PNG copy)> <../images/greenery/green_areas.
+png (PNG copy)> <../images/greenery/Zurich.png> <../images/greenery/Zurich_gree
+nery.png>]
+<../images/greenery/Zentrum_greenery.png, id=28, 1710.39pt x 1756.5625pt>
 File: ../images/greenery/Zentrum_greenery.png Graphic file (type png)
 <use ../images/greenery/Zentrum_greenery.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_greenery.png  used on input
- line 271. on input line 271.
+ line 256. on input line 256.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
- 271.
-<../images/greenery/Zentrum_path.png, id=28, 855.195pt x 878.28125pt>
+ 256.
+<../images/greenery/Zentrum_path.png, id=29, 855.195pt x 878.28125pt>
 File: ../images/greenery/Zentrum_path.png Graphic file (type png)
 <use ../images/greenery/Zentrum_path.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_path.png  used on input lin
-e 278. on input line 278.
+e 263. on input line 263.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
- 278.
-<../images/SmartAgora/img_6.jpg, id=29, 3276.24pt x 2457.18pt>
+ 263.
+<../images/SmartAgora/img_6.jpg, id=30, 3276.24pt x 2457.18pt>
 File: ../images/SmartAgora/img_6.jpg Graphic file (type jpg)
 <use ../images/SmartAgora/img_6.jpg>
-Package pdftex.def Info: ../images/SmartAgora/img_6.jpg  used on input line 292
-. on input line 292.
+Package pdftex.def Info: ../images/SmartAgora/img_6.jpg  used on input line 275
+. on input line 275.
 Package pdftex.def Info: Requested size: 237.5805pt x 178.1691pt on input line 
-292.
+275.
+ [4 <../images/greenery/Zentrum_greenery.png>] (./report.bbl
+Underfull \hbox (badness 2012) in paragraph at lines 4--8
+[]\OT1/ptm/m/n/10 ``Mercer 2018 Qual-ity of Liv-ing Rank-ings,'' on-
+ []
 
-[4 <../images/greenery/Zentrum_greenery.png>] (./report.bbl
-Underfull \hbox (badness 1769) in paragraph at lines 12--16
+
+Overfull \hbox (20.82614pt too wide) in paragraph at lines 4--8
+\OT1/ptm/m/n/10 line: https://mobilityexchange.mercer.com/Insights/quality-
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 18--22
 \OT1/ptm/m/n/10 ``Cur-rent trends in Smart City ini-tia-tives: Some
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 47--51
+Underfull \hbox (badness 4995) in paragraph at lines 53--57
 []\OT1/ptm/m/n/10 ``China's ever-expanding sur-vail-lance state,'' on-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
 \OT1/ptm/m/n/10 line: https://thediplomat.com/2018/04/chinas-ever-
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 47--51
+Underfull \hbox (badness 5504) in paragraph at lines 53--57
 \OT1/ptm/m/n/10 expanding-surveillance-state/, 2018,  Ac-cessed:
  []
 
-
-Underfull \hbox (badness 1242) in paragraph at lines 53--57
+[5 <../images/greenery/Zentrum_path.png> <../images/SmartAgora/img_6.jpg>]
+Underfull \hbox (badness 1242) in paragraph at lines 59--63
 \OT1/ptm/m/n/10 cit-i-zens,'' on-line: https://www.cnet.com/news/china-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
 \OT1/ptm/m/n/10 turns-to-tech-to-monitor-shame-and-rate-citizens/,
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 59--62
+Underfull \hbox (badness 1917) in paragraph at lines 65--68
 \OT1/ptm/m/n/10 cert,'' on-line: http://www.bbc.com/news/world-asia-
  []
 
-[5 <../images/greenery/Zentrum_path.png> <../images/SmartAgora/img_6.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
 []\OT1/ptm/m/n/10 ``Zurich open data,'' on-line: https://data.stadt-
  []
 
 
-Underfull \hbox (badness 5203) in paragraph at lines 68--71
+Underfull \hbox (badness 5203) in paragraph at lines 74--77
 \OT1/ptm/m/n/10 Zurich,'' on-line: http://maps.zh.ch/,  Ac-cessed:
  []
 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 312.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 295.
  [6] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 5076 strings out of 492990
- 75692 string characters out of 6135006
- 146356 words of memory out of 5000000
- 8503 multiletter control sequences out of 15000+600000
+ 5077 strings out of 492990
+ 75700 string characters out of 6135006
+ 146360 words of memory out of 5000000
+ 8504 multiletter control sequences out of 15000+600000
  29401 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,20n,94p,780b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,20n,94p,888b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on report.pdf (6 pages, 17474307 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (6 pages, 17482174 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

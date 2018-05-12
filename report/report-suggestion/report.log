@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  11 MAY 2018 11:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.4)  12 MAY 2018 09:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -376,135 +376,155 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+Overfull \hbox (14.4069pt too wide) in paragraph at lines 116--123
+\OT1/ptm/m/n/10 com-puter con-nected hard-ware, such as traf-fic cam-eras, tele
+com-
+ []
+
+
+Overfull \hbox (1.4472pt too wide) in paragraph at lines 116--123
+\OT1/ptm/m/n/10 mu-ni-ca-tion net-works and build-ing man-age-ment sys-tems. On
+
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [2]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Overfull \hbox (3.11716pt too wide) in paragraph at lines 165--174
+Overfull \hbox (3.11716pt too wide) in paragraph at lines 171--180
 \OT1/ptm/m/n/10 ery de-tec-tion sim-i-larly to the first ap-proach men-tioned a
 bove.
  []
 
-<../images/greenery/forests.png, id=10, 642.4pt x 642.4pt>
+<../images/greenery/forests.png, id=13, 642.4pt x 642.4pt>
 File: ../images/greenery/forests.png Graphic file (type png)
 <use ../images/greenery/forests.png>
-Package pdftex.def Info: ../images/greenery/forests.png  used on input line 179
-. on input line 179.
+Package pdftex.def Info: ../images/greenery/forests.png  used on input line 185
+. on input line 185.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 179.
-<../images/greenery/green_areas.png, id=11, 642.4pt x 642.4pt>
+e 185.
+<../images/greenery/green_areas.png, id=14, 642.4pt x 642.4pt>
 File: ../images/greenery/green_areas.png Graphic file (type png)
 <use ../images/greenery/green_areas.png>
 Package pdftex.def Info: ../images/greenery/green_areas.png  used on input line
- 184. on input line 184.
-Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 184.
-<../images/greenery/Zurich.png, id=12, 642.4pt x 642.4pt>
-File: ../images/greenery/Zurich.png Graphic file (type png)
-<use ../images/greenery/Zurich.png>
-Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 190.
- on input line 190.
+ 190. on input line 190.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
 e 190.
+<../images/greenery/Zurich.png, id=15, 642.4pt x 642.4pt>
+File: ../images/greenery/Zurich.png Graphic file (type png)
+<use ../images/greenery/Zurich.png>
+Package pdftex.def Info: ../images/greenery/Zurich.png  used on input line 196.
+ on input line 196.
+Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
+e 196.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-<../images/greenery/Zurich_greenery.png, id=14, 642.4pt x 642.4pt>
+<../images/greenery/Zurich_greenery.png, id=17, 642.4pt x 642.4pt>
 File: ../images/greenery/Zurich_greenery.png Graphic file (type png)
 <use ../images/greenery/Zurich_greenery.png>
 Package pdftex.def Info: ../images/greenery/Zurich_greenery.png  used on input 
-line 195. on input line 195.
+line 201. on input line 201.
 Package pdftex.def Info: Requested size: 104.06618pt x 104.06038pt on input lin
-e 195.
+e 201.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
 
  []
 
 
-Underfull \vbox (badness 5667) has occurred while \output is active []
+Underfull \vbox (badness 6332) has occurred while \output is active []
 
- [2]
-<../images/greenery/Zentrum_greenery.png, id=19, 1710.39pt x 1756.5625pt>
+ [3 <../images/greenery/forests.png (PNG copy)> <../images/greenery/green_areas
+.png (PNG copy)> <../images/greenery/Zurich.png> <../images/greenery/Zurich_gre
+enery.png>]
+<../images/greenery/Zentrum_greenery.png, id=27, 1710.39pt x 1756.5625pt>
 File: ../images/greenery/Zentrum_greenery.png Graphic file (type png)
 <use ../images/greenery/Zentrum_greenery.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_greenery.png  used on input
- line 265. on input line 265.
+ line 271. on input line 271.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
- 265.
-<../images/greenery/Zentrum_path.png, id=20, 855.195pt x 878.28125pt>
+ 271.
+<../images/greenery/Zentrum_path.png, id=28, 855.195pt x 878.28125pt>
 File: ../images/greenery/Zentrum_path.png Graphic file (type png)
 <use ../images/greenery/Zentrum_path.png>
 Package pdftex.def Info: ../images/greenery/Zentrum_path.png  used on input lin
-e 272. on input line 272.
+e 278. on input line 278.
 Package pdftex.def Info: Requested size: 237.5805pt x 243.98726pt on input line
- 272.
+ 278.
 
-[3 <../images/greenery/forests.png (PNG copy)> <../images/greenery/green_areas.
-png (PNG copy)> <../images/greenery/Zurich.png> <../images/greenery/Zurich_gree
-nery.png> <../images/greenery/Zentrum_greenery.png>] (./report.bbl
-Underfull \hbox (badness 4242) in paragraph at lines 4--7
-[]\OT1/ptm/m/n/10 D. Griego, V. Buff, E. Hayoz, I. Moise, and
+(./report.bbl
+Underfull \hbox (badness 1769) in paragraph at lines 12--16
+\OT1/ptm/m/n/10 ``Cur-rent trends in Smart City ini-tia-tives: Some
  []
 
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \hbox (badness 1681) in paragraph at lines 9--14
-[]\OT1/ptm/m/n/10 Paolo Neirotti, Al-berto De Marco, Anna Corinna
+[4 <../images/greenery/Zentrum_greenery.png>]
+Underfull \hbox (badness 4995) in paragraph at lines 47--51
+[]\OT1/ptm/m/n/10 ``China's ever-expanding sur-vail-lance state,'' on-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 47--51
+\OT1/ptm/m/n/10 line: https://thediplomat.com/2018/04/chinas-ever-
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 47--51
+\OT1/ptm/m/n/10 expanding-surveillance-state/, 2018,  Ac-cessed:
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 53--57
+\OT1/ptm/m/n/10 cit-i-zens,'' on-line: https://www.cnet.com/news/china-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
+\OT1/ptm/m/n/10 turns-to-tech-to-monitor-shame-and-rate-citizens/,
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 59--62
+\OT1/ptm/m/n/10 cert,'' on-line: http://www.bbc.com/news/world-asia-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
 []\OT1/ptm/m/n/10 ``Zurich open data,'' on-line: https://data.stadt-
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 26--29
-[]\OT1/ptm/m/n/10 ``Geographic in-for-ma-tion sys-tem of the can-ton of
- []
-
-
-Underfull \hbox (badness 8038) in paragraph at lines 26--29
+Underfull \hbox (badness 5203) in paragraph at lines 68--71
 \OT1/ptm/m/n/10 Zurich,'' on-line: http://maps.zh.ch/,  Ac-cessed:
  []
 
-./report.bbl:35: Misplaced alignment tab character &.
-l.35 \newblock {\em Urban Forestry &
-                                     Urban Greening}, vol. 7, no. 3, pp. 201...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 297.
- [4 <../images/greenery/Zentrum_path.png>] [5
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 303.
+ [5 <../images/greenery/Zentrum_path.png>] [6
 
 ] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 5058 strings out of 492990
- 75394 string characters out of 6135006
- 146323 words of memory out of 5000000
- 8490 multiletter control sequences out of 15000+600000
+ 5065 strings out of 492990
+ 75475 string characters out of 6135006
+ 145348 words of memory out of 5000000
+ 8497 multiletter control sequences out of 15000+600000
  26738 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,20n,94p,699b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,20n,94p,710b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
@@ -514,10 +534,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on report.pdf (5 pages, 14482138 bytes).
+Output written on report.pdf (6 pages, 14488558 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

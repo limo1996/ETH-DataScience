@@ -1,38 +1,80 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{smartCities}
-D.~Griego, V.~Buff, E.~Hayoz, I.~Moise, and E.~Pournaras,
-\newblock ``Sensing and mining urban qualities in smart cities,''
-\newblock pp. 1004--1011, March 2017.
+Danielle Griego, Varin Buff, Eric Hayoz, Izabela Moise, and Evangelos
+  Pournaras,
+\newblock ``{Sensing and Mining Urban Qualities in Smart Cities},''
+\newblock in {\em 2017 IEEE 31st International Conference on Advanced
+  Information Networking and Applications (AINA)}. mar 2017, pp. 1004--1011,
+  IEEE.
 
 \bibitem{smartCities2}
-Paolo Neirotti, Alberto De~Marco, Anna~Corinna Cagliano, Giulio Mangano, and
+Paolo Neirotti, Alberto {De Marco}, Anna~Corinna Cagliano, Giulio Mangano, and
   Francesco Scorrano,
-\newblock ``Current trends in {S}mart {C}ity initiatives: {S}ome stylised
-  facts,''
-\newblock vol. 38, pp. 25–36, 06 2014.
+\newblock ``{Current trends in Smart City initiatives: Some stylised facts},''
+\newblock {\em Cities}, vol. 38, pp. 25--36, jun 2014.
 
 \bibitem{pollution}
-Premanjali~Rai Kunwar~P.Singh, Shikha~Gupta,
-\newblock ``Identifying pollution sources and predicting urban air quality
-  using ensemble learning methods,''
-\newblock {\em Atmospheric Environment}, vol. 80, no. 12, pp. 426--437, 2013.
+Kunwar~P. Singh, Shikha Gupta, and Premanjali Rai,
+\newblock ``{Identifying pollution sources and predicting urban air quality
+  using ensemble learning methods},''
+\newblock {\em Atmospheric Environment}, vol. 80, pp. 426--437, dec 2013.
+
+\bibitem{Ferdowsi2018}
+Aidin Ferdowsi, Ursula Challita, Walid Saad, and Narayan~B. Mandayam,
+\newblock ``{Robust Deep Reinforcement Learning for Security and Safety in
+  Autonomous Vehicle Systems},''
+\newblock may 2018.
+
+\bibitem{Abu-Matar2018}
+Mohammad Abu-Matar and John Davies,
+\newblock ``{Data Driven Reference Architecture for Smart City Ecosystems},''
+\newblock may 2018.
+
+\bibitem{Usman2018}
+Muhammad Usman, Muhammad~Rizwan Asghar, Imran~Shafique Ansari, Fabrizio
+  Granelli, and Khalid Qaraqe,
+\newblock ``{Technologies and Solutions for Location-Based Services in Smart
+  Cities: Past, Present, and Future},''
+\newblock {\em IEEE Access}, vol. 3536, no. c, pp. 1--1, 2018.
+
+\bibitem{smartCities3}
+Rob Kitchin,
+\newblock ``The real-time city? {B}ig data and smart urbanism,''
+\newblock {\em GeoJournal}, vol. 79, no. 1, pp. 1--14, Feb 2014.
+
+\bibitem{thediplomat1}
+``China's ever-expanding survaillance state,''
+  online:~https://thediplomat.com/2018/04/chinas-ever-expanding-surveillance-state/,
+  2018,
+\newblock Accessed: 12/May/2018.
+
+\bibitem{cnet1}
+``China turns to tech to monitor, shame and rate citizens,''
+  online:~https://www.cnet.com/news/china-turns-to-tech-to-monitor-shame-and-rate-citizens/,
+  2018,
+\newblock Accessed: 12/May/2018.
+
+\bibitem{bbc1}
+``Chinese man caught by facial recognition at pop concert,''
+  online:~http://www.bbc.com/news/world-asia-china-43751276, 2018,
+\newblock Accessed: 12/May/2018.
 
 \bibitem{ZurichOD}
 ``Zurich open data,'' online:~https://data.stadt-zuerich.ch/,
-\newblock Accessed: 08.05.2018.
+\newblock Accessed: 08/May/2018.
 
 \bibitem{GISZH}
 ``Geographic information system of the canton of {Zurich},''
   online:~http://maps.zh.ch/,
-\newblock Accessed: 08.05.2018.
+\newblock Accessed: 08/May/2018.
 
 \bibitem{googleView}
-Xiaojiang Li, Chuanrong Zhanga, Weidong Li, Robert Ricard, Qingyan Meng, and
+Xiaojiang Li, Chuanrong Zhang, Weidong Li, Robert Ricard, Qingyan Meng, and
   Weixing Zhang,
-\newblock ``Assessing street-level urban greenery using google street view and
-  a modified green view index,''
-\newblock {\em Urban Forestry & Urban Greening}, vol. 7, no. 3, pp. 201--215,
-  2015.
+\newblock ``{Assessing street-level urban greenery using Google Street View and
+  a modified green view index},''
+\newblock {\em Urban Forestry and Urban Greening}, vol. 14, no. 3, pp.
+  675--685, 2015.
 
 \end{thebibliography}

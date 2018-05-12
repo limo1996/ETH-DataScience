@@ -3,51 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: report.aux
 The style file: IEEEbib.bst
 Database file #1: bibl_conf.bib.bib
-Warning--string name "june" is undefined
---line 179 of file bibl_conf.bib.bib
-Warning--string name "august" is undefined
---line 221 of file bibl_conf.bib.bib
-Warning--empty journal in smartCities
-Warning--empty journal in smartCities2
-You've used 6 entries,
+Warning--empty journal in Ferdowsi2018
+Warning--empty journal in Abu-Matar2018
+You've used 13 entries,
             1838 wiz_defined-function locations,
-            499 strings with 4650 characters,
-and the built_in function-call counts, 1400 in all, are:
-= -- 122
-> -- 60
+            532 strings with 5783 characters,
+and the built_in function-call counts, 2594 in all, are:
+= -- 236
+> -- 113
 < -- 1
-+ -- 23
-- -- 17
-* -- 115
-:= -- 210
-add.period$ -- 6
-call.type$ -- 6
-change.case$ -- 6
++ -- 44
+- -- 31
+* -- 204
+:= -- 391
+add.period$ -- 14
+call.type$ -- 13
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 53
-empty$ -- 138
-format.name$ -- 17
-if$ -- 317
+cite$ -- 15
+duplicate$ -- 102
+empty$ -- 266
+format.name$ -- 31
+if$ -- 586
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 4
-newline$ -- 31
-num.names$ -- 4
-pop$ -- 25
+int.to.str$ -- 13
+missing$ -- 8
+newline$ -- 63
+num.names$ -- 8
+pop$ -- 55
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 30
+skip$ -- 51
 stack$ -- 0
-substring$ -- 103
-swap$ -- 15
+substring$ -- 138
+swap$ -- 23
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 10
-width$ -- 7
-write$ -- 62
-(There were 4 warnings)
+while$ -- 21
+width$ -- 15
+write$ -- 135
+(There were 2 warnings)

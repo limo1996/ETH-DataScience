@@ -111,60 +111,60 @@ map of the city. In Section~\ref{sec:exp} the predictions are evaluated through 
 paper and outlines future work.
 
 \section{Background}\label{sec:background}
-The term "Smart Cities" has attracted recently \cite{Ferdowsi2018,Abu-Matar2018,Usman2018} some attention. It is usually referring 
-to the real time analysis of whole cities and their population \cite{smartCities3}. It can also imply economical 
+The term "Smart Cities" has attracted recently \cite{Ferdowsi2018,Abu-Matar2018,Usman2018} some attention. It is usually referring
+to the real time analysis of whole cities and their population \cite{smartCities3}. It can also imply economical
 innovation which is usually equated with entrepreneurship created by smart people.\\
-\indent In the process of establishing this expression, two main  sources of data have been identified \cite{smartCities3}. 
-On the one hand this compromises the increasing number of stationary installed computer connected hardware, such as traffic cameras, 
-telecommunication networks and building management systems. On the other hand the population carries an even faster increasing 
+\indent In the process of establishing this expression, two main  sources of data have been identified \cite{smartCities3}.
+On the one hand this compromises the increasing number of stationary installed computer connected hardware, such as traffic cameras,
+telecommunication networks and building management systems. On the other hand the population carries an even faster increasing
 number of mobile computers like smart phones, navigation systems or even fully connected vehicles.\\
-\indent By combining these data sources and analysing them in the real-time, one is able to not only steer the flow within a city 
-but also predict the evolution. The Chinese central government has recently been attracted by the media \cite{thediplomat1} for not only 
-using the public surveillance system to track down criminals but also equip the police officers with glasses that have an integrated 
-cameras \cite{cnet1}. According to the same article, they plan to have a public credit system in place for all its 1.4 billion citizens 
+\indent By combining these data sources and analysing them in the real-time, one is able to not only steer the flow within a city
+but also predict the evolution. The Chinese central government has recently been attracted by the media \cite{thediplomat1} for not only
+using the public surveillance system to track down criminals but also equip the police officers with glasses that have an integrated
+cameras \cite{cnet1}. According to the same article, they plan to have a public credit system in place for all its 1.4 billion citizens
 by 2020, which will be crucial for obtaining jobs or getting permission to travel abroad.\\
-\indent The real time analysis of their currently over 170 million CCTV cameras \cite{bbc1} enabled them to arrest a suspect, who was 
-identified by facial recognition amongst 60'000 visitors to a concert. These are just a few examples of how the connection between various 
+\indent The real time analysis of their currently over 170 million CCTV cameras \cite{bbc1} enabled them to arrest a suspect, who was
+identified by facial recognition amongst 60'000 visitors to a concert. These are just a few examples of how the connection between various
 data sources enables people having access to the data to widely control public live.\\ %this sentence is not that good
-\indent It also points out some of the threats. With the public credit and shame system \cite{cnet1} everyone has to constantly 
-adhere to the accepted code of conduct in order to not loose points or be publicly denounced. This ubiquitous surveillance is feared 
-by many privacy policy activists, slowing down similar efforts in western countries. In the end we will have to decide in which kind 
+\indent It also points out some of the threats. With the public credit and shame system \cite{cnet1} everyone has to constantly
+adhere to the accepted code of conduct in order to not loose points or be publicly denounced. This ubiquitous surveillance is feared
+by many privacy policy activists, slowing down similar efforts in western countries. In the end we will have to decide in which kind
 of world we all want to live in.\\
-\indent However the thus obtained data can also be used for the good. Responsive traffic management systems are a necessity in current 
-megacities, where an increasing number of cars tries to reach their destination on roads that cannot be extended any further. 
-And also the public transport systems reach their limits when an ever increasing number of people tries to get from the point A to the point B 
-all at the same time. Wisely employed camera systems not only allows to track the flow of people but the correct data analysis promises to resolve 
+\indent However the thus obtained data can also be used for the good. Responsive traffic management systems are a necessity in current
+megacities, where an increasing number of cars tries to reach their destination on roads that cannot be extended any further.
+And also the public transport systems reach their limits when an ever increasing number of people tries to get from the point A to the point B
+all at the same time. Wisely employed camera systems not only allows to track the flow of people but the correct data analysis promises to resolve
 some of the problems.\\
-\indent In our project we tried to use data from various sources to rate the living quality for people within the districts of Zurich. 
-As most of the real time data in Zurich is not publicly available, we set out to analyse less fast paced data first. The predictions 
-should then be checked with data obtained from study participants, who would walk those areas to collect data with their smart phones. 
-In the future expansion this could allow us to assess the living quality not only in general but also for different days of the week or even 
+\indent In our project we tried to use data from various sources to rate the living quality for people within the districts of Zurich.
+As most of the real time data in Zurich is not publicly available, we set out to analyse less fast paced data first. The predictions
+should then be checked with data obtained from study participants, who would walk those areas to collect data with their smart phones.
+In the future expansion this could allow us to assess the living quality not only in general but also for different days of the week or even
 different times of the day.
 
 \section{Data}\label{sec:data}
-To begin with, we evaluated data downloaded from the open data initiative of the city of Zurich \cite{ZurichOD}. 
-Furthermore, we used maps from the Geographic Information System of the canton of Zurich GISZH \cite{GISZH} 
+To begin with, we evaluated data downloaded from the open data initiative of the city of Zurich \cite{ZurichOD}.
+Furthermore, we used maps from the Geographic Information System of the canton of Zurich GISZH \cite{GISZH}
 to get an idea of potentially interesting areas.\\
-\indent These two sources were used, since we believed that data published by institutions of the government 
-is in general more reliable than that published by individuals. In addition, the data is considered to be of better 
-quality and cover more of the area. This initial trust has been partially disappointed by finding quite a few data 
-sets with only few points. As we wanted to predict the best living areas within Zurich, we also needed data that covers 
-more or less the complete area of Zurich in order to avoid bias towards certain regions, which are better covered 
-by the data sources. Therefore, we omitted data sets with subjectively too few entries, which we initially wanted 
+\indent These two sources were used, since we believed that data published by institutions of the government
+is in general more reliable than that published by individuals. In addition, the data is considered to be of better
+quality and cover more of the area. This initial trust has been partially disappointed by finding quite a few data
+sets with only few points. As we wanted to predict the best living areas within Zurich, we also needed data that covers
+more or less the complete area of Zurich in order to avoid bias towards certain regions, which are better covered
+by the data sources. Therefore, we omitted data sets with subjectively too few entries, which we initially wanted
 to use due to their potential. These omitted data sets include the one on air quality, flat prices and traffic counts.\\
-\indent The data we finally used and analysed is composed of records for public street illumination, pedestrian zones, 
-sighing points, zones where driving is prohibited as well as restaurants. These are all sets where the available data 
-is spread across a large part of Zurich and that we figured might be indicative for how much we as students would 
+\indent The data we finally used and analysed is composed of records for public street illumination, pedestrian zones,
+sighing points, zones where driving is prohibited as well as restaurants. These are all sets where the available data
+is spread across a large part of Zurich and that we figured might be indicative for how much we as students would
 appreciate living there. This is a highly subjective measure that took us some time to agree amongst ourselves on.\\
-\indent The analysis of the data is described in the Section~\ref{sec:predictions}. In addition we inferred the amount 
-of greenery from satellite images as outlined in the Section~\ref{sec:greenery} to evaluate how green the urban areas are. 
-Finally we tried to evaluate the predictions by having people walk some of the areas and gather their impression 
+\indent The analysis of the data is described in the Section~\ref{sec:predictions}. In addition we inferred the amount
+of greenery from satellite images as outlined in the Section~\ref{sec:greenery} to evaluate how green the urban areas are.
+Finally we tried to evaluate the predictions by having people walk some of the areas and gather their impression
 by utilising Smart Agora. The details of the last bit are outlined in Section~\ref{sec:exp}.
 
 \section{Measure of Attractiveness}\label{sec:attractiveness}
 As we are all students at ETH Zurich, we wanted to map the attractiveness to live in a certain area from the student point of view.
-Therefore, access to the public transport is crutial. However walking for up to 15 minutes does not bother us that much. Hence, we did not
-include stops of the public transportation in our analysis, since they are all distributed well enough and therefore we found a stop in a walking 
+Therefore, access to the public transport is crucial. However walking for up to 15 minutes does not bother us that much. Hence, we did not
+include stops of the public transportation in our analysis, since they are all distributed well enough and therefore we found a stop in a walking
 distance to each and every location within Zurich.
 On the other hand we did not have access to the detailed data on diverse measures. Accordingly we defined spheres of influence for all types
 of points we used for our analysis, that should represent how far we believe that item will influence how we perceive the area.
@@ -393,14 +393,14 @@ Sighting Points     & 500   \\
 \end{figure}
 
 \section{Predictions evaluation}\label{sec:exp}
-For evaluating the predictions we derived in the previous section, we chose to let people rate 
-that areas based on their visual impression after walking through the respective part of the city. 
+For evaluating the predictions we derived in the previous section, we chose to let people rate
+that areas based on their visual impression after walking through the respective part of the city.
 For this we initially wanted to use Smart Agora, as it allows to pose the questions at various locations.
 
-Instead we generated a map with markers in various positions and asked people to answer the same questions at those locations. 
-Whereas this does not allow to gather additional information, it is more comfortable to use and easier to collect data from 
-different people. All participants were asked to answer the five questions, where the first two are single choice 
-and the last three are multiple choice questions. The order of the questions was the same for each path but randomly varied 
+Instead we generated a map with markers in various positions and asked people to answer the same questions at those locations.
+Whereas this does not allow to gather additional information, it is more comfortable to use and easier to collect data from
+different people. All participants were asked to answer the five questions, where the first two are single choice
+and the last three are multiple choice questions. The order of the questions was the same for each path but randomly varied
 between different locations. The questions and answer options \ref{app:questions}, locations of the questions \ref{fig:path_points}
 and greenery along the walking areas \ref{fig:path_greenery} can be found in Appendix. .
 
@@ -413,22 +413,22 @@ In this chapter we would like to discuss problems we encountered during our proj
     \caption{Smart Agora app with location indicated by the blue dot with arrow and the sphere for answering questions shown in red.}
     \label{fig:smart_agora_1}
 \end{figure}
-In order to use Smart Agora effectively, we would appreciate the following additions to the platform. Firstly, 
-it would be necessary to save parts of a task in case there is a problem with the internet connection 
-so we can resume at a later point. Correcting typos would add the app more professional look. For this a preview of the saved tasks is crucial, 
-preferably in a more user friendly form than a json file. Also the ability to delete erratic questions after the task was saved 
-might be useful, combined with the graciously implemented ability to upload json files directly. Unfortunately the format 
+In order to use Smart Agora effectively, we would appreciate the following additions to the platform. Firstly,
+it would be necessary to save parts of a task in case there is a problem with the internet connection
+so we can resume at a later point. Correcting typos would add the app more professional look. For this a preview of the saved tasks is crucial,
+preferably in a more user friendly form than a json file. Also the ability to delete erratic questions after the task was saved
+might be useful, combined with the graciously implemented ability to upload json files directly. Unfortunately the format
 of the data was changed in between, which required us to find the non documented changes and adopt them inside our json files.\\
-\indent However using the app was even more troublesome. The generated checkbox questions with seven answers would freeze 
+\indent However using the app was even more troublesome. The generated checkbox questions with seven answers would freeze
 the app on trying to save the selected answers. That is given that the positioning worked correctly
-\footnote{cf. Figure~\ref{fig:smart_agora_1} for an erratic localisation} and the pop-up to answer the question actually 
-appeared once one arrived at the designated location. Moreover, we would expect to be able to answer the questions in a random order, 
-if they were set-up in "Simple" and not in "Sequence" mode. However, a warning appeared after the third question that some had been skipped 
+\footnote{cf. Figure~\ref{fig:smart_agora_1} for an erratic localisation} and the pop-up to answer the question actually
+appeared once one arrived at the designated location. Moreover, we would expect to be able to answer the questions in a random order,
+if they were set-up in "Simple" and not in "Sequence" mode. However, a warning appeared after the third question that some had been skipped
 and visiting those locations did not allow us to answer these questions.\\
-\indent Occasional crashes of the entire app might be expected in the development phase. However, if non of the entered data 
-is stored locally on the phone, this resets every input, including the researcher ID and potentially answered questions. 
-This complete data loss, which occurs on every quit of the app, renders any tasks with more than a couple of questions extremely dangerous. 
-Even with our short tasks of five questions each, we were not able to complete any of them at the first attempt. This user experience will 
+\indent Occasional crashes of the entire app might be expected in the development phase. However, if non of the entered data
+is stored locally on the phone, this resets every input, including the researcher ID and potentially answered questions.
+This complete data loss, which occurs on every quit of the app, renders any tasks with more than a couple of questions extremely dangerous.
+Even with our short tasks of five questions each, we were not able to complete any of them at the first attempt. This user experience will
 hinder wide spread participation, which would be required for obtaining the collection of larger data sets.
 
 \section{Conclusion}
@@ -440,8 +440,8 @@ We should do as the last part together with abstract.
 
 \section{Appendix}
 \subsection{Questions for survey}\label{app:questions}
-The following questions were asked to evaluate our predictions. After each question one finds the possible answers. 
-The first two questions are single choice, whereas the other three are multiple choice. 
+The following questions were asked to evaluate our predictions. After each question one finds the possible answers.
+The first two questions are single choice, whereas the other three are multiple choice.
 The order of questions was the same for each participant, but varied for the different locations.
 
 \begin{enumerate}

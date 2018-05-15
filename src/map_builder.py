@@ -5,20 +5,20 @@ import IntensityFinder
 from IntensityFinder import IntensityFinder, InfluenceType
 from contour.ContourDrawer import ContourDrawer, Settings, Coordinate
 
-SOURCE = '../data/prepared/pedestrian_zone.csv'
+SOURCE = '../data/prepared/driving_prohibited.csv'
 ZURICH_MAP_LOC = "staticmap.jpeg"
-RESULT = '../report/images/sighting_point.png'
-HEATMAP = '../report/images/sighting_point_heatmap.png'
+RESULT = '../report/images/driving_prohibited.png'
+HEATMAP = '../report/images/driving_prohibited_heatmap.png'
 RADIUS = 70
 INFLUENCE_TYPE = InfluenceType.CLOSEST_POINT
 #FUNCTION = IntensityFinder.exponential2
 
 OVERLAY_RESULT = '../report/images/combined.png'
 COMBINED_HEATMAP = '../report/images/combined_heatmap.png'
-TO_OVERLAY = ['../report/images/results/illumination_heatmap_70.png', '../report/images/results/pedestrian_zone_heatmap_70.png', '../report/images/results/sighting_point_heatmap_500.png']
+TO_OVERLAY = ['../report/images/results/illumination_heatmap_70.png', '../report/images/results/pedestrian_zone_heatmap_70.png', '../report/images/results/sighting_point_heatmap_500.png', '../report/images/results/driving_prohibited_heatmap_70.png', '../report/images/greenery/combined_heatmap_smoothed_4_to_1.png']
 #OVERLAY_RESULT = '../report/images/greenery/combined.png'
 #COMBINED_HEATMAP = '../report/images/greenery/combined_heatmap.png'
-#TO_OVERLAY = ['../report/images/greenery/forests.png','../report/images/greenery/green_areas.png']
+#TO_OVERLAY = ['../report/images/greenery/forest.jpeg','../report/images/greenery/areas.jpeg']
 
 def compute_heatmap(intensity_finder_obj, long_left, long_right, lat_top, lat_bot, image, result_path,  radius, function, influence_type, heatmap_path):
 
@@ -100,13 +100,16 @@ def combine_maps(other_to_overlayy, result_path, combined_heatmap):
     width, height = image.size
     
     # Ratio in %
-    weights = [33.3,33.3,33.3,25]
+    weights = [20,20,20,20,20]
     
     others = [(asarray(Image.open(i)) * (weights[a] / 100)) for a, i in  enumerate(other_to_overlayy)]
     other = others[0]
     for i in range(len(others)):
         if i != 0:
             other = other + others[i]
+
+    scaler = other[..., 0].max()
+    other = other * (255/scaler)
     other = Image.fromarray(other.astype('uint8'))
     other.save(combined_heatmap)
     pix2 = other.load()
@@ -118,6 +121,7 @@ def combine_maps(other_to_overlayy, result_path, combined_heatmap):
             res = pix2[i,j][0]
             #pix[i,j] = (res, 0, 0)
             pix[i,j] = (pix[i,j][0], int(pix[i,j][1]-pix[i,j][1]*res/255), int(pix[i,j][2]-pix[i,j][2]*res/255))
+
 
     #result = asarray(image) * 0.4
     #other = other * 0.6

@@ -9,6 +9,7 @@ from GreeneryDetector import GreeneryDetector
 import numpy as np 
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
+from PIL import Image
 
 MAP = 'Zurich'                          # path to image without suffix
 SATELLITE_MAP = MAP + '.png'            # path to image with suffix
@@ -27,4 +28,5 @@ vis_l = locations * 255                 # shift to the range (0, 255)
 vis_l = vis_l.astype(int)               # convert to int
 plt.imshow(locations, interpolation='nearest', cmap=cm.Greys_r)
 plt.show()                              # show matrix
-
+im = Image.fromarray(vis_l.astype('uint8'))
+im.save("temp.png")

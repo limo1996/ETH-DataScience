@@ -29,4 +29,4 @@ vis_l = vis_l.astype(int)               # convert to int
 plt.imshow(locations, interpolation='nearest', cmap=cm.Greys_r)
 plt.show()                              # show matrix
 im = Image.fromarray(vis_l.astype('uint8'))
-im.save("temp.png")
+im.save("green_areas.png")

@@ -198,30 +198,30 @@ produced the desired result. Detection of forests, grasslands and their combinat
 Detected locations are marked with the RGB value (0, 200, 0) which is solid green. Furthermore our method computes an intensity matrix
 which indicates influence of the detected greenery on every place within the city of Zurich.
 
-\begin{figure}
+\begin{figure}[htb]
     \centering
-    \begin{subfigure}{.22\textwidth}
+    \begin{subfigure}[t]{.48\columnwidth}
         \centering
-        \includegraphics[width=.95\linewidth]{images/greenery/forests.png}
-        \caption[width=.2\textwidth]{Mask of the forests}
-    \end{subfigure}%
-    \begin{subfigure}{.22\textwidth}
+        \includegraphics[width=\linewidth]{images/greenery/forests.png}
+        \caption[width=.9\linewidth]{Mask of the forests}
+    \end{subfigure}\hspace{0.03\columnwidth}
+    \begin{subfigure}[t]{.48\columnwidth}
         \centering
-        \includegraphics[width=.95\linewidth]{images/greenery/green_areas.png}
-        \caption[width=.2\textwidth]{Mask of the grasslands}
-    \end{subfigure}
+        \includegraphics[width=\linewidth]{images/greenery/green_areas.png}
+        \caption[width=.9\linewidth]{Mask of the grasslands}
+    \end{subfigure}\vspace{2mm}
 
-    \begin{subfigure}{.22\textwidth}
+    \begin{subfigure}[t]{.48\columnwidth}
         \centering
-        \includegraphics[width=.95\linewidth]{images/greenery/Zurich.png}
-        \caption[width=.2\textwidth]{Unmodified Zurich area}
-    \end{subfigure}%
-    \begin{subfigure}{.22\textwidth}
+        \includegraphics[width=\linewidth]{images/greenery/Zurich.png}
+        \caption[width=.9\linewidth]{Unmodified Zurich area}
+    \end{subfigure}\hspace{0.03\columnwidth}
+    \begin{subfigure}[t]{.48\columnwidth}
         \centering
-        \includegraphics[width=.95\linewidth]{images/greenery/Zurich_greenery.png}
-        \caption[width=.2\textwidth]{Greenery in the Zurich area}
+        \includegraphics[width=\linewidth]{images/greenery/Zurich_greenery.png}
+        \caption[width=.9\linewidth]{Greenery in the Zurich area}
     \end{subfigure}
-    \caption{Visualization of the greenery detection phases. In the original image we firstly detected forests then
+    \caption{Visualisation of the greenery detection phases. In the original image we firstly detected forlests then
              grasslands and finally we combined them and overlay above the original image.}
     \label{fig:ZurichGreenery}
 \end{figure}
@@ -282,16 +282,15 @@ the third iteration.
 
 \section{Urban quality prediction}\label{sec:predictions}
 
-The core part of this work is the automated detection of living qualities through different parts in Zurich with help of publicly available data. It allows us to create an interactive map which visualizes livability of each part of the city and lets us reason about the best/worst places to live at according to our perception of attractiveness. 
+The core part of this work is the automated detection of living qualities through different parts in Zurich with help of publicly available data. It allows us to create an interactive map which visualizes liveability of each part of the city and lets us reason about the best/worst places to live at according to our perception of attractiveness.
 \\
-\indent Our algorithm can be divided into the following parts. First of all, we create heat maps of interesting living qualities for which we got reasonable data from Zurich public available data. Interesting means it matters to our perception of attractiveness, whereas reasonable means we got enough data to reason about the whole area of Zurich. The intensities of the heatmap areas represent the proximity to certain qualities. High values for close proximity, low values for almost no proximity. Therefore, the brighter an area is, the closer you would be to a quality you aim for (e.g. sighting points, pedestrian zones, ...).
-In a second step, all these heatmaps are combined into a general heatmap by weighting them and adding them together. In this way we obtain a map, describing exactly where the areas are, where some can get as much qualities as possible at the same time. 
-At the very end by overlaying this general heat map on a Zurich map, we have a nice visualization of our detection of livability.
+\indent Our algorithm can be divided into the following parts. First of all, we create heat maps of interesting living quality factors for which we could find data in \cite{ZurichOD}. Interesting means, it matters to our perception of attractiveness, whereas reasonable means we got enough data to reason about the whole area of the city of Zurich. The intensities of the heatmap areas represent the proximity to certain quality factors. High values for close proximity, low values for almost no proximity. Therefore, the brighter an area is, the closer you would be to a quality factor you aim for (e.g. sighting points, pedestrian zones, ...).\\
+\indent In a second step, all these heatmaps are combined into a general heatmap by weighting them and adding them together. In this way we obtain a map, describing exactly where the areas are, where one can get as much quality factors as possible at the same time.
+At the very end by overlaying this general heat map on a Zurich map, we have a nice visualisation of our detection of liveability.
 \\
-\indent In the first part, we create heat maps for different living qualities. All our qualities depend on certain assets of the real world. First, we mapped the presence of those qualities to GPS positions. Whereas sighting points and pedestrian zones can be directly represented as GPS locations/paths, lightening of the city has been represented as the GPS positions of the lanterns in Zurich. Next, we used algorithm \ref{intenstiyFinder} to determine the presence of a certain quality at a certain position.
-\\
+\indent In the first part, we create heat maps for different living qualities. All the chosen quality fators depend on certain assets of the real world. First, we map the presence of those qualities to GPS positions. Whereas sighting points and pedestrian zones can be directly represented as GPS locations/paths, lightening of the city has been represented as the GPS positions of the lanterns in Zurich. Next, we used Algorithm~\ref{alg:intensityFinder} to determine the presence of a certain quality at a certain position.
 \begin{algorithm}
-    \caption{Intensity Finder}\label{intenstiyFinder}
+    \caption{Intensity Finder}\label{alg:intensityFinder}
     \begin{algorithmic}[1]
         \Procedure{get\_intensity}{gpsPosition}
             \State $\textit{NN} \gets \textit{getNeigherstNeighbor(gpsPosition)}$
@@ -299,35 +298,34 @@ At the very end by overlaying this general heat map on a Zurich map, we have a n
             \State $\textbf{if } \textit{dist} > radius:$
             \State $\indent \textbf{return } \textit{0}$
 			 \State $\textit{fMin} \gets \textit{NN.intensity(atCenter, withRadius)}$
-			 \State $\textit{fMax} \gets \textit{NN.intenstiy(atRadius, withRadius)}$ 
-			 \State $\textit{f} \gets \textit{ NN.intenstiy(distance, withRadius)}$   
+			 \State $\textit{fMax} \gets \textit{NN.intenstiy(atRadius, withRadius)}$
+			 \State $\textit{f} \gets \textit{ NN.intenstiy(distance, withRadius)}$
 			 \State $\textbf{return } \textit{normalize(f, fMin, FMax)}$
         \EndProcedure
     \end{algorithmic}
 \end{algorithm}
 
-\indent This algorithm can be used in different ways and with many different intensity functions and parameters. As presented in the example algorithm \ref{intenstiyFinder} , it finds the closest point at which your quality is present. Then it determines the influence of this quality toward your present position. This influence is an intentsity value between 1 and 0 of a decreasing function that has a chosen radius and it's maximum at its center and goes to zero at the radius border. In this work we used a decreasing exponential function as intensity function.
+\indent This algorithm can be used in different ways and with many different intensity functions and parameters. As presented in the example Algorithm~\ref{alg:intensityFinder} , it finds the closest point at which your quality is present. Then it determines the influence of this quality toward your present position. This influence is an intentsity value between 1 and 0 of a decreasing function that has a chosen radius and its maximum at its center and goes to zero at the radius border. In this work we use a decreasing exponential function as intensity function.
 
-\indent The selection of the radius for each quality was made by our self as there isn't any right choice of it. We tried to agree on a value so it averages our opinions and gives us some more common reasonable value. The values for some qualities are shown in table \ref{table:RadiusParam} It is also interesting to notice, that our code also supports other influence functions (quadratic/linear) and another type of influence calculation, that not only considers the closest quality point but all the quality points. In this way a location which is close to a lot of those quality points might get a higher intensity as a poit with a single close quality point. Furthermore this might also seem more appropriate as a method of influence determination at a certain position, but due to very high runtimes of the algorithm, we had to make a compromise with the less accurate method.
+\indent The selection of the radius for each quality was made by ourselves as there is no right choice. We tried to agree on a value so it averages our opinions and gives us some more common and reasonable value. The values for some qualities are shown in Table~\ref{table:RadiusParam}. It is also interesting to notice, that our code also supports other influence functions (quadratic/linear) and another type of influence calculation, that not only considers the closest quality point but all the quality points. In this way a location which is close to a lot of those quality points might get a higher intensity than a point with a single closest quality point. Furthermore this might also seem more appropriate as a method of influence determination at a certain position, but due to very high runtimes of the algorithm, we had to make a compromise with the less accurate method.
 
-\begin{table}[]
-\centering
-\caption{Choosed radius for different qualities}
-\label{table:RadiusParam}
-\begin{tabular}{lllll}
-Heatmap     &          & Radius  \\
-\hline
-Greenery &  0 \\
-Lightning       & 70 \\
-Pedestrian Zone          & 70  \\
-Sighting Points     & 500   \\
-\end{tabular}
+\begin{table}[htb]
+    \centering
+    \caption{Choosed radius for different qualities}
+    \label{table:RadiusParam}
+        \begin{tabular}{lr}
+            Heatmap & Radius $[$m$]$\\\hline
+            Greenery & 0\\
+            Lightning & 70\\
+            Pedestrian Zone & 70\\
+            Sighting Points & 500\\
+    \end{tabular}
 \end{table}
 
-\indent Next, the determination of a quality for the whole Zurich map was done in a discrete way. To determine how fine the spacing of the detection positions had to be, we divided the Zurich map by the number of pixels of the Zurich map image we were working with. Then, we mapped every pixel to a GPS position and calculated the influence intensity at this point until getting a heat map of this quality \ref{fig:ZurichSingleHeatmaps}. For having nice colors from black to white we multiplied the influence values going from 0 to 1 by 255 and saved them in the first component of the RGB tuple of each pixel of an image to have a nice red heatmap \ref{heatmapCreation}.
+\indent Next, the determination of a quality for the whole Zurich map was done in a discrete way. To determine how fine the spacing of the detection positions had to be, we divided the Zurich map by the number of pixels of the Zurich map image we were working with. Then, we mapped every pixel to a GPS position and calculated the influence intensity at this point until getting a heat map of this quality, shown in Figure~\ref{fig:ZurichSingleHeatmaps}. For having nice colors from black to white we multiplied the influence values going from 0 to 1 by 255 and saved them in the first component of the RGB tuple of each pixel of the image to have a nice red heatmap, shown in Figure~\ref{fig:heatMapCreation}.
 
 \begin{algorithm}
-    \caption{Heat Map Creator}\label{heatMapCreation}
+    \caption{Heat Map Creator}\label{fig:heatMapCreation}
     \begin{algorithmic}[1]
         \Procedure{createHeatMap}{gpsPosition}
         	 \State $\textit{width} \gets \textit{image.width}$
@@ -346,49 +344,48 @@ Sighting Points     & 500   \\
     \end{algorithmic}
 \end{algorithm}
 
-\begin{figure}
+\begin{figure}[htb]
     \centering
-    \begin{subfigure}{.22\textwidth}
+    \begin{subfigure}[t]{.48\columnwidth}
         \centering
-        \includegraphics[width=.95\linewidth]{images/greenery/combined_heatmap_4_to_1.png}
-        \caption[width=.2\textwidth]{Greenery heatmap, 80\% green areas, 20\% forests}
-    \end{subfigure}%
-    \begin{subfigure}{.22\textwidth}
+        \includegraphics[width=\linewidth]{images/greenery/combined_heatmap_4_to_1.png}
+        \caption[width=.9\linewidth]{Greenery heatmap, 80\% green areas, 20\% forests}
+    \end{subfigure}\hspace{0.03\columnwidth}
+    \begin{subfigure}[t]{.48\columnwidth}
         \centering
-        \includegraphics[width=.95\linewidth]{images/results/illumination_heatmap_70.png}
-        \caption[width=.2\textwidth]{Heatmap of the illumination in Zurich}
+        \includegraphics[width=\linewidth]{images/results/illumination_heatmap_70.png}
+        \caption[width=.9\linewidth]{Heatmap of the illumination in Zurich}
+    \end{subfigure}\vspace{2mm}
+    \begin{subfigure}[t]{.48\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/results/pedestrian_zone_heatmap_70.png}
+        \caption[width=.9\linewidth]{Heatmap of the pedestrian zones in Zurich with equal weighting of the qualities.}
+    \end{subfigure}\hspace{0.03\columnwidth}
+    \begin{subfigure}[t]{.48\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/results/sighting_point_heatmap_500.png}
+        \caption[width=.9\linewidth]{Heatmap of the sighting points in Zurich}
     \end{subfigure}
-
-    \begin{subfigure}{.22\textwidth}
-        \centering
-        \includegraphics[width=.95\linewidth]{images/results/pedestrian_zone_heatmap_70.png}
-        \caption[width=.2\textwidth]{Heatmap of the pedestrian zones in Zurich with equal weighting of the qualities.}
-    \end{subfigure}%
-    \begin{subfigure}{.22\textwidth}
-        \centering
-        \includegraphics[width=.95\linewidth]{images/results/sighting_point_heatmap_500.png}
-        \caption[width=.2\textwidth]{Heatmap of the sighting points in Zurich}
-    \end{subfigure}
-    \caption{Visualization of different intensity heatmaps for different qualities.}
+    \caption{Visualisation of different intensity heatmaps for different qualities.}
     \label{fig:ZurichSingleHeatmaps}
 \end{figure}
 
 
-\indent As all the heatmaps have the same dimensions as the map it is very easy to add them together to a combined heatmap \ref{fig:ZurichAllHeatmaps}. Here it was important to weight them to stay in the 0 to 255 color intensity range to keep a representative information about the influence as we were working with images and not with matrices. 
+\indent As all the heatmaps have the same dimensions as the map it is very easy to add them together to a combined heatmap, as shown in Figure~\ref{fig:ZurichAllHeatmaps}. Here it was important to weigh them to remain in the 0 to 255 color intensity range to keep a representative information about the influence as we were working with images and not with matrices.
 
 \begin{figure}
     \centering
-     \includegraphics[width=.95\linewidth]{images/combined_heatmap_all.png}
-    \caption{Visualization of the final combined heatmap.}
+    \includegraphics[width=.95\linewidth]{images/combined_heatmap_all.png}
+    \caption{Visualisation of the final combined heatmap.}
     \label{fig:ZurichAllHeatmaps}
 \end{figure}
 
-\indent At the very end, the final heatmap was overlayed on the Zurich map to have a nice visualization of the Zurich map \ref{fig:ZurichVisualization}.
+\indent At the very end, the final heatmap was overlayed on the Zurich map to have a nice visualisation of the Zurich map \ref{fig:ZurichVisualization}.
 
 \begin{figure}
     \centering
      \includegraphics[width=.95\linewidth]{images/combined_all.png}
-    \caption{Final visualization of the heatmap overlayed on the Zurich map.}
+    \caption{Final visualisation of the heatmap overlayed on the Zurich map.}
     \label{fig:ZurichVisualization}
 \end{figure}
 
@@ -401,12 +398,12 @@ Instead we generated a map with markers in various positions and asked people to
 Whereas this does not allow to gather additional information, it is more comfortable to use and easier to collect data from
 different people. All participants were asked to answer the five questions, where the first two are single choice
 and the last three are multiple choice questions. The order of the questions was the same for each path but randomly varied
-between different locations. The questions and answer options \ref{app:questions}, locations of the questions \ref{fig:path_points}
-and greenery along the walking areas \ref{fig:path_greenery} can be found in Appendix. .
+between different locations. The questions and answer options, Section~\ref{app:questions}, locations of the questions, Section~\ref{fig:path_points}
+and greenery along the walking areas, Section~\ref{fig:path_greenery} can be found in the appendix.
 
 \section{Discussion}\label{sec:discussion}
 In this chapter we would like to discuss problems we encountered during our project and outline possible improvements.
-\subsection{Smart Agora}
+\mypar{Smart Agora}
 \begin{figure}[htb]
     \centering
     \includegraphics[width=\columnwidth, rotate=270]{images/SmartAgora/img_6.jpg}

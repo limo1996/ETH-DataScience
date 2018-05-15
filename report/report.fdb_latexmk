@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex report"] 1526394980 "report.aux" "report.bbl" "report" 1526395177
+["bibtex report"] 1526396550 "report.aux" "report.bbl" "report" 1526396552
   "./IEEEbib.bst" 1526219373 18193 722479b9378d89fa52b98da9c80233a2 ""
   "bibl_conf.bib" 1526361056 24549 dc39252cc12a8c4ee981377a21d145d4 ""
-  "report.aux" 1526395177 4264 3597a7921494387270b04d51fd452861 ""
+  "report.aux" 1526396552 4210 5b8936fceadff2fcb96334d42675397b ""
   "report.bcf" 0 -1 0 ""
   (generated)
   "report.blg"
   "report.bbl"
-["pdflatex"] 1526395175 "/home/flkoch/Documents/prog/ETH-DataScience/report/report.tex" "report.pdf" "report" 1526395177
+["pdflatex"] 1526396550 "/home/flkoch/Documents/prog/ETH-DataScience/report/report.tex" "report.pdf" "report" 1526396552
   "/etc/texmf/web2c/texmf.cnf" 1525441537 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/flkoch/Documents/prog/ETH-DataScience/report/report.tex" 1526395175 33497 4823f6cdbee783db61d4db10793b4662 ""
+  "/home/flkoch/Documents/prog/ETH-DataScience/report/report.tex" 1526396548 33600 0e63f7a62bf7fb7070bdaee057fee748 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -119,11 +119,11 @@
   "images/results/illumination_heatmap_70.png" 1526392479 330092 9ae93893a7fa0c78cac46f4952276442 ""
   "images/results/pedestrian_zone_heatmap_70.png" 1526392479 7425 f0d6b44a6a45d470d4dd33ea89ab854a ""
   "images/results/sighting_point_heatmap_500.png" 1526392479 60484 57a946125edd3549cde8a822edff44ef ""
-  "report.aux" 1526395177 4264 3597a7921494387270b04d51fd452861 ""
-  "report.bbl" 1526394980 3099 486af12d4498da64292aac6f1646b705 "bibtex report"
-  "report.tex" 1526395175 33497 4823f6cdbee783db61d4db10793b4662 ""
+  "report.aux" 1526396552 4210 5b8936fceadff2fcb96334d42675397b ""
+  "report.bbl" 1526396550 3099 486af12d4498da64292aac6f1646b705 "bibtex report"
+  "report.tex" 1526396548 33600 0e63f7a62bf7fb7070bdaee057fee748 ""
   "spconf.sty" 1526219374 8342 9170db695604ae6d3ae86655c87446fa ""
   (generated)
   "report.aux"
-  "report.pdf"
   "report.log"
+  "report.pdf"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.13)  15 MAY 2018 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.13)  15 MAY 2018 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -436,10 +436,10 @@ g (PNG copy)> <./images/greenery/Zurich.png> <./images/greenery/Zurich_greenery
 File: images/greenery/combined_heatmap_4_to_1.png Graphic file (type png)
 <use images/greenery/combined_heatmap_4_to_1.png>
 Package pdftex.def Info: images/greenery/combined_heatmap_4_to_1.png  used on i
-nput line 353.
+nput line 351.
 (pdftex.def)             Requested size: 114.03761pt x 114.02925pt.
 
-Underfull \hbox (badness 3657) in paragraph at lines 354--354
+Underfull \hbox (badness 3657) in paragraph at lines 352--352
 []\OT1/ptm/m/n/9 (a) |Green-ery heatmap, 80%
  []
 
@@ -447,16 +447,16 @@ Underfull \hbox (badness 3657) in paragraph at lines 354--354
 File: images/results/illumination_heatmap_70.png Graphic file (type png)
 <use images/results/illumination_heatmap_70.png>
 Package pdftex.def Info: images/results/illumination_heatmap_70.png  used on in
-put line 358.
+put line 356.
 (pdftex.def)             Requested size: 114.03761pt x 114.02925pt.
 <images/results/pedestrian_zone_heatmap_70.png, id=33, 642.4pt x 642.4pt>
 File: images/results/pedestrian_zone_heatmap_70.png Graphic file (type png)
 <use images/results/pedestrian_zone_heatmap_70.png>
 Package pdftex.def Info: images/results/pedestrian_zone_heatmap_70.png  used on
- input line 363.
+ input line 361.
 (pdftex.def)             Requested size: 114.03761pt x 114.02925pt.
 
-Underfull \hbox (badness 3724) in paragraph at lines 364--364
+Underfull \hbox (badness 3724) in paragraph at lines 362--362
 \OT1/ptm/m/n/9 zones in Zurich with equal
  []
 
@@ -464,34 +464,34 @@ Underfull \hbox (badness 3724) in paragraph at lines 364--364
 File: images/results/sighting_point_heatmap_500.png Graphic file (type png)
 <use images/results/sighting_point_heatmap_500.png>
 Package pdftex.def Info: images/results/sighting_point_heatmap_500.png  used on
- input line 368.
+ input line 366.
 (pdftex.def)             Requested size: 114.03761pt x 114.02925pt.
 
-Underfull \hbox (badness 1953) in paragraph at lines 369--369
+Underfull \hbox (badness 1953) in paragraph at lines 367--367
 []\OT1/ptm/m/n/9 (d) |Heatmap of the sight-ing
  []
 
 <images/combined_heatmap_all.png, id=35, 642.4pt x 642.4pt>
 File: images/combined_heatmap_all.png Graphic file (type png)
 <use images/combined_heatmap_all.png>
-Package pdftex.def Info: images/combined_heatmap_all.png  used on input line 38
-0.
+Package pdftex.def Info: images/combined_heatmap_all.png  used on input line 37
+8.
 (pdftex.def)             Requested size: 225.70074pt x 225.69617pt.
 <images/combined_all.png, id=36, 642.4pt x 642.4pt>
 File: images/combined_all.png Graphic file (type png)
 <use images/combined_all.png>
-Package pdftex.def Info: images/combined_all.png  used on input line 389.
+Package pdftex.def Info: images/combined_all.png  used on input line 387.
 (pdftex.def)             Requested size: 225.70074pt x 225.69617pt.
 <images/SmartAgora/img_6.jpg, id=37, 3276.24pt x 2457.18pt>
 File: images/SmartAgora/img_6.jpg Graphic file (type jpg)
 <use images/SmartAgora/img_6.jpg>
-Package pdftex.def Info: images/SmartAgora/img_6.jpg  used on input line 411.
+Package pdftex.def Info: images/SmartAgora/img_6.jpg  used on input line 409.
 (pdftex.def)             Requested size: 237.5805pt x 178.1691pt.
 [5 <./images/greenery/combined_heatmap_4_to_1.png (PNG copy)> <./images/results
 /illumination_heatmap_70.png (PNG copy)> <./images/results/pedestrian_zone_heat
 map_70.png (PNG copy)> <./images/results/sighting_point_heatmap_500.png (PNG co
-py)>] [6 <./images/combined_heatmap_all.png (PNG copy)> <./images/combined_all.
-png (PNG copy)> <./images/SmartAgora/img_6.jpg>] (./report.bbl
+py)>] (./report.bbl [6 <./images/combined_heatmap_all.png (PNG copy)> <./images
+/combined_all.png (PNG copy)> <./images/SmartAgora/img_6.jpg>]
 Underfull \hbox (badness 2012) in paragraph at lines 4--8
 []\OT1/ptm/m/n/10 ``Mercer 2018 Qual-ity of Liv-ing Rank-ings,'' on-
  []
@@ -548,30 +548,30 @@ Underfull \hbox (badness 5203) in paragraph at lines 74--77
 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 449.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 447.
  [7]
 <images/greenery/Zentrum_greenery.png, id=48, 1710.39pt x 1756.5625pt>
 File: images/greenery/Zentrum_greenery.png Graphic file (type png)
 <use images/greenery/Zentrum_greenery.png>
 Package pdftex.def Info: images/greenery/Zentrum_greenery.png  used on input li
-ne 496.
+ne 494.
 (pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
 <images/greenery/Zentrum_path.png, id=49, 855.195pt x 878.28125pt>
 File: images/greenery/Zentrum_path.png Graphic file (type png)
 <use images/greenery/Zentrum_path.png>
 Package pdftex.def Info: images/greenery/Zentrum_path.png  used on input line 5
-03.
+01.
 (pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
  [8 <./images/greenery/Zentrum_greenery.png> <./images/greenery/Zentrum_path.pn
 g>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
  5120 strings out of 494847
- 76963 string characters out of 6179080
+ 76967 string characters out of 6179080
  145216 words of memory out of 5000000
  8306 multiletter control sequences out of 15000+600000
  29401 words of font info for 66 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 59i,20n,94p,966b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,20n,94p,967b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
@@ -581,7 +581,7 @@ dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (8 pages, 19078500 bytes).
+Output written on report.pdf (8 pages, 19078533 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream

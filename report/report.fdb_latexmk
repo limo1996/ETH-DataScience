@@ -1,13 +1,12 @@
 # Fdb version 3
-["bibtex report"] 1526394800 "report.aux" "report.bbl" "report" 1526394803
+["bibtex report"] 1526396550 "report.aux" "report.bbl" "report" 1526396965
   "./IEEEbib.bst" 1525814535 18193 722479b9378d89fa52b98da9c80233a2 ""
   "bibl_conf.bib" 1526330269 24549 dc39252cc12a8c4ee981377a21d145d4 ""
-  "report.aux" 1526394803 4260 eb89b137d26e872a87e40e2e234d3b54 ""
+  "report.aux" 1526396957 4210 5b8936fceadff2fcb96334d42675397b ""
   (generated)
-  "report.blg"
   "report.bbl"
-["pdflatex"] 1526394800 "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" "report.pdf" "report" 1526394803
-  "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" 1526394785 33280 f602dc78d50566d64b558b9ea63233be ""
+  "report.blg"
+["pdflatex"] 1526396550 "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" "report.pdf" "report" 1526396965
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -104,6 +103,15 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm" 1480098689 2124 2601a75482e9426d33db523edf23570a ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm" 1480098689 4408 25b74d011a4c66b7f212c0cc3c90061b ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm" 1480098689 2680 312a2d12b1f1df8ee0212e7ba1962402 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1480098689 2288 f478fc8fed18759effb59f3dad7f3084 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm" 1480098689 4640 532ca3305aad10cc01d769f3f91f1029 ""
+  "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf" 1480098758 1380 0ea3a3370054be6da6acd929ec569f06 ""
+  "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf" 1480098758 1948 7330aeef3af211edff3b35fb2c12a0fd ""
+  "/usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf" 1480098758 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
   "images/SmartAgora/img_6.jpg" 1526125881 2983695 94725775be8de3c4397ce41ae5970533 ""
   "images/combined_all.png" 1526392489 762355 f0ff7895e0d46195c1add881fc550711 ""
   "images/combined_heatmap_all.png" 1526392489 346301 1a0ce82a170b2aedfda47e3ecf5e306e ""
@@ -117,11 +125,11 @@
   "images/results/illumination_heatmap_70.png" 1526392489 330092 9ae93893a7fa0c78cac46f4952276442 ""
   "images/results/pedestrian_zone_heatmap_70.png" 1526392489 7425 f0d6b44a6a45d470d4dd33ea89ab854a ""
   "images/results/sighting_point_heatmap_500.png" 1526392489 60484 57a946125edd3549cde8a822edff44ef ""
-  "report.aux" 1526394803 4260 eb89b137d26e872a87e40e2e234d3b54 ""
+  "report.aux" 1526396957 4210 5b8936fceadff2fcb96334d42675397b ""
   "report.bbl" 1526394800 3099 486af12d4498da64292aac6f1646b705 "bibtex report"
-  "report.tex" 1526394785 33280 f602dc78d50566d64b558b9ea63233be ""
+  "report.tex" 1526396957 33600 0e63f7a62bf7fb7070bdaee057fee748 ""
   "spconf.sty" 1512508356 8342 9170db695604ae6d3ae86655c87446fa ""
   (generated)
-  "report.log"
   "report.pdf"
   "report.aux"
+  "report.log"

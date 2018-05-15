@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex report"] 1526333621 "report.aux" "report.bbl" "report" 1526373128
+["bibtex report"] 1526394980 "report.aux" "report.bbl" "report" 1526395177
   "./IEEEbib.bst" 1526219373 18193 722479b9378d89fa52b98da9c80233a2 ""
   "bibl_conf.bib" 1526361056 24549 dc39252cc12a8c4ee981377a21d145d4 ""
-  "report.aux" 1526372998 3269 c4829bd63116257e8ad912da7e3cc9f8 ""
+  "report.aux" 1526395177 4264 3597a7921494387270b04d51fd452861 ""
   "report.bcf" 0 -1 0 ""
   (generated)
-  "report.bbl"
   "report.blg"
-["pdflatex"] 1526372995 "/home/flkoch/Documents/prog/ETH-DataScience/report/report.tex" "report.pdf" "report" 1526373128
+  "report.bbl"
+["pdflatex"] 1526395175 "/home/flkoch/Documents/prog/ETH-DataScience/report/report.tex" "report.pdf" "report" 1526395177
   "/etc/texmf/web2c/texmf.cnf" 1525441537 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/flkoch/Documents/prog/ETH-DataScience/report/report.tex" 1526373122 25071 bf7f914319aebc53d84d3015ace7e98e ""
+  "/home/flkoch/Documents/prog/ETH-DataScience/report/report.tex" 1526395175 33497 4823f6cdbee783db61d4db10793b4662 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -107,17 +107,23 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1526231778 164888 ad5e65324d38839e401c3f1897a3cf54 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1526231780 813117 59b842cb9ef1eed769549af3baaba336 ""
   "images/SmartAgora/img_6.jpg" 1526219373 2983695 94725775be8de3c4397ce41ae5970533 ""
+  "images/combined_all.png" 1526392479 762355 f0ff7895e0d46195c1add881fc550711 ""
+  "images/combined_heatmap_all.png" 1526392479 346301 1a0ce82a170b2aedfda47e3ecf5e306e ""
   "images/greenery/Zentrum_greenery.png" 1526219374 5676531 a9c3e9cee0029736f900fdeef6f39587 ""
   "images/greenery/Zentrum_path.png" 1526219374 5792480 9f22093775ecd5651903c2220ec6c3bc ""
   "images/greenery/Zurich.png" 1526219374 1118565 a7ac8250b61c70bdeb826a3b3f2d34bb ""
   "images/greenery/Zurich_greenery.png" 1526219374 1104145 d6cff6e0334f4ffd519f009e401afe48 ""
+  "images/greenery/combined_heatmap_4_to_1.png" 1526392479 78575 0180c11ed62593032b7ca529aa409b01 ""
   "images/greenery/forests.png" 1526219374 27552 08307cde950fe46c57a86f01fc2f5ce8 ""
   "images/greenery/green_areas.png" 1526219374 39697 ef22ff9c3051e9230c21eb9455c5c2ed ""
-  "report.aux" 1526372998 3269 c4829bd63116257e8ad912da7e3cc9f8 ""
-  "report.bbl" 1526361056 3099 486af12d4498da64292aac6f1646b705 "bibtex report"
-  "report.tex" 1526373122 25071 bf7f914319aebc53d84d3015ace7e98e ""
+  "images/results/illumination_heatmap_70.png" 1526392479 330092 9ae93893a7fa0c78cac46f4952276442 ""
+  "images/results/pedestrian_zone_heatmap_70.png" 1526392479 7425 f0d6b44a6a45d470d4dd33ea89ab854a ""
+  "images/results/sighting_point_heatmap_500.png" 1526392479 60484 57a946125edd3549cde8a822edff44ef ""
+  "report.aux" 1526395177 4264 3597a7921494387270b04d51fd452861 ""
+  "report.bbl" 1526394980 3099 486af12d4498da64292aac6f1646b705 "bibtex report"
+  "report.tex" 1526395175 33497 4823f6cdbee783db61d4db10793b4662 ""
   "spconf.sty" 1526219374 8342 9170db695604ae6d3ae86655c87446fa ""
   (generated)
   "report.aux"
-  "report.log"
   "report.pdf"
+  "report.log"

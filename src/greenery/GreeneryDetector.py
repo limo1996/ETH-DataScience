@@ -81,7 +81,7 @@ class GreeneryDetector:
         # for each masked pixel check if it is white. If yes than mark 
         # pixel as green and append to binary matrix
         for i in range(0, length):
-            if fp[i] == 255 or gp[i] == 255:
+            if gp[i] == 255:
                 new_pixels[i] = (0, 200, 0)
                 counter = counter + 1
                 binary_m[i] = 1
@@ -89,7 +89,7 @@ class GreeneryDetector:
         self.new_pixels = new_pixels
         summed = np.add(fp, gp)
         summed = np.minimum(summed, 1)
-        assert np.array_equal(binary_m, summed)
+        #assert np.array_equal(binary_m, summed)
         binary_m = np.reshape(binary_m, (width, height))
         print(binary_m.shape)
         print('{0}/{1} => {2}% of greenery'.format(counter, len(self.pixels), float(counter / len(self.pixels) * 100)))

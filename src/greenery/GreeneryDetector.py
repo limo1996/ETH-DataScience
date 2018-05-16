@@ -81,7 +81,7 @@ class GreeneryDetector:
         # for each masked pixel check if it is white. If yes than mark 
         # pixel as green and append to binary matrix
         for i in range(0, length):
-            if gp[i] == 255:
+            if fp[i] == 255 or gp[i] == 255:
                 new_pixels[i] = (0, 200, 0)
                 counter = counter + 1
                 binary_m[i] = 1

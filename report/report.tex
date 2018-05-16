@@ -315,9 +315,11 @@ At the very end by overlaying this general heat map on a Zurich map, we have a n
     \end{algorithmic}
 \end{algorithm}
 
-\indent This algorithm can be used in different ways and with many different intensity functions and parameters. As presented in the example Algorithm~\ref{alg:intensityFinder} , it finds the closest point at which your quality is present. Then it determines the influence of this quality toward your present position. This influence is an intentsity value between 1 and 0 of a decreasing function that has a chosen radius and its maximum at its center and goes to zero at the radius border. In this work we use a decreasing exponential function as intensity function.
-
-\indent The selection of the radius for each quality was made by ourselves as there is no right choice. We tried to agree on a value so it averages our opinions and gives us some more common and reasonable value. The values for some qualities are shown in Table~\ref{table:RadiusParam}. It is also interesting to notice, that our code also supports other influence functions (quadratic/linear) and another type of influence calculation, that not only considers the closest quality point but all the quality points. In this way a location which is close to a lot of those quality points might get a higher intensity than a point with a single closest quality point. Furthermore this might also seem more appropriate as a method of influence determination at a certain position, but due to very high runtimes of the algorithm, we had to make a compromise with the less accurate method.
+\indent This algorithm can be used in different ways and with many different intensity functions and parameters. 
+As presented in the example Algorithm~\ref{alg:intensityFinder} , it finds the closest point at which your quality 
+is present. Then it determines the influence of this quality toward your present position. This influence is an intentsity 
+value between 1 and 0 of a decreasing function that has a chosen radius and its maximum at its center and goes to zero 
+at the radius border. In this work we use a decreasing exponential function as intensity function.
 
 \begin{table}[htb]
     \centering
@@ -332,7 +334,14 @@ At the very end by overlaying this general heat map on a Zurich map, we have a n
     \end{tabular}
 \end{table}
 
-\indent Next, the determination of a quality for the whole Zurich map was done in a discrete way. To determine how fine the spacing of the detection positions had to be, we divided the Zurich map by the number of pixels of the Zurich map image we were working with. Then, we mapped every pixel to a GPS position and calculated the influence intensity at this point until getting a heat map of this quality, shown in Figure~\ref{fig:ZurichSingleHeatmaps}. For having nice colors from black to white we multiplied the influence values going from 0 to 1 by 255 and saved them in the first component of the RGB tuple of each pixel of the image to have a nice red heatmap, shown in Figure~\ref{fig:heatMapCreation}.
+\indent The selection of the radius for each quality was made by ourselves as there is no right choice. 
+We tried to agree on a value so it averages our opinions and gives us some more common and reasonable value. 
+The values for some qualities are shown in Table~\ref{table:RadiusParam}. It is also interesting to notice, 
+that our code also supports other influence functions (quadratic/linear) and another type of influence calculation, 
+that not only considers the closest quality point but all the quality points. In this way a location which is close 
+to a lot of those quality points might get a higher intensity than a point with a single closest quality point. 
+Furthermore this might also seem more appropriate as a method of influence determination at a certain position, 
+but due to very high runtimes of the algorithm, we had to make a compromise with the less accurate method.
 
 \begin{algorithm}
     \caption{Heat Map Creator}\label{fig:heatMapCreation}
@@ -353,6 +362,14 @@ At the very end by overlaying this general heat map on a Zurich map, we have a n
         \EndProcedure
     \end{algorithmic}
 \end{algorithm}
+
+\indent Next, the determination of a quality for the whole Zurich map was done in a discrete way. 
+To determine how fine the spacing of the detection positions had to be, we divided the Zurich map 
+by the number of pixels of the Zurich map image we were working with. Then, we mapped every pixel 
+to a GPS position and calculated the influence intensity at this point until getting a heat map 
+of this quality, shown in Figure~\ref{fig:ZurichSingleHeatmaps}. For having nice colors from black 
+to white we multiplied the influence values going from 0 to 1 by 255 and saved them in the first component 
+of the RGB tuple of each pixel of the image to have a nice red heatmap, shown in Figure~\ref{fig:heatMapCreation}.
 
 \begin{figure}[htb]
     \centering
@@ -381,20 +398,23 @@ At the very end by overlaying this general heat map on a Zurich map, we have a n
 \end{figure}
 
 
-\indent As all the heatmaps have the same dimensions as the map it is very easy to add them together to a combined heatmap, as shown in Figure~\ref{fig:ZurichAllHeatmaps}. Here it was important to weigh them to remain in the 0 to 255 color intensity range to keep a representative information about the influence as we were working with images and not with matrices.
+\indent As all the heatmaps have the same dimensions as the map it is very easy to add them together to a combined heatmap, 
+as shown in Figure~\ref{fig:ZurichAllHeatmaps}. Here it was important to weigh them to remain in the 0 to 255 color intensity 
+range to keep a representative information about the influence as we were working with images and not with matrices.
 
 \begin{figure}
     \centering
-    \includegraphics[width=.95\linewidth]{images/combined_heatmap_all.png}
+    \includegraphics[width=.95\linewidth]{images/combined_heatmap.png}
     \caption{Visualisation of the final combined heatmap.}
     \label{fig:ZurichAllHeatmaps}
 \end{figure}
 
-\indent At the very end, the final heatmap was overlayed on the Zurich map to have a nice visualisation of the Zurich map \ref{fig:ZurichVisualization}.
+\indent At the very end, the final heatmap was overlayed on the Zurich map to have a nice visualisation of the Zurich map 
+\ref{fig:ZurichVisualization}.
 
 \begin{figure}
     \centering
-     \includegraphics[width=.95\linewidth]{images/combined_all.png}
+     \includegraphics[width=.95\linewidth]{images/combined.png}
     \caption{Final visualisation of the heatmap overlayed on the Zurich map.}
     \label{fig:ZurichVisualization}
 \end{figure}
@@ -413,13 +433,8 @@ and greenery along the walking areas, Section~\ref{fig:path_greenery} can be fou
 
 \section{Discussion}\label{sec:discussion}
 In this chapter we would like to discuss problems we encountered during our project and outline possible improvements.
-\mypar{Smart Agora}
-\begin{figure}[htb]
-    \centering
-    \includegraphics[width=\columnwidth, rotate=270]{images/SmartAgora/img_6.jpg}
-    \caption{Smart Agora app with location indicated by the blue dot with arrow and the sphere for answering questions shown in red.}
-    \label{fig:smart_agora_1}
-\end{figure}
+\\
+\indent \mypar{Smart Agora}
 In order to use Smart Agora effectively, we would appreciate the following additions to the platform. Firstly,
 it would be necessary to save parts of a task in case there is a problem with the internet connection
 so we can resume at a later point. Correcting typos would add the app more professional look. For this a preview of the saved tasks is crucial,
@@ -432,6 +447,7 @@ the app on trying to save the selected answers. That is given that the positioni
 appeared once one arrived at the designated location. Moreover, we would expect to be able to answer the questions in a random order,
 if they were set-up in "Simple" and not in "Sequence" mode. However, a warning appeared after the third question that some had been skipped
 and visiting those locations did not allow us to answer these questions.\\
+
 \indent Occasional crashes of the entire app might be expected in the development phase. However, if non of the entered data
 is stored locally on the phone, this resets every input, including the researcher ID and potentially answered questions.
 This complete data loss, which occurs on every quit of the app, renders any tasks with more than a couple of questions extremely dangerous.
@@ -439,12 +455,16 @@ Even with our short tasks of five questions each, we were not able to complete a
 hinder wide spread participation, which would be required for obtaining the collection of larger data sets.
 
 \section{Conclusion}
-We should do as the last part together with abstract.
+This paper suggests possible usage of publicly available data for measuring urban qualities within a city.
+As the results of the evaluation show our predictions were quite accurate. The model and algorithms we developed
+are able to handle arbitrary number of features as well as records. Therefore further improvements in accuracy
+could be achieved just with providing more data with better accuracy.  
 
 
 \bibliographystyle{IEEEbib}
 \bibliography{bibl_conf.bib} %pick these locations + photos of walking and measured re-
 
+\newpage
 \section{Appendix}
 \subsection{Questions for survey}\label{app:questions}
 The following questions were asked to evaluate our predictions. After each question one finds the possible answers.
@@ -499,6 +519,14 @@ The order of questions was the same for each participant, but varied for the dif
 \end{enumerate}
 
 \subsection{Images}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\columnwidth, rotate=270]{images/SmartAgora/img_6.jpg}
+    \caption{Smart Agora app with location indicated by the blue dot with arrow and the sphere for answering questions shown in red.}
+    \label{fig:smart_agora_1}
+\end{figure}
+
 \begin{figure}[htb]
     \centering
     \includegraphics[width=\columnwidth]{images/greenery/Zentrum_greenery.png}

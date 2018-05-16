@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1526474971 "report.aux" "report.bbl" "report" 1526475232
+["bibtex report"] 1526479214 "report.aux" "report.bbl" "report" 1526479218
   "./IEEEbib.bst" 1525814535 18193 722479b9378d89fa52b98da9c80233a2 ""
   "bibl_conf.bib" 1526330269 24549 dc39252cc12a8c4ee981377a21d145d4 ""
-  "report.aux" 1526475231 4210 8aa3364144c518ddb66904fe3ce45ef1 ""
+  "report.aux" 1526479217 4210 e2e81977c481476cf89e7937997092ff ""
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1526475228 "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" "report.pdf" "report" 1526475232
-  "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" 1526475228 34483 4e1b2724cd3d82d481466229bc86778c ""
+["pdflatex"] 1526479215 "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" "report.pdf" "report" 1526479218
+  "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" 1526479211 34867 4ae4ed3b002f843b4825b2e7985426da ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -105,8 +105,8 @@
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "images/SmartAgora/img_6.jpg" 1526125881 2983695 94725775be8de3c4397ce41ae5970533 ""
-  "images/combined_all.png" 1526392489 762355 f0ff7895e0d46195c1add881fc550711 ""
-  "images/combined_heatmap_all.png" 1526392489 346301 1a0ce82a170b2aedfda47e3ecf5e306e ""
+  "images/combined.png" 1526475353 809548 073366ab21ff9ab286fcda2db06aeafe ""
+  "images/combined_heatmap.png" 1526475353 397714 c31d9ded527243ebd5bb8b97d37fde04 ""
   "images/greenery/Zentrum_greenery.png" 1525635652 5676531 a9c3e9cee0029736f900fdeef6f39587 ""
   "images/greenery/Zentrum_path.png" 1525636996 5792480 9f22093775ecd5651903c2220ec6c3bc ""
   "images/greenery/Zurich.png" 1525884480 1118565 a7ac8250b61c70bdeb826a3b3f2d34bb ""
@@ -117,11 +117,11 @@
   "images/results/illumination_heatmap_70.png" 1526392489 330092 9ae93893a7fa0c78cac46f4952276442 ""
   "images/results/pedestrian_zone_heatmap_70.png" 1526392489 7425 f0d6b44a6a45d470d4dd33ea89ab854a ""
   "images/results/sighting_point_heatmap_500.png" 1526392489 60484 57a946125edd3549cde8a822edff44ef ""
-  "report.aux" 1526475231 4210 8aa3364144c518ddb66904fe3ce45ef1 ""
-  "report.bbl" 1526474971 3099 486af12d4498da64292aac6f1646b705 "bibtex report"
-  "report.tex" 1526475228 34483 4e1b2724cd3d82d481466229bc86778c ""
+  "report.aux" 1526479217 4210 e2e81977c481476cf89e7937997092ff ""
+  "report.bbl" 1526479215 3099 486af12d4498da64292aac6f1646b705 "bibtex report"
+  "report.tex" 1526479211 34867 4ae4ed3b002f843b4825b2e7985426da ""
   "spconf.sty" 1512508356 8342 9170db695604ae6d3ae86655c87446fa ""
   (generated)
-  "report.log"
   "report.pdf"
+  "report.log"
   "report.aux"

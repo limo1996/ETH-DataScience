@@ -71,14 +71,14 @@
 
 \begin{abstract}
 \textbf{
-Increasing importance of cities together with increase of their population poses challenges that span beyond
+Increasing importance of cities together with an increase of their population poses challenges that span beyond
 technological areas. Since increase of city inhabitants can worsen urban qualities in districts with huge
-population gain, the cities has to be prepared for monitoring of various urban quality features like greenery,
-public lightening, air quality or pollution. Furthermore if urban qualities in such areas want to be maintained or
-even improved authorities have to be ready to perform appropriate actions. The goal of our paper is to obtain,
-preprocess and visualize selected urban quality features on the map of Zürich. Each feature is visualized
+population gain, the cities have to be prepared for monitoring various urban quality features like greenery,
+public lighting, air quality or pollution. Furthermore if urban qualities in such areas have to be maintained or
+even improved authorities have to be ready to initiate appropriate actions. The goal of our paper is to obtain,
+preprocess and visualise selected urban quality features on the map of Zurich. Each feature is visualised
 on its own visual layer and all layers are finally overlayed such that they show both attractive and unappealing
-places to live within Zürich. Afterwards we evaluated our results by gathering data about exceptional places
+places to live within Zrich. Afterwards we evaluated our results by gathering data about exceptional places
 by walking them.
 }
 \end{abstract}
@@ -89,15 +89,15 @@ which every successful city has to overcome. Cities of the future have to ensure
 services despite growing population. Since it is impossible for a city to reach excellence in all services,
 authorities have to aim for compliance in a prioritised subset of its services. For instance, this year's Mercer's Quality of Living index\cite{mercer}
 takes into account economic and political environment, infrastructure, public transport, health, recreation and housing
-to decide which cities are the most desirable. Based on these factors, the list of most liveable cities was constructed.
-However, these types of rankings usually generalise the whole city and take average of all the districts which can
-over or underrate them. In our paper we tried to distinguish urban qualities within a city, concretely in the city of Zurich.
+to decide which cities are the most desirable to live in. Based on these factors, the list of most liveable cities was constructed.
+However, these types of rankings usually generalise the whole city and take average of all the districts which will
+most certainly overrate some and underrate other districts. In our paper we tried to distinguish urban qualities within a city, concretely in the city of Zurich.
 Its public data availability enabled us to make interesting predictions about urban qualities of the individual city districts
 which we lately verified by examining selected places in person.
 
 \indent Our experiment tries to exploit data that is publicly available for the city of Zurich as well as data that we tried to obtain ourselves.
 The goal was to create a map of the city with multiple layers where each layer will represent one factor of urban quality. By summing all factors and
-visualising them we can obtain an interactive map which visualises liveability of each part of the city. Later we evaluated selected areas with the Smart
+visualising them we can obtain an interactive map which visualises liveability of each part of the city. Later we tried to evaluate selected areas with the Smart
 Agora platform which enabled us to collect data for validation by walking in these areas.
 
 \indent The main contribution of this paper is to automate reasoning about urban qualities. Nowadays it is done by
@@ -117,35 +117,33 @@ and meteorological databases.
 in smart cities and its practical applications in the praxis. Section~\ref{sec:data} describes the data that were used for our
 experiment and their sources. Section~\ref{sec:attractiveness} defines the criteria by which we will rate the locations within Zurich.
 Section~\ref{sec:greenery} explains greenery detection process in our approach and Section~\ref{sec:predictions} describes method of creating the quality index
-map of the city. In Section~\ref{sec:exp} the predictions are evaluated through the Smart Agora platform. Finally, Section~\ref{sec:discussion} concludes this
+map of the city. In Section~\ref{sec:exp} we comment on the evaluation of the predictions. Finally, Section~\ref{sec:discussion} concludes this
 paper and outlines future work.
 
 \section{Background}\label{sec:background}
-The term "Smart Cities" has attracted recently \cite{Ferdowsi2018,Abu-Matar2018,Usman2018} some attention. It is usually referring
+The term "Smart Cities" has recently attracted \cite{Ferdowsi2018,Abu-Matar2018,Usman2018} some attention. It is usually referring
 to the real time analysis of whole cities and their population \cite{smartCities3}. It can also imply economical
 innovation which is usually equated with entrepreneurship created by smart people.\\
 \indent In the process of establishing this expression, two main  sources of data have been identified \cite{smartCities3}.
 On the one hand this compromises the increasing number of stationary installed computer connected hardware, such as traffic cameras,
 telecommunication networks and building management systems. On the other hand the population carries an even faster increasing
 number of mobile computers like smart phones, navigation systems or even fully connected vehicles.\\
-\indent By combining these data sources and analysing them in the real-time, one is able to not only steer the flow within a city
-but also predict the evolution. The Chinese central government has recently been attracted by the media \cite{thediplomat1} for not only
+\indent By combining these data sources and analysing them in real-time, one is able to not only steer the flow within a city
+but also predict the evolution. The Chinese central government has recently gained attraction in the media \cite{thediplomat1} for not only
 using the public surveillance system to track down criminals but also equip the police officers with glasses that have an integrated
-cameras \cite{cnet1}. According to the same article, they plan to have a public credit system in place for all its 1.4 billion citizens
+camera \cite{cnet1}. According to the same article, they plan to have a public credit system in place for all its 1.4 billion citizens
 by 2020, which will be crucial for obtaining jobs or getting permission to travel abroad.\\
-\indent The real time analysis of their currently over 170 million CCTV cameras \cite{bbc1} enabled them to arrest a suspect, who was
-identified by facial recognition amongst 60'000 visitors to a concert. These are just a few examples of how the connection between various
-data sources enables people having access to the data to widely control public live.\\ %this sentence is not that good
+\indent The real time analysis of their currently over 170 million CCTV cameras \cite{bbc1} enabled them to arrest a suspect, who was identified by facial recognition amongst 60'000 visitors to a concert. The combination of various data sources enables the Chinese central government already to monitor public life to a large extent. However, it is only one example of how the consolidation can be used effectively.\\
 \indent It also points out some of the threats. With the public credit and shame system \cite{cnet1} everyone has to constantly
 adhere to the accepted code of conduct in order to not loose points or be publicly denounced. This ubiquitous surveillance is feared
 by many privacy policy activists, slowing down similar efforts in western countries. In the end we will have to decide in which kind
 of world we all want to live in.\\
 \indent However the thus obtained data can also be used for the good. Responsive traffic management systems are a necessity in current
 megacities, where an increasing number of cars tries to reach their destination on roads that cannot be extended any further.
-And also the public transport systems reach their limits when an ever increasing number of people tries to get from the point A to the point B
+And also the public transport systems reach their limits when an ever increasing number of people tries to get from point A to B
 all at the same time. Wisely employed camera systems not only allows to track the flow of people but the correct data analysis promises to resolve
 some of the problems.\\
-\indent In our project we tried to use data from various sources to rate the living quality for people within the districts of Zurich.
+\indent In our project we tried to use data from different sources to rate the living quality for people within the districts of Zurich.
 As most of the real time data in Zurich is not publicly available, we set out to analyse less fast paced data first. The predictions
 should then be checked with data obtained from study participants, who would walk those areas to collect data with their smart phones.
 In the future expansion this could allow us to assess the living quality not only in general but also for different days of the week or even
@@ -249,10 +247,10 @@ we now have to compute the influence of the greenery on the pixels without it i.
 because inhabitants do not live in the forests or on the meadows but rather profit from living close to them. Therefore, we have
 to "influence" pixels that are in the close neighbourhood with the greenery ones. Our algorithm is iterative and so in every iteration
 visits every entry in the matrix and checks all neighbouring pixels, finds maxima of them and assigns its half to the current one.
-The method can be more formally defined as in Algorithm~\ref{smooth}.
+The method can be more formally defined as in Algorithm~\ref{alg:smooth}.
 
 \begin{algorithm}
-    \caption{Smoothing}\label{smooth}
+    \caption{Smoothing}\label{alg:smooth}
     \begin{algorithmic}[1]
         \Procedure{Smoothing}{iterations, B}
             \State $\textit{S} \gets \textit{B}$
@@ -265,7 +263,7 @@ The method can be more formally defined as in Algorithm~\ref{smooth}.
     \end{algorithmic}
 \end{algorithm}
 
-The effect of the smoothing Algorithm~\ref{smooth} after 2 iterations on the Matrix~\ref{eq:MatA}
+The effect of the smoothing Algorithm~\ref{alg:smooth} after 2 iterations on the Matrix~\ref{eq:MatA}
 can be seen in the Matrix~\ref{eq:MatB}. Remaining $0$ entries would be replaced by $0.125$ after
 the third iteration.
 
@@ -315,10 +313,10 @@ At the very end by overlaying this general heat map on a Zurich map, we have a n
     \end{algorithmic}
 \end{algorithm}
 
-\indent This algorithm can be used in different ways and with many different intensity functions and parameters. 
-As presented in the example Algorithm~\ref{alg:intensityFinder} , it finds the closest point at which your quality 
-is present. Then it determines the influence of this quality toward your present position. This influence is an intentsity 
-value between 1 and 0 of a decreasing function that has a chosen radius and its maximum at its center and goes to zero 
+\indent This algorithm can be used in different ways and with many different intensity functions and parameters.
+As presented in the example Algorithm~\ref{alg:intensityFinder} , it finds the closest point at which your quality
+is present. Then it determines the influence of this quality toward your present position. This influence is an intentsity
+value between 1 and 0 of a decreasing function that has a chosen radius and its maximum at its center and goes to zero
 at the radius border. In this work we use a decreasing exponential function as intensity function.
 
 \begin{table}[htb]
@@ -334,13 +332,13 @@ at the radius border. In this work we use a decreasing exponential function as i
     \end{tabular}
 \end{table}
 
-\indent The selection of the radius for each quality was made by ourselves as there is no right choice. 
-We tried to agree on a value so it averages our opinions and gives us some more common and reasonable value. 
-The values for some qualities are shown in Table~\ref{table:RadiusParam}. It is also interesting to notice, 
-that our code also supports other influence functions (quadratic/linear) and another type of influence calculation, 
-that not only considers the closest quality point but all the quality points. In this way a location which is close 
-to a lot of those quality points might get a higher intensity than a point with a single closest quality point. 
-Furthermore this might also seem more appropriate as a method of influence determination at a certain position, 
+\indent The selection of the radius for each quality was made by ourselves as there is no right choice.
+We tried to agree on a value so it averages our opinions and gives us some more common and reasonable value.
+The values for some qualities are shown in Table~\ref{table:RadiusParam}. It is also interesting to notice,
+that our code also supports other influence functions (quadratic/linear) and another type of influence calculation,
+that not only considers the closest quality point but all the quality points. In this way a location which is close
+to a lot of those quality points might get a higher intensity than a point with a single closest quality point.
+Furthermore this might also seem more appropriate as a method of influence determination at a certain position,
 but due to very high runtimes of the algorithm, we had to make a compromise with the less accurate method.
 
 \begin{algorithm}
@@ -363,12 +361,12 @@ but due to very high runtimes of the algorithm, we had to make a compromise with
     \end{algorithmic}
 \end{algorithm}
 
-\indent Next, the determination of a quality for the whole Zurich map was done in a discrete way. 
-To determine how fine the spacing of the detection positions had to be, we divided the Zurich map 
-by the number of pixels of the Zurich map image we were working with. Then, we mapped every pixel 
-to a GPS position and calculated the influence intensity at this point until getting a heat map 
-of this quality, shown in Figure~\ref{fig:ZurichSingleHeatmaps}. For having nice colors from black 
-to white we multiplied the influence values going from 0 to 1 by 255 and saved them in the first component 
+\indent Next, the determination of a quality for the whole Zurich map was done in a discrete way.
+To determine how fine the spacing of the detection positions had to be, we divided the Zurich map
+by the number of pixels of the Zurich map image we were working with. Then, we mapped every pixel
+to a GPS position and calculated the influence intensity at this point until getting a heat map
+of this quality, shown in Figure~\ref{fig:ZurichSingleHeatmaps}. For having nice colors from black
+to white we multiplied the influence values going from 0 to 1 by 255 and saved them in the first component
 of the RGB tuple of each pixel of the image to have a nice red heatmap, shown in Figure~\ref{fig:heatMapCreation}.
 
 \begin{figure}[htb]
@@ -398,8 +396,8 @@ of the RGB tuple of each pixel of the image to have a nice red heatmap, shown in
 \end{figure}
 
 
-\indent As all the heatmaps have the same dimensions as the map it is very easy to add them together to a combined heatmap, 
-as shown in Figure~\ref{fig:ZurichAllHeatmaps}. Here it was important to weigh them to remain in the 0 to 255 color intensity 
+\indent As all the heatmaps have the same dimensions as the map it is very easy to add them together to a combined heatmap,
+as shown in Figure~\ref{fig:ZurichAllHeatmaps}. Here it was important to weigh them to remain in the 0 to 255 color intensity
 range to keep a representative information about the influence as we were working with images and not with matrices.
 
 \begin{figure}
@@ -409,8 +407,7 @@ range to keep a representative information about the influence as we were workin
     \label{fig:ZurichAllHeatmaps}
 \end{figure}
 
-\indent At the very end, the final heatmap was overlayed on the Zurich map to have a nice visualisation of the Zurich map 
-\ref{fig:ZurichVisualization}.
+\indent At the very end, the final heatmap was overlayed on the Zurich map to have a nice visualisation of the Zurich map in Figure~\ref{fig:ZurichVisualization}.
 
 \begin{figure}
     \centering
@@ -428,7 +425,7 @@ For this we initially wanted to use Smart Agora, as it allows to pose the questi
 Whereas this does not allow to gather additional information, it is more comfortable to use and easier to collect data from
 different people. All participants were asked to answer the five questions, where the first two are single choice
 and the last three are multiple choice questions. The order of the questions was the same for each path but randomly varied
-between different locations. The questions and answer options, Section~\ref{app:questions}, locations of the questions, Section~\ref{fig:path_points}
+between different locations. The questions and answer options, Section~\ref{app:questions}, locations of the questions, Figure~\ref{fig:path_points}
 and greenery along the walking areas, Figure~\ref{fig:path_greenery} can be found in the appendix.\\
 
 \indent Due to the so far very limited amount of data gathered, the evaluation has to be postponed, as conclusions drawn would at most reflect the opinion of individuals. The two areas selected for the detailed analysis are once in the center of Zurich, where we found a very high density of quality factors and the other in Oerlikon, where the quality factors are significantly less dense. However, from personal inspections at those locations, we would attribute similar quality factors for both regions. The perceived differences for various streets in that region show a greater fluctuation, than does the mean between the areas. A more detailed analysis taking into account further areas would be needed.
@@ -460,7 +457,7 @@ hinder wide spread participation, which would be required for obtaining the coll
 This paper suggests possible usage of publicly available data for measuring urban qualities within a city.
 As the results of the evaluation show our predictions were quite accurate. The model and algorithms we developed
 are able to handle arbitrary number of features as well as records. Therefore further improvements in accuracy
-could be achieved just with providing more data with better accuracy.  
+could be achieved just with providing more data with better accuracy.
 
 
 \bibliographystyle{IEEEbib}
@@ -520,8 +517,10 @@ The order of questions was the same for each participant, but varied for the dif
 	\end{itemize}
 \end{enumerate}
 
-\subsection{Images}
+\subsection{Code}
+All data used, the code developed for the analysis and further resources can be found in the following GitHub repository: \url{https://github.com/limo1996/ETH-DataScience}
 
+\subsection{Images}
 \begin{figure}[htb]
     \centering
     \includegraphics[width=\columnwidth, rotate=270]{images/SmartAgora/img_6.jpg}

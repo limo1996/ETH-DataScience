@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1526479214 "report.aux" "report.bbl" "report" 1526479218
+["bibtex report"] 1526479317 "report.aux" "report.bbl" "report" 1526479321
   "./IEEEbib.bst" 1525814535 18193 722479b9378d89fa52b98da9c80233a2 ""
   "bibl_conf.bib" 1526330269 24549 dc39252cc12a8c4ee981377a21d145d4 ""
-  "report.aux" 1526479217 4210 e2e81977c481476cf89e7937997092ff ""
+  "report.aux" 1526479321 4210 7f300002443b05619b4413810932a224 ""
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1526479215 "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" "report.pdf" "report" 1526479218
-  "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" 1526479211 34867 4ae4ed3b002f843b4825b2e7985426da ""
+["pdflatex"] 1526479318 "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" "report.pdf" "report" 1526479321
+  "/Users/limo/Documents/eth-courses/DataScience/ETH-DataScience/report/report.tex" 1526479292 35586 18ee4738ecbba9618009be2e49f5a8f9 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -117,11 +117,11 @@
   "images/results/illumination_heatmap_70.png" 1526392489 330092 9ae93893a7fa0c78cac46f4952276442 ""
   "images/results/pedestrian_zone_heatmap_70.png" 1526392489 7425 f0d6b44a6a45d470d4dd33ea89ab854a ""
   "images/results/sighting_point_heatmap_500.png" 1526392489 60484 57a946125edd3549cde8a822edff44ef ""
-  "report.aux" 1526479217 4210 e2e81977c481476cf89e7937997092ff ""
-  "report.bbl" 1526479215 3099 486af12d4498da64292aac6f1646b705 "bibtex report"
-  "report.tex" 1526479211 34867 4ae4ed3b002f843b4825b2e7985426da ""
+  "report.aux" 1526479321 4210 7f300002443b05619b4413810932a224 ""
+  "report.bbl" 1526479318 3099 486af12d4498da64292aac6f1646b705 "bibtex report"
+  "report.tex" 1526479292 35586 18ee4738ecbba9618009be2e49f5a8f9 ""
   "spconf.sty" 1512508356 8342 9170db695604ae6d3ae86655c87446fa ""
   (generated)
-  "report.pdf"
-  "report.log"
   "report.aux"
+  "report.log"
+  "report.pdf"

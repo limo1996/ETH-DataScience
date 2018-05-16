@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  16 MAY 2018 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  16 MAY 2018 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -495,7 +495,12 @@ File: images/combined.png Graphic file (type png)
 Package pdftex.def Info: images/combined.png  used on input line 417.
 (pdftex.def)             Requested size: 225.70074pt x 225.69617pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--450
+Underfull \hbox (badness 10000) in paragraph at lines 423--426
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--433
 
  []
 
@@ -503,7 +508,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 435--450
 /illumination_heatmap_70.png (PNG copy)> <./images/results/pedestrian_zone_heat
 map_70.png (PNG copy)> <./images/results/sighting_point_heatmap_500.png (PNG co
 py)>]
-Overfull \hbox (0.46693pt too wide) in paragraph at lines 458--462
+Underfull \hbox (badness 10000) in paragraph at lines 437--452
+
+ []
+
+[6 <./images/combined_heatmap.png (PNG copy)> <./images/combined.png (PNG copy)
+>]
+Overfull \hbox (0.46693pt too wide) in paragraph at lines 460--464
 \OT1/ptm/m/n/10 This pa-per sug-gests pos-si-ble us-age of pub-licly avail-able
  data
  []
@@ -518,8 +529,7 @@ Overfull \hbox (20.82614pt too wide) in paragraph at lines 4--8
 \OT1/ptm/m/n/10 line: https://mobilityexchange.mercer.com/Insights/quality-
  []
 
-[6 <./images/combined_heatmap.png (PNG copy)> <./images/combined.png (PNG copy)
->]
+
 Underfull \hbox (badness 1769) in paragraph at lines 18--22
 \OT1/ptm/m/n/10 ``Cur-rent trends in Smart City ini-tia-tives: Some
  []
@@ -566,23 +576,23 @@ Underfull \hbox (badness 5203) in paragraph at lines 74--77
 
 ) [7]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 477.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 479.
 <images/SmartAgora/img_6.jpg, id=47, 3276.24pt x 2457.18pt>
 File: images/SmartAgora/img_6.jpg Graphic file (type jpg)
 <use images/SmartAgora/img_6.jpg>
-Package pdftex.def Info: images/SmartAgora/img_6.jpg  used on input line 525.
+Package pdftex.def Info: images/SmartAgora/img_6.jpg  used on input line 527.
 (pdftex.def)             Requested size: 237.5805pt x 178.1691pt.
 <images/greenery/Zentrum_greenery.png, id=48, 1710.39pt x 1756.5625pt>
 File: images/greenery/Zentrum_greenery.png Graphic file (type png)
 <use images/greenery/Zentrum_greenery.png>
 Package pdftex.def Info: images/greenery/Zentrum_greenery.png  used on input li
-ne 532.
+ne 534.
 (pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
 <images/greenery/Zentrum_path.png, id=49, 855.195pt x 878.28125pt>
 File: images/greenery/Zentrum_path.png Graphic file (type png)
 <use images/greenery/Zentrum_path.png>
 Package pdftex.def Info: images/greenery/Zentrum_path.png  used on input line 5
-39.
+41.
 (pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
  [8 <./images/SmartAgora/img_6.jpg>] [9
 
@@ -595,7 +605,7 @@ Here is how much of TeX's memory you used:
  9073 multiletter control sequences out of 15000+600000
  29401 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,20n,94p,740b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,20n,94p,791b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.en
 c}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
@@ -606,7 +616,7 @@ local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (9 pages, 19179392 bytes).
+Output written on report.pdf (9 pages, 19180000 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream

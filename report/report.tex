@@ -311,18 +311,51 @@ At the very end by overlaying this general heat map on a Zurich map, we have a n
 
 \begin{table}[htb]
     \centering
-    \caption{Choosed radius for different qualities}
-    \label{table:RadiusParam}
         \begin{tabular}{lr}
             Heatmap & Radius $[$m$]$\\\hline
             Greenery & 0\\
             Lightning & 70\\
+            Driving Prohibited & 70\\
             Pedestrian Zone & 70\\
             Sighting Points & 500\\
     \end{tabular}
+    \caption{Choosed radius for different qualities}
+    \label{table:RadiusParam}
 \end{table}
 
-\indent Next, the determination of a quality for the whole Zurich map was done in a discrete way. To determine how fine the spacing of the detection positions had to be, we divided the Zurich map by the number of pixels of the Zurich map image we were working with. Then, we mapped every pixel to a GPS position and calculated the influence intensity at this point until getting a heat map of this quality, shown in Figure~\ref{fig:ZurichSingleHeatmaps}. For having nice colors from black to white we multiplied the influence values going from 0 to 1 by 255 and saved them in the first component of the RGB tuple of each pixel of the image to have a nice red heatmap, shown in Figure~\ref{fig:heatMapCreation}.
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/greenery/combined_heatmap_smoothed_4_to_1.png}
+        \caption[width=.9\linewidth]{Greenery heatmap, 80\% green areas, 20\% forests}
+    \end{subfigure}\hspace{0.05\columnwidth}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/results/illumination_heatmap_70.png}
+        \caption[width=.9\linewidth]{Heatmap of the illumination in Zurich}
+    \end{subfigure}\vspace{1mm}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/results/pedestrian_zone_heatmap_70.png}
+        \caption[width=.9\linewidth]{Heatmap of the pedestrian zones in Zurich}
+    \end{subfigure}\hspace{0.05\columnwidth}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/results/sighting_point_heatmap_500.png}
+        \caption[width=.9\linewidth]{Heatmap of the sighting points in Zurich}
+    \end{subfigure}\vspace{1mm}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/results/driving_prohibited_heatmap_70.png}
+        \caption[width=.9\linewidth]{Heatmap of driving prohibited zones in Zurich}
+    \end{subfigure}\hspace{0.05\columnwidth}
+    \caption{Visualisation of different intensity heatmaps for different qualities.}
+    \label{fig:ZurichSingleHeatmaps}
+\end{figure}
+
+\indent Next, the determination of a quality for the whole Zurich map was done in a discrete way. To determine how fine the spacing of the detection positions had to be, we divided the Zurich map by the number of pixels of the Zurich map image we were working with. Then, we mapped every pixel to a GPS position and calculated the influence intensity at this point until getting a heat map of this quality, shown in Figure~\ref{fig:ZurichSingleHeatmaps}. For having nice colors from black to white we multiplied the influence values going from 0 to 1 by 255 and saved them in the first component of the RGB tuple of each pixel of the image to have a nice red heatmap (Algorithm~\ref{fig:heatMapCreation}).
+
 
 \begin{algorithm}
     \caption{Heat Map Creator}\label{fig:heatMapCreation}
@@ -344,38 +377,12 @@ At the very end by overlaying this general heat map on a Zurich map, we have a n
     \end{algorithmic}
 \end{algorithm}
 
-\begin{figure}[htb]
-    \centering
-    \begin{subfigure}[t]{.48\columnwidth}
-        \centering
-        \includegraphics[width=\linewidth]{images/greenery/combined_heatmap_4_to_1.png}
-        \caption[width=.9\linewidth]{Greenery heatmap, 80\% green areas, 20\% forests}
-    \end{subfigure}\hspace{0.03\columnwidth}
-    \begin{subfigure}[t]{.48\columnwidth}
-        \centering
-        \includegraphics[width=\linewidth]{images/results/illumination_heatmap_70.png}
-        \caption[width=.9\linewidth]{Heatmap of the illumination in Zurich}
-    \end{subfigure}\vspace{2mm}
-    \begin{subfigure}[t]{.48\columnwidth}
-        \centering
-        \includegraphics[width=\linewidth]{images/results/pedestrian_zone_heatmap_70.png}
-        \caption[width=.9\linewidth]{Heatmap of the pedestrian zones in Zurich with equal weighting of the qualities.}
-    \end{subfigure}\hspace{0.03\columnwidth}
-    \begin{subfigure}[t]{.48\columnwidth}
-        \centering
-        \includegraphics[width=\linewidth]{images/results/sighting_point_heatmap_500.png}
-        \caption[width=.9\linewidth]{Heatmap of the sighting points in Zurich}
-    \end{subfigure}
-    \caption{Visualisation of different intensity heatmaps for different qualities.}
-    \label{fig:ZurichSingleHeatmaps}
-\end{figure}
-
-
 \indent As all the heatmaps have the same dimensions as the map it is very easy to add them together to a combined heatmap, as shown in Figure~\ref{fig:ZurichAllHeatmaps}. Here it was important to weigh them to remain in the 0 to 255 color intensity range to keep a representative information about the influence as we were working with images and not with matrices.
 
-\begin{figure}
+
+\begin{figure}[H]
     \centering
-    \includegraphics[width=.95\linewidth]{images/combined_heatmap_all.png}
+    \includegraphics[width=.9\linewidth]{images/combined_heatmap.png}
     \caption{Visualisation of the final combined heatmap.}
     \label{fig:ZurichAllHeatmaps}
 \end{figure}
@@ -384,9 +391,99 @@ At the very end by overlaying this general heat map on a Zurich map, we have a n
 
 \begin{figure}
     \centering
-     \includegraphics[width=.95\linewidth]{images/combined_all.png}
+     \includegraphics[width=.9\linewidth]{images/combined.png}
     \caption{Final visualisation of the heatmap overlayed on the Zurich map.}
     \label{fig:ZurichVisualization}
+\end{figure}
+
+\section{Discussion and visualiazation of the predictions}
+
+\begin{figure}[H]
+    \centering
+     \includegraphics[width=.9\linewidth]{images/good/combined_labeled.png}
+    \caption{Most appealing places according to our prediction.}
+    \label{fig:NicePlacesLegend}
+\end{figure}
+
+It is interesting to notice, that the best places according to our classification (Figure \ref{fig:NicePlacesLegend})
+are also the places we would've considered to be appealing places before starting this project : 
+Hoengg, Bucheggplatz, Central, Bellevue, Seebach, Fluntern and arround the lake (see Figure \ref{fig:NicePlaces}). All these central places
+offer greenery, a lot of lightening, nice views and close driving prohibited or pedestrian
+zones.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/good/hoengg.png}
+        \caption[width=.9\linewidth]{Hoengg Center}
+    \end{subfigure}\hspace{0.05\columnwidth}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/good/buchegg.png}
+        \caption[width=.9\linewidth]{Near Bucheggplatz}
+    \end{subfigure}\vspace{1mm}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/good/seebach.png}
+        \caption[width=.9\linewidth]{Seebach}
+    \end{subfigure}\hspace{0.05\columnwidth}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/good/hirslanden.png}
+        \caption[width=.9\linewidth]{Hirslanden}
+    \end{subfigure}\vspace{1mm}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/good/central.png}
+        \caption[width=.9\linewidth]{Near Central}
+    \end{subfigure}\hspace{0.05\columnwidth}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/good/bellevue.png}
+        \caption[width=.9\linewidth]{Bellevue}
+    \end{subfigure}\vspace{1mm}
+    \caption{Visualisation of different places which were classified as very appealing (source : Google Street View)}
+    \label{fig:NicePlaces}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+     \includegraphics[width=.9\linewidth]{images/bad/combined_labeled.png}
+    \caption{Least appealing places according to our prediction.}
+    \label{fig:BadPlacesLegend}
+\end{figure}
+
+Places that weren't classified as very appealing (Figure \ref{fig:BadPlacesLegend}) don't have to be necessarely not appealing in general. They just don't fit
+our reasearched qualities as much as the better classified zones. The lack of datasets of other qualities we would've
+liked to include (public transportation, ...) leads us to results where some worse classified zones might still
+offer a lot of other qualities we would appreciate. Nevertheless they resepct our quality criterias defined in Section \ref{sec:predictions}, as they
+often don't include greenery, pedestrian zones, driving prohibited zones nor sighting points (see Figure \ref{fig:BadPlaces}).
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/bad/Escher_Wyss.png}
+        \caption[width=.9\linewidth]{Escher Wyss}
+    \end{subfigure}\hspace{0.05\columnwidth}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/bad/Unterstrass.png}
+        \caption[width=.9\linewidth]{Unterstrass}
+    \end{subfigure}\vspace{1mm}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/bad/Werd.png}
+        \caption[width=.9\linewidth]{Werd}
+    \end{subfigure}\hspace{0.05\columnwidth}
+    \begin{subfigure}[t]{.45\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/bad/Hegibachplatz.png}
+        \caption[width=.9\linewidth]{Hegibachplatz}
+    \end{subfigure}\vspace{1mm}
+    \caption{Visualisation of different places which were classified as not very appealing (source : Google Street View)}
+    \label{fig:BadPlaces}
 \end{figure}
 
 \section{Predictions evaluation}\label{sec:exp}

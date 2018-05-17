@@ -248,9 +248,6 @@ INPUT ./images/bad/Werd.png
 INPUT images/bad/Hegibachplatz.png
 INPUT ./images/bad/Hegibachplatz.png
 INPUT ./images/bad/Hegibachplatz.png
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT report.bbl
 INPUT report.bbl
 INPUT images/SmartAgora/img_6.jpg

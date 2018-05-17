@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.19)  17 MAY 2018 03:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.19)  17 MAY 2018 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,6 +210,10 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \@float@every@algorithm=\toks26
 \c@algorithm=\count105
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
@@ -264,19 +268,19 @@ Package caption Info: float package is loaded.
 ) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 67.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -344,34 +348,34 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
-LaTeX Font Info:    Try loading font information for U+msa on input line 69.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+LaTeX Font Info:    Try loading font information for U+msa on input line 70.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 69.
+LaTeX Font Info:    Try loading font information for U+msb on input line 70.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 69.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 70.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
 
-Overfull \hbox (1.10703pt too wide) in paragraph at lines 83--84
+Overfull \hbox (1.10703pt too wide) in paragraph at lines 84--85
  \OT1/ptm/b/n/10 In-creas-ing im-por-tance of cities to-gether with an in-creas
 e
  []
 
 
-Overfull \hbox (0.96695pt too wide) in paragraph at lines 98--102
+Overfull \hbox (0.96695pt too wide) in paragraph at lines 99--103
 []\OT1/ptm/m/n/10 Our ex-per-i-ment tries to ex-ploit data that is pub-licly av
 ail-
  []
@@ -384,19 +388,19 @@ Underfull \vbox (badness 2600) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (2.53706pt too wide) in paragraph at lines 124--151
+Overfull \hbox (2.53706pt too wide) in paragraph at lines 125--152
 \OT1/ptm/m/n/10 eras, telecom-mu-ni-ca-tion net-works and build-ing man-age-men
 t
  []
 
 
-Overfull \hbox (1.47665pt too wide) in paragraph at lines 153--171
+Overfull \hbox (1.47665pt too wide) in paragraph at lines 154--172
 \OT1/ptm/m/n/10 records for pub-lic street il-lu-mi-na-tion, pedes-trian zones,
  sigh-
  []
 
 
-Overfull \hbox (5.97693pt too wide) in paragraph at lines 153--171
+Overfull \hbox (5.97693pt too wide) in paragraph at lines 154--172
 \OT1/ptm/m/n/10 ing points, zones where driv-ing is pro-hib-ited as well as res
 tau-
  []
@@ -405,7 +409,7 @@ tau-
 Underfull \vbox (badness 7291) has occurred while \output is active []
 
  [2]
-Overfull \hbox (2.12715pt too wide) in paragraph at lines 199--208
+Overfull \hbox (2.12715pt too wide) in paragraph at lines 200--209
 \OT1/ptm/m/n/10 space range we en-coun-tered a few is-sues. De-tec-tion of gras
 s-
  []
@@ -414,14 +418,14 @@ s-
 File: images/greenery/forests.png Graphic file (type png)
 
 <use images/greenery/forests.png>
-Package pdftex.def Info: images/greenery/forests.png used on input line 213.
+Package pdftex.def Info: images/greenery/forests.png used on input line 214.
 (pdftex.def)             Requested size: 114.03761pt x 114.02925pt.
 
 <images/greenery/green_areas.png, id=14, 642.4pt x 642.4pt>
 File: images/greenery/green_areas.png Graphic file (type png)
 
 <use images/greenery/green_areas.png>
-Package pdftex.def Info: images/greenery/green_areas.png used on input line 218
+Package pdftex.def Info: images/greenery/green_areas.png used on input line 219
 .
 (pdftex.def)             Requested size: 114.03761pt x 114.02925pt.
 
@@ -429,7 +433,7 @@ Package pdftex.def Info: images/greenery/green_areas.png used on input line 218
 File: images/greenery/Zurich.png Graphic file (type png)
 
 <use images/greenery/Zurich.png>
-Package pdftex.def Info: images/greenery/Zurich.png used on input line 224.
+Package pdftex.def Info: images/greenery/Zurich.png used on input line 225.
 (pdftex.def)             Requested size: 114.03761pt x 114.02925pt.
 
 <images/greenery/Zurich_greenery.png, id=17, 642.4pt x 642.4pt>
@@ -437,10 +441,10 @@ File: images/greenery/Zurich_greenery.png Graphic file (type png)
 
 <use images/greenery/Zurich_greenery.png>
 Package pdftex.def Info: images/greenery/Zurich_greenery.png used on input line
- 229.
+ 230.
 (pdftex.def)             Requested size: 114.03761pt x 114.02925pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--239
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
 
  []
 
@@ -453,7 +457,7 @@ File: images/greenery/combined_heatmap_smoothed_4_to_1.png Graphic file (type p
 ng)
  <use images/greenery/combined_heatmap_smoothed_4_to_1.png>
 Package pdftex.def Info: images/greenery/combined_heatmap_smoothed_4_to_1.png u
-sed on input line 340.
+sed on input line 341.
 (pdftex.def)             Requested size: 106.91049pt x 106.90303pt.
 
 <images/results/illumination_heatmap_70.png, id=25, 642.4pt x 642.4pt>
@@ -461,7 +465,7 @@ File: images/results/illumination_heatmap_70.png Graphic file (type png)
 
 <use images/results/illumination_heatmap_70.png>
 Package pdftex.def Info: images/results/illumination_heatmap_70.png used on inp
-ut line 345.
+ut line 346.
 (pdftex.def)             Requested size: 106.91049pt x 106.90303pt.
 
 <images/results/pedestrian_zone_heatmap_70.png, id=26, 642.4pt x 642.4pt>
@@ -469,7 +473,7 @@ File: images/results/pedestrian_zone_heatmap_70.png Graphic file (type png)
 
 <use images/results/pedestrian_zone_heatmap_70.png>
 Package pdftex.def Info: images/results/pedestrian_zone_heatmap_70.png used on 
-input line 350.
+input line 351.
 (pdftex.def)             Requested size: 106.91049pt x 106.90303pt.
 
 <images/results/sighting_point_heatmap_500.png, id=27, 642.4pt x 642.4pt>
@@ -477,7 +481,7 @@ File: images/results/sighting_point_heatmap_500.png Graphic file (type png)
 
 <use images/results/sighting_point_heatmap_500.png>
 Package pdftex.def Info: images/results/sighting_point_heatmap_500.png used on 
-input line 355.
+input line 356.
 (pdftex.def)             Requested size: 106.91049pt x 106.90303pt.
 
 <images/results/driving_prohibited_heatmap_70.png, id=28, 642.4pt x 642.4pt>
@@ -485,7 +489,7 @@ File: images/results/driving_prohibited_heatmap_70.png Graphic file (type png)
 
 <use images/results/driving_prohibited_heatmap_70.png>
 Package pdftex.def Info: images/results/driving_prohibited_heatmap_70.png used 
-on input line 360.
+on input line 361.
 (pdftex.def)             Requested size: 106.91049pt x 106.90303pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -495,7 +499,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: images/combined_heatmap.png Graphic file (type png)
 
 <use images/combined_heatmap.png>
-Package pdftex.def Info: images/combined_heatmap.png used on input line 413.
+Package pdftex.def Info: images/combined_heatmap.png used on input line 414.
 (pdftex.def)             Requested size: 213.821pt x 213.81587pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -508,7 +512,7 @@ ng (PNG copy)> <./images/results/driving_prohibited_heatmap_70.png (PNG copy)>]
 <images/combined.png, id=40, 642.4pt x 642.4pt>
 File: images/combined.png Graphic file (type png)
  <use images/combined.png>
-Package pdftex.def Info: images/combined.png used on input line 420.
+Package pdftex.def Info: images/combined.png used on input line 421.
 (pdftex.def)             Requested size: 213.821pt x 213.81587pt.
 
 <images/good/combined_labeled.png, id=41, 594.22pt x 594.22pt>
@@ -516,49 +520,49 @@ File: images/good/combined_labeled.png Graphic file (type png)
 
 <use images/good/combined_labeled.png>
 Package pdftex.def Info: images/good/combined_labeled.png used on input line 43
-5.
+6.
 (pdftex.def)             Requested size: 213.821pt x 213.81929pt.
 
 <images/good/hoengg.png, id=42, 1109.14375pt x 763.85374pt>
 File: images/good/hoengg.png Graphic file (type png)
 
 <use images/good/hoengg.png>
-Package pdftex.def Info: images/good/hoengg.png used on input line 444.
+Package pdftex.def Info: images/good/hoengg.png used on input line 445.
 (pdftex.def)             Requested size: 106.91049pt x 73.6275pt.
 
 <images/good/buchegg.png, id=43, 1030.85126pt x 686.565pt>
 File: images/good/buchegg.png Graphic file (type png)
 
 <use images/good/buchegg.png>
-Package pdftex.def Info: images/good/buchegg.png used on input line 449.
+Package pdftex.def Info: images/good/buchegg.png used on input line 450.
 (pdftex.def)             Requested size: 106.91049pt x 71.19574pt.
 
 <images/good/seebach.png, id=44, 1023.825pt x 686.565pt>
 File: images/good/seebach.png Graphic file (type png)
 
 <use images/good/seebach.png>
-Package pdftex.def Info: images/good/seebach.png used on input line 454.
+Package pdftex.def Info: images/good/seebach.png used on input line 455.
 (pdftex.def)             Requested size: 106.91049pt x 71.68811pt.
 
 <images/good/hirslanden.png, id=45, 1048.91875pt x 686.565pt>
 File: images/good/hirslanden.png Graphic file (type png)
 
 <use images/good/hirslanden.png>
-Package pdftex.def Info: images/good/hirslanden.png used on input line 459.
+Package pdftex.def Info: images/good/hirslanden.png used on input line 460.
 (pdftex.def)             Requested size: 106.91049pt x 69.97003pt.
 
 <images/good/central.png, id=46, 1048.91875pt x 688.5725pt>
 File: images/good/central.png Graphic file (type png)
 
 <use images/good/central.png>
-Package pdftex.def Info: images/good/central.png used on input line 464.
+Package pdftex.def Info: images/good/central.png used on input line 465.
 (pdftex.def)             Requested size: 106.91049pt x 70.17462pt.
 
 <images/good/bellevue.png, id=47, 1046.91125pt x 687.56876pt>
 File: images/good/bellevue.png Graphic file (type png)
 
 <use images/good/bellevue.png>
-Package pdftex.def Info: images/good/bellevue.png used on input line 469.
+Package pdftex.def Info: images/good/bellevue.png used on input line 470.
 (pdftex.def)             Requested size: 106.91049pt x 70.20871pt.
  [6 <./images/combined_heatmap.png (PNG copy)> <./images/combined.png (PNG copy
 )> <./images/good/combined_labeled.png> <./images/good/hoengg.png> <./images/go
@@ -568,7 +572,7 @@ led.png, id=58, 595.22375pt x 595.22375pt>
 File: images/bad/combined_labeled.png Graphic file (type png)
 
 <use images/bad/combined_labeled.png>
-Package pdftex.def Info: images/bad/combined_labeled.png used on input line 484
+Package pdftex.def Info: images/bad/combined_labeled.png used on input line 485
 .
 (pdftex.def)             Requested size: 213.821pt x 213.81718pt.
 
@@ -576,48 +580,48 @@ Package pdftex.def Info: images/bad/combined_labeled.png used on input line 484
 File: images/bad/Escher_Wyss.png Graphic file (type png)
 
 <use images/bad/Escher_Wyss.png>
-Package pdftex.def Info: images/bad/Escher_Wyss.png used on input line 493.
+Package pdftex.def Info: images/bad/Escher_Wyss.png used on input line 494.
 (pdftex.def)             Requested size: 106.91049pt x 82.06996pt.
 
 <images/bad/Unterstrass.png, id=60, 888.31876pt x 688.5725pt>
 File: images/bad/Unterstrass.png Graphic file (type png)
 
 <use images/bad/Unterstrass.png>
-Package pdftex.def Info: images/bad/Unterstrass.png used on input line 498.
+Package pdftex.def Info: images/bad/Unterstrass.png used on input line 499.
 (pdftex.def)             Requested size: 106.91049pt x 82.86678pt.
 
 <images/bad/Werd.png, id=61, 895.345pt x 687.56876pt>
 File: images/bad/Werd.png Graphic file (type png)
 
 <use images/bad/Werd.png>
-Package pdftex.def Info: images/bad/Werd.png used on input line 503.
+Package pdftex.def Info: images/bad/Werd.png used on input line 504.
 (pdftex.def)             Requested size: 106.91049pt x 82.09552pt.
 
 <images/bad/Hegibachplatz.png, id=62, 892.33376pt x 688.5725pt>
 File: images/bad/Hegibachplatz.png Graphic file (type png)
 
 <use images/bad/Hegibachplatz.png>
-Package pdftex.def Info: images/bad/Hegibachplatz.png used on input line 508.
+Package pdftex.def Info: images/bad/Hegibachplatz.png used on input line 509.
 (pdftex.def)             Requested size: 106.91049pt x 82.48854pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--519
+Underfull \hbox (badness 10000) in paragraph at lines 517--520
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--527
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--545
+Underfull \hbox (badness 10000) in paragraph at lines 531--546
 
  []
 
 [7 <./images/bad/combined_labeled.png> <./images/bad/Escher_Wyss.png> <./images
 /bad/Unterstrass.png> <./images/bad/Werd.png> <./images/bad/Hegibachplatz.png>]
 
-Overfull \hbox (0.46693pt too wide) in paragraph at lines 553--557
+Overfull \hbox (0.46693pt too wide) in paragraph at lines 554--558
 \OT1/ptm/m/n/10 This pa-per sug-gests pos-si-ble us-age of pub-licly avail-able
  data
  []
@@ -679,12 +683,22 @@ Underfull \hbox (badness 5203) in paragraph at lines 74--77
 
 ) [8]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 572.
- <images/SmartAgora/img_6.jpg, id=75, 3276.24pt x 2457.18pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 573.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 618.
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (42.60922pt too wide) in paragraph at lines 618--619
+\OT1/ptm/m/n/10 tory: $\OT1/pcr/m/n/10 https : / / github . com / limo1996 / ET
+H-[]DataScience$ 
+ []
+
+<images/SmartAgora/img_6.jpg, id=75, 3276.24pt x 2457.18pt>
 File: images/SmartAgora/img_6.jpg Graphic file (type jpg)
 
 <use images/SmartAgora/img_6.jpg>
-Package pdftex.def Info: images/SmartAgora/img_6.jpg used on input line 622.
+Package pdftex.def Info: images/SmartAgora/img_6.jpg used on input line 623.
 (pdftex.def)             Requested size: 237.5805pt x 178.1691pt.
 
 <images/greenery/Zentrum_greenery.png, id=76, 1710.39pt x 1756.5625pt>
@@ -692,7 +706,7 @@ File: images/greenery/Zentrum_greenery.png Graphic file (type png)
 
 <use images/greenery/Zentrum_greenery.png>
 Package pdftex.def Info: images/greenery/Zentrum_greenery.png used on input lin
-e 629.
+e 630.
 (pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
 
 <images/greenery/Zentrum_path.png, id=77, 855.195pt x 878.28125pt>
@@ -700,7 +714,7 @@ File: images/greenery/Zentrum_path.png Graphic file (type png)
 
 <use images/greenery/Zentrum_path.png>
 Package pdftex.def Info: images/greenery/Zentrum_path.png used on input line 63
-6.
+7.
 (pdftex.def)             Requested size: 237.5805pt x 243.98726pt.
  [9 <./images/SmartAgora/img_6.jpg>]
 [10
@@ -708,11 +722,11 @@ Package pdftex.def Info: images/greenery/Zentrum_path.png used on input line 63
  <./images/greenery/Zentrum_greenery.png> <./images/greenery/Zentrum_path.png>]
  (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 5227 strings out of 493014
- 79782 string characters out of 6133351
- 154656 words of memory out of 5000000
- 8618 multiletter control sequences out of 15000+600000
- 29401 words of font info for 66 fonts, out of 8000000 for 9000
+ 5335 strings out of 493014
+ 81188 string characters out of 6133351
+ 155751 words of memory out of 5000000
+ 8717 multiletter control sequences out of 15000+600000
+ 29916 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,20n,94p,722b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.en
@@ -722,13 +736,14 @@ c}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (10 pages, 34272196 bytes).
+ocal/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (10 pages, 34282907 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
